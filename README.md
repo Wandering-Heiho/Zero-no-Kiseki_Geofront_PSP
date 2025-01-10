@@ -4,6 +4,7 @@ One of the main reasons for working on this is to provide a better experience fo
 
 ## The Scope of the Project
 The goal is to bring over all of the script made by the Geofront team for the story, NPCs, achievements, item names and descriptions, location names, and most of the **text** in the game. However, images and textures will not be touched at this time, as my attempts to alter the files has resulted in either no change, or the texture no longer being viewable. Unfortunately, that means the title screen, chapter start/end screens, in-game manual, and list of Arts and Quartz will be stuck in Japanese at this time.
+
 It is currently unknown how well the Detective Notebook, Crossbell Times issues, and Back Alley Docter Glenn text from the Geofront version will transfer over to the PSP version. Due to the difficulty of editing these files, these may end up staying with the original versions from the original English patch.
 This is not a new translation, nor is it intended to surpass what the Geofront team did. This is just to give another option for PSP players of how to play Trails from Zero.
 
