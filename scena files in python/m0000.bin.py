@@ -2371,8 +2371,9 @@ def main():
     AnonymousTalk(
         0x103,
         (
-            "#0100474V#0200F#6PThis links with the orbal staff's systems and provides\x01",
-            "me with a protective field, increasing my defense.\x02\x03",
+            "#0100474V#0200F#6PThis links with the orbal staff's systems and\x01",
+            "provides me with a protective field, increasing\x01",
+            "my defense.\x02\x03",
             "#0100475V#0204FThanks to that, I am able to withstand much more\x01",
             "than my physique suggests. If you ever need me\x01",
             "on the front line, there should be no problems.\x02",
