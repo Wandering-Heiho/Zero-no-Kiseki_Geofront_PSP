@@ -19,6 +19,7 @@ For those wanting to edit this project, or maybe don't want to use a patch.
 4) Run `_build.bat` to create the ISO file.
 
 ## Known Problems
+Due to the unknown way some of the tutorial dialogue is stored (at the very least, it doesn't seem to be in the EBOOT file with the rest of it), some of the information for Arts, Crafts, and the counter system are not shown properly in the game.
 While most of the original dialogue from the Geofront script works fine, some of the dialogue currently goes outside of the text boxes. This is currently being worked on by changing the line breaks, or from splitting it into two text boxes.
 This issue was also present in the original PSP English translation patch, which usually gets fixed by using the Geofront text. [Examples of the problem](https://imgur.com/a/438Ogyc)
 
