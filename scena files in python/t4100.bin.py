@@ -1507,8 +1507,8 @@ def main():
             "#0300003V\x07\x0C",
             "#30W(I couldn't believe the news when I first heard it.\x01",
             "A guy like him, passing this young...?)\x02\x03",
-            "#0300004V(Wasn't he about to get married to that beautiful fiancee of his, too?\x01",
-            "Why did things end up like this? Why...?)\x07\x00\x02",
+            "#0300004V(Wasn't he about to get married to that beautiful fiancee\x01",
+            "of his, too? Why did things end up like this? Why...?)\x07\x00\x02",
         )
     )
 
@@ -1536,8 +1536,8 @@ def main():
         0xFF,
         (
             "#0300007V\x07\x0C",
-            "#30W(It's horrible, absolutely horrible. His parents passed away a while ago,\x01",
-            "didn't they?)\x02\x03",
+            "#30W(It's horrible, absolutely horrible. His parents passed away\x01",
+            "a while ago, didn't they?)\x02\x03",
             "#0300008V(How will his younger brother handle all this...?)\x07\x00\x02",
         )
     )
@@ -1569,8 +1569,8 @@ def main():
         (
             "#0300011V\x07\x0C",
             "#30WI'm fine, Cecile.\x02\x03",
-            "#0300012VI'm just sorry that you've had to go out of the way for me like this.\x01",
-            "I should have taken care of all this myself...\x07\x00\x02",
+            "#0300012VI'm just sorry that you've had to go out of the way for me\x01",
+            "like this. I should have taken care of all this myself...\x07\x00\x02",
         )
     )
 

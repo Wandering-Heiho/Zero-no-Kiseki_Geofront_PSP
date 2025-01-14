@@ -3850,7 +3850,10 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "Hi, everyone! It seems there's nothing you have to report now.\x02",
+        (
+        "Hi, everyone! It seems there's nothing you\x01",
+        "have to report now.\x02",
+        )
     )
 
     CloseMessageWindow()

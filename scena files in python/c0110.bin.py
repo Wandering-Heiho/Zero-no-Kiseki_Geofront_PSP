@@ -1456,7 +1456,10 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "Hi, everyone! It seems there's nothing you have to report now.\x02",
+        (
+        "Hi, everyone! It seems there's nothing you\x01",
+        "have to report now.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -2141,8 +2144,8 @@ def main():
         (
             "#0300035V#1003FCorrect. There's also some more advice and\x01",
             "explanations in there, if you ever get curious.\x02\x03",
-            "#0300036VHeck, it's even got info about your tactical orbments.\x01",
-            "Pretty good reference to have.\x02\x03",
+            "#0300036VHeck, it's even got info about your tactical\x01",
+            "orbments. Pretty good reference to have.\x02\x03",
             "#0300037V#1002FHowever, its most important purpose is\x01",
             "to keep track of the investigation report.\x02",
         )
@@ -2173,8 +2176,8 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#0300040V#0000FYes, sir.\x01",
-            "(Good thing I learned all about it at the academy.)\x02",
+            "#0300040V#0000FYes, sir. (Good thing I learned all about it at\x01",
+            "the academy.)\x02",
         )
     )
 

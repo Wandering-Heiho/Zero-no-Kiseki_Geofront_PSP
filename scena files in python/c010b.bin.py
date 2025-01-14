@@ -1433,11 +1433,14 @@ def main():
     AnonymousTalk(
         0xE,
         (
-            "#0200009VThat's my name. Now get your asses inside.\x02\x03",
-            "#0200010VI know you got questions, but don't ask me what\x01",
-            "the Special Support Section is just yet.\x02\x03",
-            "#0200011VOnce we sit down, I'll answer any questions you\x01",
-            "might have. Got it? Good.\x02",
+            "#0200009VThat's my name. Now get your\x01",
+            "asses inside.\x02\x03",
+            "#0200010VI know you got questions, but don't\x01",
+            "ask me what the Special Support\x01",
+            "Section is just yet.\x02\x03",
+            "#0200011VOnce we sit down, I'll answer any\x01",
+            "questions you might have. Got it?\x01",
+            "Good.\x02",
         )
     )
 
@@ -1655,7 +1658,8 @@ def main():
         0x101,
         (
             "#0200238V#0004FI bet everyone from back then has moved by now.\x02\x03",
-            "#0200239V#0000FI think Cecile's family is still living there, though...\x02\x03",
+            "#0200239V#0000FI think Cecile's family is still living there,\x01",
+            "though...\x02\x03",
             "#0200240V#0005FThat reminds me. I should pay them a visit once\x01",
             "I find the time.\x02",
         )

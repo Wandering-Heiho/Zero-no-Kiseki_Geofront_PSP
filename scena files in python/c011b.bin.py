@@ -1686,7 +1686,8 @@ def main():
         (
             "#0200051V#0006FHow in the world did I get here...?\x02\x03",
             "#0200052V#0008FImitating the Bracer Guild...\x02\x03",
-            "#0200053VI didn't join the force to be a part of something like that.\x02",
+            "#0200053VI didn't join the force to be a part\x01",
+            "of something like that.\x02",
         )
     )
 
@@ -1943,7 +1944,8 @@ def main():
         0x8,
         (
             "#0200068VWelcome to my private castle.\x02\x03",
-            "#0200069VSo, ya already finished unloadin' all your things?\x02",
+            "#0200069VSo, ya already finished unloadin'\x01",
+            "all your things?\x02",
         )
     )
 
@@ -1991,8 +1993,8 @@ def main():
             "#0200074V#0304FDoesn't sound like there'll be too much desk work,\x01",
             "so the job sounds like it's right up my alley.\x02\x03",
             "#0200075V#0300FHell, having my workplace and my home under one\x01",
-            "roof is how I like it. So, yeah. I'm planning to stick\x01",
-            "around and see how this shakes out.\x02",
+            "roof is how I like it. So, yeah. I'm planning to\x01",
+            "stick around and see how this shakes out.\x02",
         )
     )
 
@@ -2409,10 +2411,11 @@ def main():
     AnonymousTalk(
         0xA,
         (
-            "#0200118VThank goodness I finished up my cleaning before\x01",
-            "anyone visited.\x02\x03",
-            "#0200119VWould you like to take a seat? I'll brew some\x01",
-            "black tea, if you'd like.\x02",
+            "#0200118VThank goodness I finished up my\x01",
+            "cleaning before anyone visited.\x02\x03",
+            "#0200119VWould you like to take a seat?\x01",
+            "I'll brew some black tea, if\x01",
+            "you'd like.\x02",
         )
     )
 
@@ -2502,9 +2505,9 @@ def main():
             "to serve the CPD's own interests.\x02\x03",
             "#0200131VIts establishment seems irrational to begin with,\x01",
             "and our objectives are vague to say the least.\x02\x03",
-            "#0200132V#0103FSo, If we fail to produce results, the SSS will in all\x01",
-            "likelihood be disbanded due to budget constraints.\x01",
-            "Don't you agree?\x02",
+            "#0200132V#0103FSo, if we fail to produce results, the SSS will in\x01",
+            "all likelihood be disbanded due to budget\x01",
+            "constraints. Don't you agree?\x02",
         )
     )
 
@@ -2820,8 +2823,8 @@ def main():
         0xB,
         (
             "#0200169VOh, Lloyd.\x02\x03",
-            "#0200170VAs you could probably deduce, I am checking\x01",
-            "our terminal.\x02",
+            "#0200170VAs you could probably deduce,\x01",
+            "I am checking our terminal.\x02",
         )
     )
 

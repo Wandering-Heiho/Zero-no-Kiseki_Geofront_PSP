@@ -6431,12 +6431,14 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#0100754VWell, well, well, Arios! Accomplishing yet another\x01",
+            "#0100754VWell, well, well, Arios!\x01",
+            "Accomplishing yet another\x01",
             "astounding feat, are we?\x02\x03",
-            "#0100755VSaving these young boys from the jaws of mortal\x01",
-            "danger, no thanks to our city's sloppy management\x01",
-            "system? Brilliant!\x02\x03",
-            "#0100756VIt's the perfect scoop for our next issue!\x02",
+            "#0100755VSaving these young boys from the\x01",
+            "jaws of mortal danger, no thanks to\x01",
+            "our city's sloppy management system?\x02\x03",
+            "#0100756VBrilliant! It's the perfect scoop\x01",
+            "for our next issue!\x02",
         )
     )
 
