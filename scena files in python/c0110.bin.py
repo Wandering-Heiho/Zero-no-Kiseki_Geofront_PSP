@@ -6482,8 +6482,8 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#1200097VI'm Noel Seeker. It's nice to officially\x01",
-            "meet all of you.\x02",
+            "#1200097VI'm Noel Seeker. It's nice to\x01",
+            "officially meet all of you.\x02",
         )
     )
 
@@ -12229,11 +12229,13 @@ def main():
         0x101,
         (
             "#2201718V#5P#0003FYeah, maybe so.\x02\x03",
-            "#2201719V#0001FThere really wouldn't be any benefit to assassinating\x01",
-            "the mayor, as far as the Imperial Faction's concerned.\x02\x03",
-            "#2201720V#0008FThen again, had the assassination been successful,\x01",
-            "they could have pinned it on Yin and, by extension, the\x01",
-            "Republican Faction due to their connections with Heiyue.\x02",
+            "#2201719V#0001FThere really wouldn't be any benefit to\x01",
+            "assassinating the mayor, as far as the\x01",
+            "Imperial Faction's concerned.\x02\x03",
+            "#2201720V#0008FThen again, had the assassination been\x01",
+            "successful, they could have pinned it on Yin\x01",
+            "and, by extension, the Republican Faction due\x01",
+            "to their connections with Heiyue.\x02",
         )
     )
 

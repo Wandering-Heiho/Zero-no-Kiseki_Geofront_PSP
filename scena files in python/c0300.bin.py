@@ -5770,7 +5770,10 @@ def main():
 
     ChrTalk(
         0x102,
-        "#0105FI believe Representative Campbell lives in this mansion.\x02",
+        (
+        "#0105FI believe Representative Campbell\x01",
+        "lives in this mansion.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -5785,10 +5788,11 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#0103FHe's the leader of the Republican Faction of the diet.\x01",
-            "You'd be surprised how far his influence can reach.\x02\x03",
-            "#0100FIt'd be wise for us to not bother him if we don't\x01",
-            "have any business here.\x02",
+            "#0103FHe's the leader of the Republican Faction\x01",
+            "of the diet. You'd be surprised how far his\x01",
+            "influence can reach.\x02\x03",
+            "#0100FIt'd be wise for us to not bother him if we\x01",
+            "don't have any business here.\x02",
         )
     )
 

@@ -10524,7 +10524,8 @@ def main():
         (
             "#2201831VWhat? You looking forward to\x01",
             "practice that badly?\x02\x03",
-            "#2201832VGeez, and I call myself a dance freak.\x02\x03",
+            "#2201832VGeez, and I call myself a dance\x01",
+            "freak.\x02\x03",
             "#2201833VWere you always this dedicated?\x02",
         )
     )
