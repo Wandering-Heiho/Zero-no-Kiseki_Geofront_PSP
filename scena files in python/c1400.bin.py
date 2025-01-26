@@ -4928,7 +4928,8 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#0001FYeah, I haven't really visited these parts, either.\x02\x03",
+            "#0001FYeah, I haven't really visited these parts,\x01",
+            "either.\x02\x03",
             "This place is supposedly the remnants of a\x01",
             "development project from long ago.\x02",
         )
@@ -4950,8 +4951,8 @@ def main():
         0x101,
         (
             "#0003FInteresting. I didn't know that.\x02\x03",
-            "#0000FAt any rate, this place is still within our jurisdiction.\x01",
-            "Let's do a quick sweep of the area.\x02",
+            "#0000FAt any rate, this place is still within our\x01",
+            "jurisdiction. Let's do a quick sweep of the area.\x02",
         )
     )
 
@@ -5431,9 +5432,9 @@ def main():
         0x101,
         (
             "#0400018VCease your fighting immediately!\x02\x03",
-            "#0400019VYour thoughtless actions are causing\x01",
-            "a disturbance for all of the residents\x01",
-            "living here!\x02",
+            "#0400019VYour thoughtless actions are\x01",
+            "causing a disturbance for all of\x01",
+            "the residents living here!\x02",
         )
     )
 
@@ -7060,8 +7061,8 @@ def main():
         0xFF,
         (
             "#0400128VMy name's Wazy. Wazy Hemisphere.\x02\x03",
-            "#0400129VI suppose you could call me the leader\x01",
-            "of the Testaments.\x02",
+            "#0400129VI suppose you could call me the\x01",
+            "leader of the Testaments.\x02",
         )
     )
 
@@ -9091,7 +9092,8 @@ def main():
         0xFF,
         (
             "#0400580VHowdy, everyone. We meet again.\x02\x03",
-            "#0400581VCha-ching! Just scored myself a money shot!\x02",
+            "#0400581VCha-ching! Just scored myself a\x01",
+            "money shot!\x02",
         )
     )
 

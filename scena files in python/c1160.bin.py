@@ -1525,12 +1525,15 @@ def main():
     AnonymousTalk(
         0x9,
         (
-            "#1100106VAllow me to formally introduce myself. My name\x01",
-            "is Sonya Baelz, deputy commander of the Crossbell\x01",
+            "#1100106VAllow me to formally introduce myself.\x02\x03",
+            "My name is Sonya Baelz,\x01",
+            "deputy commander of the Crossbell\x01",
             "Guardian Force.\x02\x03",
-            "#1100107VI came here to ask the Special Support Section to\x01",
-            "lend us your expertise on a particular matter.\x02\x03",
-            "#1100108VLet me begin with a brief overview of the situation.\x02",
+            "#1100107VI came here to ask the Special\x01",
+            "Support Section to lend us your\x01",
+            "expertise on a particular matter.\x02\x03",
+            "#1100108VLet me begin with a brief overview\x01",
+            "of the situation.\x02",
         )
     )
 

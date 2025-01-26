@@ -1419,9 +1419,9 @@ def main():
             "Not only do they have many branches spread\x01",
             "throughout all of Zemuria, but their services\x01",
             "extend beyond just banking.\x02\x03",
-            "#0102FThey became the continent's lead asset holder\x01",
-            "ten years ago. It wouldn't be an exaggeration to\x01",
-            "call the IBC the cornerstone of Crossbell's economy.\x02",
+            "#0102FThey became the continent's lead asset holder ten\x01",
+            "years ago. It wouldn't be an exaggeration to call\x01",
+            "the IBC the cornerstone of Crossbell's economy.\x02",
         )
     )
 
@@ -1430,8 +1430,9 @@ def main():
     AnonymousTalk(
         0x103,
         (
-            "#0200FIndeed. The IBC is an unfathomed force in the\x01",
-            "finance, construction, and real estate industries.\x02\x03",
+            "#0200FIndeed. The IBC is an unfathomed force in \x01",
+            "the finance, construction, and real estate\x01",
+            "industries.\x02\x03",
             "#0203FTheir latest ambition has been to fund a variety\x01",
             "of massive public projects for Crossbell.\x02\x03",
             "Reports have shown them investing a fortune\x01",

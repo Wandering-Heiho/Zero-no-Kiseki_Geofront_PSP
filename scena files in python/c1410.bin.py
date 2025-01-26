@@ -9606,8 +9606,9 @@ def main():
         0x8,
         (
             "#0400251VWell? Why are you here?\x02\x03",
-            "#0400252VDidn't I tell you already? I don't have anything\x01",
-            "to say to a bunch of dogs.\x02",
+            "#0400252VDidn't I tell you already?\x01",
+            "I don't have anything to say to\x01",
+            "a bunch of dogs.\x02",
         )
     )
 

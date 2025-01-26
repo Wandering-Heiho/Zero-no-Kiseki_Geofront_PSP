@@ -4128,8 +4128,8 @@ def main():
     AnonymousTalk(
         0x104,
         (
-            "#0400995V#0301F...and the Saber Viper got messed up in front of Ignis,\x01",
-            "which is towards the east.\x02",
+            "#0400995V#0301F...and the Saber Viper got messed up in front of\x01",
+            "Ignis, which is towards the east.\x02",
         )
     )
 

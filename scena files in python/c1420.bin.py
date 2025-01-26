@@ -6739,9 +6739,10 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#0400435VLooks like those blue bastards told you most\x01",
-            "of the details already.\x02\x03",
-            "#0400436VWhat are you here for, then? Gonna arrest us?\x02",
+            "#0400435VLooks like those blue bastards told\x01",
+            "you most of the details already.\x02\x03",
+            "#0400436VWhat are you here for, then?\x01",
+            "Gonna arrest us?\x02",
         )
     )
 

@@ -8432,9 +8432,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#0005FN-No, that's okay. We may have been a little insensitive.\x01",
-            "(Looks like this place has its own share of problems to\x01",
-            "deal with.)\x02",
+            "#12P#0005FN-No, that's okay. We may have\x01",
+            "been a little insensitive.\x02\x03",
+            "(Looks like this place has its\x01",
+            "own share of problems to deal with.)\x02",
         )
     )
 

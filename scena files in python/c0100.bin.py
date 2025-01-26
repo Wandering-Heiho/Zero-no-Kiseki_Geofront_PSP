@@ -1002,9 +1002,10 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Did you know? The Bell of Crossbell was recovered in S1185, but it was\x01",
-            "known of long before researchers relocated it. Its documented history\x01",
-            "dates back to the Middle Ages, and it helped inspire the name 'Crossbell'.\x07\x00\x02",
+            "Did you know? The Bell of Crossbell was recovered in S1185,\x01",
+            "but it was known of long before researchers relocated it.\x02\x03",
+            "Its documented history dates back to the Middle Ages, and\x01",
+            "it helped inspire the name 'Crossbell'.\x07\x00\x02",
         )
     )
 

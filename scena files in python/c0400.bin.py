@@ -8306,8 +8306,8 @@ def main():
     AnonymousTalk(
         0x104,
         (
-            "#0300FI like comin' out here to chill. Been a helluva lot\x01",
-            "of tourists lately, though.\x02",
+            "#0300FI like comin' out here to chill. Been a helluva\x01",
+            "lot of tourists lately, though.\x02",
         )
     )
 

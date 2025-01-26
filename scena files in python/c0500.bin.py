@@ -3140,9 +3140,9 @@ def main():
         0x104,
         (
             "#0303FThis is the infamous Back Alley of Crossbell.\x02\x03",
-            "#0300FThough it's only an extension of the Entertainment District,\x01",
-            "it's got its fair share of pubs and night clubs you can waste\x01",
-            "the night away at.\x02",
+            "#0300FThough it's only an extension of the Entertain-\x01",
+            "ment District, it's got its fair share of pubs\x01",
+            "and night clubs you can waste the night away at.\x02",
         )
     )
 
@@ -3162,7 +3162,8 @@ def main():
         0x104,
         (
             "#0302FOf course, man. Didn't I tell you before?\x02\x03",
-            "#0309FThe clubs 'round here have a TON of sexy chicks, dude...\x02",
+            "#0309FThe clubs 'round here have a TON of sexy chicks,\x01",
+            "dude...\x02",
         )
     )
 

@@ -2599,7 +2599,10 @@ def main():
 
     ChrTalk(
         0x101,
-        "#0006F(I'm pretty worried for what's to come in her article...)\x02",
+        (
+            "#0006F(I'm pretty worried for what's\x01",
+            "to come in her article...)\x02",
+        )
     )
 
     CloseMessageWindow()

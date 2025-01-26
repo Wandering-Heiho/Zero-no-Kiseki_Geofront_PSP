@@ -8426,8 +8426,10 @@ def main():
     AnonymousTalk(
         0x12,
         (
-            "#0400620VHeh heh.  I knew you'd come crawling. ♪\x02\x03",
-            "#0400621VDon't be shy, now! Have a seat, I'll treat you all\x01",
+            "#0400620VHeh heh.\x01",
+            "I knew you'd come crawling. ♪\x02\x03",
+            "#0400621VDon't be shy, now!\x01",
+            "Have a seat, I'll treat you all\x01",
             "to a nice dinner. ♪\x02",
         )
     )

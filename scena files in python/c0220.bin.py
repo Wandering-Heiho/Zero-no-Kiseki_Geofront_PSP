@@ -3860,12 +3860,13 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#0400847VNo need to hold back. If you have a question,\x01",
-            "ask away.\x02\x03",
-            "#0400848VThen again, you four look quite young.\x01",
-            "Do you have questions about loans?\x02\x03",
-            "#0400849VOr perhaps you're looking for potential\x01",
-            "business partners?\x02\x03",
+            "#0400847VNo need to hold back. If you have a\x01",
+            "question, ask away.\x02\x03",
+            "#0400848VThen again, you four look quite\x01",
+            "young. Do you have questions about\x01",
+            "loans?\x02\x03",
+            "#0400849VOr perhaps you're looking for\x01",
+            "potential business partners?\x02\x03",
             "#0400850VCome, now. Ask me anything!\x02",
         )
     )

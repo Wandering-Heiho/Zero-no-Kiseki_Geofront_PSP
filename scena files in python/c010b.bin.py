@@ -1358,7 +1358,7 @@ def main():
         (
             "#0200004V#0206F#11PFrom my first impression, I would say that it\x01",
             "was built around 30 years ago. I am surprised\x01",
-            "it has  not been demolished yet.\x02",
+            "it has not been demolished yet.\x02",
         )
     )
 

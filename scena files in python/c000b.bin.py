@@ -303,11 +303,12 @@ def main():
     AnonymousTalk(
         0x9,
         (
-            "#0401090V'Station Street, near where the construction\x01",
-            "materials are stored.'\x02\x03",
-            "#0401091VAskin' me to come here alone in the middle\x01",
-            "of the damn night...\x02\x03",
-            "#0401092VWhat do those cops think they're up to?!\x02",
+            "#0401090V'Station Street, near where the\x01",
+            "construction materials are stored.'\x02\x03",
+            "#0401091VAskin' me to come here alone in the\x01",
+            "middle of the damn night...\x02\x03",
+            "#0401092VWhat do those cops think they're\x01",
+            "up to?!\x02",
         )
     )
 
@@ -411,8 +412,9 @@ def main():
         0x8,
         (
             "#0401096VGood evening, Wald.\x02\x03",
-            "#0401097VWhat a beautiful night to bathe in the\x01",
-            "mystic moonlight, wouldn't you agree?\x02",
+            "#0401097VWhat a beautiful night to bathe in\x01",
+            "the mystic moonlight, wouldn't\x01",
+            "you agree?\x02",
         )
     )
 
@@ -542,7 +544,10 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#0401108VSorry to keep the two of you waiting.\x02",
+        (
+            "#0401108VSorry to keep the two of you\x01",
+            "waiting.\x02",
+        )
     )
 
     CloseMessageWindow()

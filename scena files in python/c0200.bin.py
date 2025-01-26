@@ -5586,7 +5586,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "Wrote down the recipe for ",
+            "Wrote down the recipe for\x01",
             scpstr(SCPSTR_CODE_ITEM, 0x1B5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " in the notebook.\x02",
@@ -6317,7 +6317,8 @@ def main():
         (
             "#0002FThanks, guys.\x02\x03",
             "#0004F(I should swing by Bellheim to visit Auntie.\x01",
-            "I can probably find Oscar working at Morges, too.)\x02",
+            "I can probably find Oscar working\x01",
+            "at Morges, too.)\x02",
         )
     )
 
@@ -6336,7 +6337,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "West Street is a residential area in the western part of the city.\x02",
+            "West Street is a residential area in\x01",
+            "the western part of the city.\x02",
         )
     )
 
@@ -6357,7 +6359,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Our main protagonist, Lloyd, was born and raised in this district.\x07\x00\x02",
+            "Our main protagonist, Lloyd, was born\x01",
+            "and raised in this district.\x07\x00\x02",
         )
     )
 
@@ -6373,8 +6376,8 @@ def main():
         (
             "#0005F(That reminds me. I still need to pay Auntie\x01",
             "and Uncle a visit. Oscar, too, while I'm at it.)\x02\x03",
-            "#0008F(They should still live at Bellheim, and Oscar is\x01",
-            "probably busy working at the bakery.)\x02\x03",
+            "#0008F(They should still live at Bellheim, and Oscar\x01",
+            "is probably busy working at the bakery.)\x02\x03",
             "#0000F(I'll pay them a visit, if I can find the time.)\x02",
         )
     )

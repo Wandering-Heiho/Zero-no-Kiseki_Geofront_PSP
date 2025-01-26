@@ -6655,7 +6655,10 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#0000FI'm pretty sure it happened about 50 years ago, right?\x02",
+        (
+            "#12P#0000FI'm pretty sure it happened about 50 years ago,\x01",
+            "right?\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -7609,9 +7612,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PThere was once an order of knights in the Empire known as the\x01",
-            "Eisenritter. They were known for employing cavalry, so that may\x01",
-            "be why the Empire adopted the golden stallion as its emblem.\x02",
+            "#5PThere was once an order of knights in the Empire known as\x01",
+            "the Eisenritter. They were known for employing cavalry, so\x01",
+            "that may be why the Empire adopted the golden stallion as\x01",
+            "its emblem.\x02",
         )
     )
 
@@ -7751,9 +7755,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PHowever, it is a disservice to only attribute their contributions\x01",
-            "to weaponry. They're also responsible for the development of\x01",
-            "vehicles, appliances, and plenty of other nifty items!\x02",
+            "#5PHowever, it is a disservice to only attribute their contri-\x01",
+            "butions to weaponry. They're also responsible for the\x01",
+            "development of vehicles, appliances, and plenty of other\x01",
+            "nifty items!\x02",
         )
     )
 
@@ -7821,9 +7826,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PHowever, it is a disservice to only attribute their contributions\x01",
-            "to weaponry. They're also responsible for the development\x01",
-            "of vehicles, appliances, and plenty of other nifty items!\x02",
+            "#5PHowever, it is a disservice to only attribute their contri-\x01",
+            "butions to weaponry. They're also responsible for the\x01",
+            "development of vehicles, appliances, and plenty of other\x01",
+            "nifty items!\x02",
         )
     )
 
@@ -7902,9 +7908,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PHowever, it is a disservice to only attribute their contributions\x01",
-            "to weaponry. They're also responsible for the development\x01",
-            "of vehicles, appliances, and plenty of other nifty items!\x02",
+            "#5PHowever, it is a disservice to only attribute their contri-\x01",
+            "butions to weaponry. They're also responsible for the\x01",
+            "development of vehicles, appliances, and plenty of other\x01",
+            "nifty items!\x02",
         )
     )
 
@@ -8352,9 +8359,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PThe effects of Aidios and Her teachings can still be felt firmly\x01",
-            "across the continent to this day, as they are deeply rooted in\x01",
-            "our society.\x02",
+            "#5PThe effects of Aidios and Her teachings can still be felt\x01",
+            "firmly across the continent to this day, as they are deeply\x01",
+            "rooted in our society.\x02",
         )
     )
 
@@ -8429,9 +8436,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PThe effects of Aidios and Her teachings can still be felt firmly\x01",
-            "across the continent to this day, as they are deeply rooted in our\x01",
-            "society.\x02",
+            "#5PThe effects of Aidios and Her teachings can still be felt\x01",
+            "firmly across the continent to this day, as they are deeply\x01",
+            "rooted in our society.\x02",
         )
     )
 
@@ -8506,9 +8513,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PThe effects of Aidios and Her teachings can still be felt firmly\x01",
-            "across the continent to this day, as they are deeply rooted in our\x01",
-            "society.\x02",
+            "#5PThe effects of Aidios and Her teachings can still be felt\x01",
+            "firmly across the continent to this day, as they are deeply\x01",
+            "rooted in our society.\x02",
         )
     )
 
@@ -9888,7 +9895,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#11P#0000FOh, well, that's relieving to know. Thank you very much.\x01",
+            "#11P#0000FOh, well, that's relieving to know. Thank you\x01",
+            "very much.\x01",
             "(W-Wow, didn't think he'd compliment me straight up.)\x02",
         )
     )
@@ -10104,7 +10112,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#0104FAgreed, but I don't think it's necessarily a bad thing.\x02\x03",
+            "#6P#0104FAgreed, but I don't think it's necessarily a\x01",
+            "bad thing.\x02\x03",
             "#0100FWe can use this as an opportunity to strive towards\x01",
             "filling in the gaps in our knowledge.\x02",
         )
@@ -10488,8 +10497,8 @@ def main():
             "#1100017V#5P#1404FWhile that may be true on paper, we're completely\x01",
             "different people.\x02\x03",
             "#1100018VUnlike Cassius, I haven't solved any conflicts on an\x01",
-            "international scale. I can't help but feel that people\x01",
-            "are overstating my achievements.\x02\x03",
+            "international scale. I can't help but feel that\x01",
+            "people are overstating my achievements.\x02\x03",
             "#1100019V#1402FI honestly don't feel like I have the qualifications\x01",
             "to be his proper successor.\x02",
         )
@@ -10819,7 +10828,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#1100049VI think it's time we got down to business.\x01",
+            "#1100049VI think it's time we got down to business.\x02\x03",
             "Estelle Bright, senior bracer.\x02",
         )
     )
