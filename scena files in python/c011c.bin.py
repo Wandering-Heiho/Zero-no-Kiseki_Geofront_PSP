@@ -1038,7 +1038,10 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "I'll make sure your bonuses get transferred to you immediately!\x02",
+        (
+            "I'll make sure your bonuses get transferred to you\x01",
+            "immediately!\x02",
+        )
     )
 
     CloseMessageWindow()

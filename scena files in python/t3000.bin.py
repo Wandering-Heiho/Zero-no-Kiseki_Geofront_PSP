@@ -3144,11 +3144,11 @@ def main():
         0xFF,
         (
             "#1200320VPlease, call me Renne.\x02\x03",
-            "#1200321VIn truth, there's someone else I would\x01",
-            "love to introduce you to...\x02\x03",
-            "#1200322V...but, unfortunately, his right leg was\x01",
-            "broken and is being patched up by\x01",
-            "Grandpa right now.\x02",
+            "#1200321VIn truth, there's someone else I\x01",
+            "would love to introduce you to...\x02\x03",
+            "#1200322V...but, unfortunately, his right\x01",
+            "leg was broken and is being patched\x01",
+            "up by Grandpa right now.\x02",
         )
     )
 

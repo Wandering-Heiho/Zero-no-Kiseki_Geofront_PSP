@@ -7407,7 +7407,10 @@ def main():
 
     AnonymousTalk(
         0x18,
-        "#1100679VWere you about to head back to Crossbell City?\x02",
+        (
+            "#1100679VWere you about to head back to\x01",
+            "Crossbell City?\x02",
+        )
     )
 
     CloseMessageWindow()

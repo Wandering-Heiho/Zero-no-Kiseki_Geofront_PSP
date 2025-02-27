@@ -3480,11 +3480,11 @@ def main():
             "#2100168VHehe. A good haul, I'd say! ♪\x02\x03",
             "#2100169VThis job was a walk in the park.\x02\x03",
             "A proper search of the database was\x01",
-            "#2100170Vall I needed to fish up that info my\x01",
-            "client wanted!\x02\x03",
-            "#2100171VSince those idiots running the net don't\x01",
-            "realize how important security is, I can\x01",
-            "do whatever I want online.\x02\x03",
+            "#2100170Vall I needed to fish up that info\x01",
+            "my client wanted!\x02\x03",
+            "#2100171VSince those idiots running the net\x01",
+            "don't realize how important security\x01",
+            "is, I can do whatever I want online.\x02\x03",
             "#2100172VPhew, life's a breeze. ㈱\x02",
         )
     )

@@ -2849,8 +2849,9 @@ def main():
             "#0101F(Since he's a prominent member of the Imperial\x01",
             "Faction, I assume he was shut up in here to avoid\x01",
             "making the group look bad.)\x02\x03",
-            "#0103F(I'm almost certain that if he attempted to return to\x01",
-            "the diet now, his previous post will be long gone.)\x02",
+            "#0103F(I'm almost certain that if he attempted to\x01",
+            "return to the diet now, his previous post will be\x01",
+            "long gone.)\x02",
         )
     )
 

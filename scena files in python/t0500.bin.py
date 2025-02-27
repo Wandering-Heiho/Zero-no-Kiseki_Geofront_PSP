@@ -5931,8 +5931,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#1200600V#0106F#5PI think that's a good idea. If we try to piece everything\x01",
-            "together, maybe we'll discover something new.\x02",
+            "#1200600V#0106F#5PI think that's a good idea. If we try to piece\x01",
+            "everything together, maybe we'll discover something\x01",
+            "new.\x02",
         )
     )
 
@@ -6363,9 +6364,10 @@ def main():
     ChrTalk(
         0x17,
         (
-            "#1200966V#2001F#5PIn that sort of situation, it would have been prudent\x01",
-            "to discuss the matter directly with me, or with Sergei\x01",
-            "at least. There are always more options on the table.\x02\x03",
+            "#1200966V#2001F#5PIn that sort of situation, it would have been\x01",
+            "prudent to discuss the matter directly with me,\x01",
+            "or with Sergei at least. There are always more\x01",
+            "options on the table.\x02\x03",
             "#1200967VCrossbell faces a myriad of trials and tribulations\x01",
             "currently. That's an undeniable fact.\x02\x03",
             "#1200968VBut trying to solve them all on your own\x01",

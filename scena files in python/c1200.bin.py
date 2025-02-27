@@ -5285,7 +5285,7 @@ def main():
         0x104,
         (
             "#0300FMishelam is pretty sweet, my friend.\x01",
-            "They've got an theme park and a bunch of\x01",
+            "They've got a theme park and a bunch of\x01",
             "shops and fun places to chill out.\x02\x03",
             "#0305FYou ever been, Lloyd?\x02",
         )

@@ -4762,8 +4762,8 @@ def main():
             "#2406FYou're preaching to the choir. They sound\x01",
             "like quite the deplorable bunch.\x02\x03",
             "#2400FWell, anyway, if you have enough energy to rant,\x01",
-            "I think you'll probably be discharged soon. Don't worry,\x01",
-            "you'll see your grandkid soon enough.\x02\x03",
+            "I think you'll probably be discharged soon. Don't\x01",
+            "worry, you'll see your grandkid soon enough.\x02\x03",
             "#2409FBy the way, want some of this candy? I'm sure it'll\x01",
             "help calm you down. Smother the fire, if you will.\x02",
         )

@@ -4281,7 +4281,10 @@ def main():
 
     ChrTalk(
         0x103,
-        "#0203FThis continues to sound more suspicious by the minute.\x02",
+        (
+            "#0203FThis continues to sound more\x01",
+            "suspicious by the minute.\x02",
+        )
     )
 
     CloseMessageWindow()

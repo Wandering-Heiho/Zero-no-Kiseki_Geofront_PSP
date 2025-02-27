@@ -2444,14 +2444,16 @@ def main():
     AnonymousTalk(
         0x1B,
         (
-            "#1200907V#1PThat little wolf has some impressive senses.\x01",
-            "It's clear he's not just some regular old animal.\x02\x03",
+            "#1200907V#1PThat little wolf has some impressive\x01",
+            "senses. It's clear he's not just\x01",
+            "some regular old animal.\x02\x03",
             "#1200908VAnd those four... They really didn't\x01",
             "think this through, did they?\x02\x03",
-            "#1200909VI would have probably gotten to hear their\x01",
-            "blood-curdling screams right about now,\x01",
-            "had the wolves not saved them.\x02\x03",
-            "#1200910VA tumultuous road lies ahead of them.\x02",
+            "#1200909VI would have probably gotten to hear\x01",
+            "their blood-curdling screams right\x01",
+            "now, had the wolves not saved them.\x02\x03",
+            "#1200910VA tumultuous road lies ahead of\x01",
+            "them.\x02",
         )
     )
 

@@ -2722,7 +2722,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Hey, did you know that they opened up an\x01",
+            "Hey, did you know that they opened up a\x01",
             "theme park at Mishelam?\x02",
         )
     )

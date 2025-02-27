@@ -3063,8 +3063,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "While inside the city, press #172I to bring up\x01",
-            "a map of the city. (Press #172I again for a map\x01",
+            "While inside the city, press #172I#173I to bring up\x01",
+            "a map of the city. (Press #172I#173I again for a map\x01",
             "of the state.)\x02",
         )
     )

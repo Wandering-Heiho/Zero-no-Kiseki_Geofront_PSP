@@ -5188,7 +5188,10 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "#2100043V#30WThank Aidios. I finally managed to pull it off...\x02",
+        (
+            "#2100043V#30WThank Aidios. I finally managed to\x01",
+            "pull it off...\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -5247,13 +5250,14 @@ def main():
         0xFF,
         (
             "#2100046VYour speed and timing are great.\x02\x03",
-            "#2100047VAll you need to work on is adjusting to the\x01",
-            "rhythm during each interval.\x02\x03",
-            "#2100048VDon't just get into the swing of the music.\x01",
-            "Control it with your dancing and acting till\x01",
-            "the very end.\x02\x03",
-            "#2100049VDo it quietly, purely, and with the majesty\x01",
-            "that's exclusive to the Moon Princess.\x02",
+            "#2100047VAll you need to work on is adjusting\x01",
+            "to the rhythm during each interval.\x02\x03",
+            "#2100048VDon't just get into the swing of the\x01",
+            "music. Control it with your dancing\x01",
+            "and acting till the very end.\x02\x03",
+            "#2100049VDo it quietly, purely, and with\x01",
+            "the majesty that's exclusive to the\x01",
+            "Moon Princess.\x02",
         )
     )
 

@@ -5075,7 +5075,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "The tops of the boxes are covered in dust and strange markings.\x02\x03",
+            "The tops of the boxes are covered in dust and strange\x01",
+            "markings.\x02\x03",
             "Upon further inspection, it's clear that they are paw prints.\x07\x00\x02",
         )
     )
@@ -5625,7 +5626,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "At various spots on the handrail, there are signs of paint chipping.\x07\x00\x02",
+            "At various spots on the handrail, there are signs of paint\x01",
+            "chipping.\x07\x00\x02",
         )
     )
 
@@ -6235,8 +6237,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#1101636V#0003F#4S#11PI don't know what you're whispering about,\x01",
-            "but I'm sure it's nothing good!\x02",
+            "#1101636V#0003F#4S#11PI don't know what you're whispering\x01",
+            "about, but I'm sure it's nothing good!\x02",
         )
     )
 

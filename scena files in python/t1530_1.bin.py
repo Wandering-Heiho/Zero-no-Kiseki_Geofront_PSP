@@ -2972,11 +2972,11 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#0111FThat chance is pretty slim. St. Ursula gathers students\x01",
-            "here as well as from neighboring countries. Not to\x01",
-            "mention, there are many applicants.\x02\x03",
-            "#0103FIf I remember correctly, last year's ratio of accepted\x01",
-            "to unaccepted was...1:120, I think?\x02",
+            "#0111FThat chance is pretty slim. St. Ursula gathers\x01",
+            "students here as well as from neighboring countries.\x01",
+            "Not to mention, there are many applicants.\x02\x03",
+            "#0103FIf I remember correctly, last year's ratio of\x01",
+            "accepted to unaccepted was...1:120, I think?\x02",
         )
     )
 

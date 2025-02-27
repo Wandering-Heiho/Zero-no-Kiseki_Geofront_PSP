@@ -3893,8 +3893,8 @@ def main():
         0x9,
         (
             "#1900FPhew... It was such a pain to get used to operating\x01",
-            "this darn thing! I woulda been so annoyed if I couldn't\x01",
-            "support you guys.\x02\x03",
+            "this darn thing! I woulda been so annoyed if I\x01",
+            "couldn't support you guys.\x02\x03",
             "Don't forget to contact your trusty operator\x01",
             "if you run into trouble, guys!\x02",
         )

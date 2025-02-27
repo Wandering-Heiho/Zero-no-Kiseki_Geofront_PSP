@@ -554,8 +554,9 @@ def main():
         (
             "#0300FSweet. Sounds like we've got ourselves a nice hookup\x01",
             "for some decked out weapons we can't find elsewhere.\x02\x03",
-            "If we run across any materials this old dude could use,\x01",
-            "let's bring 'em over and get us some shiny equipment.\x02",
+            "If we run across any materials this old dude could\x01",
+            "use, let's bring 'em over and get us some shiny\x01",
+            "equipment.\x02",
         )
     )
 

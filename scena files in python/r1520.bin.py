@@ -2525,7 +2525,10 @@ def main():
 
     ChrTalk(
         0x101,
-        "#1100925V#0006F#11P(It figures it'd be bracers. Can't say I'm surprised...)\x02",
+        (
+            "#1100925V#0006F#11P(It figures it'd be bracers.\x01",
+            "Can't say I'm surprised...)\x02",
+        )
     )
 
     CloseMessageWindow()

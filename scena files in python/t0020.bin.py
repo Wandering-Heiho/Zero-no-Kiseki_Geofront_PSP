@@ -4148,8 +4148,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd and others, after savoring the deliciously simple meal,\x01",
-            "felt completely recovered from their hike to Armorica Village.\x07\x00\x02",
+            "Lloyd and others, after savoring the deliciously simple\x01",
+            "meal, felt completely recovered from their hike to\x01",
+            "Armorica Village.\x07\x00\x02",
         )
     )
 
@@ -10268,12 +10269,13 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#1100577VIt's a pleasure to make your acquaintance.\x01",
+            "#1100577VIt's a pleasure to make your\x01",
+            "acquaintance.\x01",
             "I'm Harold Hayworth.\x02\x03",
-            "#1100578VI run a small-scale business operation out\x01",
-            "of Crossbell City.\x02\x03",
-            "#1100579VAre you four here to purchase something,\x01",
-            "as well?\x02",
+            "#1100578VI run a small-scale business\x01",
+            "operation out of Crossbell City.\x02\x03",
+            "#1100579VAre you four here to purchase some-\x01",
+            "thing, as well?\x02",
         )
     )
 

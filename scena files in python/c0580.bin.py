@@ -4380,10 +4380,10 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#5P#0105F(Lloyd, shush. But, I will say, she certainly has quite\x01",
-            "the presence...)\x02\x03",
-            "#0103F(...and it's obvious why. She's practically a Crossbellan\x01",
-            "celebrity.)\x02\x03",
+            "#5P#0105F(Lloyd, shush. But, I will say, she certainly has\x01",
+            "quite the presence...)\x02\x03",
+            "#0103F(...and it's obvious why. She's practically a\x01",
+            "Crossbellan celebrity.)\x02\x03",
             "#0100FExcuse us, Imelda. Your support request mentioned\x01",
             "that monsters are running loose in your apartment\x01",
             "complex, didn't it?\x02",

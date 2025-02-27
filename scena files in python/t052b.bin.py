@@ -2211,7 +2211,8 @@ def main():
 
     AnonymousTalk(
         0x103,
-        "#1200734V#0206FIt seems they were quite thorough with their plans.\x02",
+        "#1200734V#0206FIt seems they were quite thorough with their\x01",
+        "plans.\x02",
     )
 
     CloseMessageWindow()

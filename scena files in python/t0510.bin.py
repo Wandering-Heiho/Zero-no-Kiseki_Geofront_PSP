@@ -4294,8 +4294,8 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#1200535V#1POh, right. Crossbell Police Department,\x01",
-            "Special Support Section.\x02\x03",
+            "#1200535V#1POh, right. Crossbell Police\x01",
+            "Department, Special Support Section.\x02\x03",
             "#1200536VWe came to ask you about the recent\x01",
             "monster attack, if you don't mind.\x02",
         )

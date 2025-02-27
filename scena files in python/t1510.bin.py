@@ -2821,7 +2821,8 @@ def main():
     AnonymousTalk(
         0xB,
         (
-            "#1101104VI'm Cecile Neues. Nice to meet you all.\x02\x03",
+            "#1101104VI'm Cecile Neues.\x01",
+            "Nice to meet you all.\x02\x03",
             "#1101105VSo, you three are Lloyd's\x01",
             "coworkers, right?\x02",
         )

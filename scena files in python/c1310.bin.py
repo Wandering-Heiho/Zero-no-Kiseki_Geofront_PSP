@@ -1368,7 +1368,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "There's an theme park on the other\x01",
+            "There's a theme park on the other\x01",
             "side of Lake Elm.\x02",
         )
     )

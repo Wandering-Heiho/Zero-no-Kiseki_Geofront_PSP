@@ -4390,7 +4390,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "And I can't forget...I need to tell you the\x01",
+            "And I can't forget... I need to tell you the\x01",
             "requirement to advance to the next rank.\x02",
         )
     )

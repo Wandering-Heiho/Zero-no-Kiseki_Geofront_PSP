@@ -789,10 +789,11 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#2100002VDo you have any idea how much mira we\x01",
-            "wasted bailing you out?\x02\x03",
-            "#2100003VIt's not exactly a walk in the park to go and\x01",
-            "bribe diet members. You know that, right?\x02",
+            "#2100002VDo you have any idea how much mira\x01",
+            "we wasted bailing you out?\x02\x03",
+            "#2100003VIt's not exactly a walk in the park\x01",
+            "to go and bribe diet members.\x01",
+            "You know that, right?\x02",
         )
     )
 
@@ -1034,12 +1035,14 @@ def main():
     AnonymousTalk(
         0xE,
         (
-            "#2100025VWe may have lost a vital route to the\x01",
-            "Republic due to their interference\x01",
-            "the other day.\x02\x03",
-            "#2100026VWhat Heiyue doesn't know is that we have\x01",
-            "connections with Speaker Hartmann.\x02\x03",
-            "#2100027VOur stranglehold on Crossbell is airtight.\x02",
+            "#2100025VWe may have lost a vital route\x01",
+            "to the Republic due to their\x01",
+            "interference the other day.\x02\x03",
+            "#2100026VWhat Heiyue doesn't know is\x01",
+            "that we have connections with\x01",
+            "Speaker Hartmann.\x02\x03",
+            "#2100027VOur stranglehold on Crossbell\x01",
+            "is airtight.\x02",
         )
     )
 
