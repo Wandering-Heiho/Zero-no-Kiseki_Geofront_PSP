@@ -19,8 +19,9 @@ For those wanting to edit this project, or maybe don't want to use a patch.
 4) Run `_build.bat` to create the ISO file.
 
 ## Known Problems
-While most of the original dialogue from the Geofront script works fine, some of the dialogue currently goes outside of the text boxes. This is currently being worked on by changing the line breaks, or from splitting it into two text boxes.
-This issue was also present in the original PSP English translation patch, which usually gets fixed by using the Geofront text. [Examples of the problem](https://imgur.com/a/438Ogyc)
+- While most of the original dialogue from the Geofront script works fine, some of the dialogue currently goes outside of the text boxes. This is currently being worked on by changing the line breaks, or from splitting a piece of dialogue into two text boxes. This issue was also present in the original PSP English translation patch, which usually gets fixed by using the Geofront text. [Examples of the problem](https://imgur.com/a/438Ogyc)
+- Some Craft names go outside of the box in the menu, but not in the battles. This is most noticeable with the Crafts "Electromagnetic Net β" and "Supreme Cloak & Dagger". At this current moment, I have no plans to edit these.
+- Textures have not been replaced in the ISO itself, so things like the Art/Quartz list are all in Japanese. Attempts to replace these have all failed, so the current plan is to provide a set of textures to replace them with PPSSPP's texture replacement feature.
 
 ## Tools/Resources Used in this Project
 Fork of the [EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler) by ZhenjianYang for decrypting and repacking the bins files located in the scena folder, which contain the majority of the dialogue in the game.
