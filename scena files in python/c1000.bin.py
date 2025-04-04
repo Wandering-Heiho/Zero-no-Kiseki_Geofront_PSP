@@ -11411,8 +11411,9 @@ def main():
         (
             "#2100274V\x07\x00",
             "#0001FYeah, that shouldn't be a problem.\x02\x03",
-            "#2100275VOne question, though. Why didn't you send the request\x01",
-            "through the terminal like you normally would?\x02",
+            "#2100275VOne question, though. Why didn't you send\x01",
+            "the request through the terminal like you\x01",
+            "normally would?\x02",
         )
     )
 

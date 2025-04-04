@@ -3363,7 +3363,8 @@ def main():
         (
             "#2201040V#12P#0001FRight. We can't ignore the possibility\x01",
             "that this is all an elaborate trap.\x02\x03",
-            "#2201041VLet's prepare for the worst before hitting the highway.\x02",
+            "#2201041VLet's prepare for the worst\x01",
+            "before hitting the highway.\x02",
         )
     )
 

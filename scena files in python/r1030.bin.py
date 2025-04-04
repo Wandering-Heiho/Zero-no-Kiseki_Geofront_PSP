@@ -1219,7 +1219,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#0200FIt was likely interrupting bus service this\x01",
+            "#0200FIt was likely interrupting the bus service\x01",
             "in this direction.\x02\x03",
             "We should contact City Hall to inform them\x01",
             "of our success.\x02",

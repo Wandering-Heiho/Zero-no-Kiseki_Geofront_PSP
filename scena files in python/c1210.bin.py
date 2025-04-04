@@ -359,8 +359,9 @@ def main():
         (
             "#2100981VI am Cao Lee, manager of Heiyue\x01",
             "Trading's Crossbell branch.\x02\x03",
-            "#2100982VSo, you're Lloyd. And you three must be...\x01",
-            "Elie, Randy, and Tio, correct?\x02",
+            "#2100982VSo, you're Lloyd. And you three\x01",
+            "must be... Elie, Randy, and Tio,\x01",
+            "correct?\x02",
         )
     )
 

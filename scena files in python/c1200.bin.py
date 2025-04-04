@@ -7143,9 +7143,11 @@ def main():
         (
             "#2101122VAre you all insane?\x02\x03",
             "#2101123VI don't know what you were planning,\x01",
-            "but to think you'd waltz right in there.\x02\x03",
-            "#2101124VNot only that, you then decided to discuss the\x01",
-            "results within earshot of their building!\x02",
+            "but to think you'd waltz right in\x01",
+            "there.\x02\x03",
+            "#2101124VNot only that, you then decided to\x01",
+            "discuss the results within earshot\x01",
+            "of their building!\x02",
         )
     )
 
@@ -7459,12 +7461,14 @@ def main():
         (
             "#2101169V#5P#0601FDetectives of the First Division are different\x01",
             "from greenhorns like yourselves.\x02\x03",
-            "#2101170V#0603FWe're charged with maintaining a certain degree of\x01",
-            "order in a city where justice has an uphill battle as is.\x02\x03",
+            "#2101170V#0603FWe're charged with maintaining a certain degree\x01",
+            "of order in a city where justice has an uphill\x01",
+            "battle as is.\x02\x03",
             "#2101171VWe're expected to suppress major crimes and protect\x01",
             "the public from criminal organizations and foreign\x01",
             "intelligence agencies...\x02\x03",
-            "#2101172V#0601FCan you possibly fathom the work that goes into that?\x02",
+            "#2101172V#0601FCan you possibly fathom the work that goes into\x01",
+            "that?\x02",
         )
     )
 

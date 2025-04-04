@@ -2264,8 +2264,8 @@ def main():
             "that plagues Crossbell has even dug its claws into\x01",
             "the CGF...\x02\x03",
             "#2000FThat being said, since you four are free from the\x01",
-            "obligations that tie us down, I believe that you'll be\x01",
-            "able to fix the issues we can't face ourselves.\x02\x03",
+            "obligations that tie us down, I believe that you'll\x01",
+            "be able to fix the issues we can't face ourselves.\x02\x03",
             "Remember. If you ever require our support, you\x01",
             "need only ask.\x02",
         )

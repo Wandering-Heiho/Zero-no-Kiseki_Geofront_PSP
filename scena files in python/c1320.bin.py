@@ -3449,10 +3449,11 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#2200656V#12P#0204FThis is the latest, cutting-edge information processing\x01",
-            "system developed by the Epstein Foundation.\x02\x03",
-            "#2200657V#0202FI believe Liberl's high-speed cruiser also utilizes\x01",
-            "a similar system.\x02",
+            "#2200656V#12P#0204FThis is the latest, cutting-edge\x01",
+            "information processing system\x01",
+            "developed by the Epstein Foundation.\x02\x03",
+            "#2200657V#0202FI believe Liberl's high-speed cruiser\x01",
+            "also utilizes a similar system.\x02",
         )
     )
 
@@ -4352,10 +4353,10 @@ def main():
         0x101,
         (
             "#2200742V#6P#0003FI say we head there immediately.\x02\x03",
-            "#2200743V#0001FCity Hall should be responsible for all Geofront access,\x01",
-            "if I remember correctly.\x02\x03",
-            "#2200744VLet's start by asking the receptionist if we can borrow\x01",
-            "the key for that sector.\x02",
+            "#2200743V#0001FCity Hall should be responsible for all Geofront\x01",
+            "access, if I remember correctly.\x02\x03",
+            "#2200744VLet's start by asking the receptionist if we can\x01",
+            "borrow the key for that sector.\x02",
         )
     )
 
@@ -4986,8 +4987,9 @@ def main():
         0x8,
         (
             "#2200770V#2904F#5PNow, this may just be my intuition speaking...\x02\x03",
-            "#2200771V#2902F...but I believe it's likely that the sender of the orbmail\x01",
-            "and this Yin character are two different people.\x02\x03",
+            "#2200771V#2902F...but I believe it's likely that the sender\x01",
+            "of the orbmail and this Yin character are\x01",
+            "two different people.\x02\x03",
             "#2200772VOur sender clearly is knowledgeable about orbal\x01",
             "engineering. They may even be connected to\x01",
             "the Epstein Foundation. Who knows?\x02",

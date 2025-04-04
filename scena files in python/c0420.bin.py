@@ -6701,10 +6701,11 @@ def main():
         0x8,
         (
             "#2100482VAllow me to introduce myself, then.\x02\x03",
-            "#2100483VI'm Ilya Platiere, the figurehead of Arc en Ciel,\x01",
-            "so to speak.\x02\x03",
-            "#2100484VHappy to finally meet you, Lloyd! And that goes\x01",
-            "for the rest of you, too!\x02",
+            "#2100483VI'm Ilya Platiere, the figurehead\x01",
+            "of Arc en Ciel, so to speak.\x02\x03",
+            "#2100484VHappy to finally meet you, Lloyd!\x01",
+            "And that goes for the rest of\x01",
+            "you, too!\x02",
         )
     )
 

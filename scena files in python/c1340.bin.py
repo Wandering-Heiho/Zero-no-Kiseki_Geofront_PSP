@@ -1414,7 +1414,8 @@ def main():
         0x101,
         (
             "#0002F#6PWow, this is incredible.\x02\x03",
-            "#0004FI've heard they cost a fortune, but I have to admit...\x01",
+            "#0004FI've heard they cost a fortune,\x01",
+            "but I have to admit...\x01",
             "The quality speaks for itself.\x02",
         )
     )
@@ -2095,9 +2096,9 @@ def main():
         (
             "#2200363V#5P#2804FDon't talk as though we're strangers!\x01",
             "Please, relax.\x02\x03",
-            "#2200364V#2800FYou're my little girl's best friend, and the daughter\x01",
-            "of my own good friend as well. Surely you haven't\x01",
-            "forgotten.\x02\x03",
+            "#2200364V#2800FYou're my little girl's best friend, and the\x01",
+            "daughter of my own good friend as well.\x01",
+            "Surely you haven't forgotten.\x02\x03",
             "#2200365VYou are nothing short of family at this point.\x02",
         )
     )
@@ -2169,8 +2170,8 @@ def main():
         0x8,
         "Man in Suit",
         (
-            "#2200373V#5P#2804FIt's nice to finally meet the three of you. I've read\x01",
-            "all about you in the Crossbell Times.\x02",
+            "#2200373V#5P#2804FIt's nice to finally meet the three of you.\x01",
+            "I've read all about you in the Crossbell Times.\x02",
         )
     )
 
@@ -2186,11 +2187,12 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#2200374VI am Dieter Crois, CEO of the International Bank\x01",
-            "of Crossbell.\x02\x03",
+            "#2200374VI am Dieter Crois, CEO of the\x01",
+            "International Bank of Crossbell.\x02\x03",
             "#2200375VLloyd, Randy, and Tio, you said?\x02\x03",
-            "#2200376VWe're all friends here, so I would appreciate it\x01",
-            "if you were at ease around me.\x02",
+            "#2200376VWe're all friends here, so I would\x01",
+            "appreciate it if you were at ease\x01",
+            "around me.\x02",
         )
     )
 
@@ -2545,9 +2547,9 @@ def main():
         0x102,
         (
             "#2200424V#5P#0106FI don't fully understand it myself...\x02\x03",
-            "#2200425V#0100F...but I believe it's a technique used for the unauthorized\x01",
-            "operation of a terminal, primarily by breaching one's\x01",
-            "security system.\x02",
+            "#2200425V#0100F...but I believe it's a technique used for the\x01",
+            "unauthorized operation of a terminal, primarily\x01",
+            "by breaching one's security system.\x02",
         )
     )
 
@@ -3264,7 +3266,8 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#2200522VYes, Father. I just arrived moments ago.\x02\x03",
+            "#2200522VYes, Father. I just arrived\x01",
+            "moments ago.\x02\x03",
             "#2200523VIt's been too long, Elie!\x02",
         )
     )
@@ -3348,10 +3351,10 @@ def main():
         "Blonde-Haired Woman",
         (
             "#2200530V#11P#2905FOh, is that right?\x02\x03",
-            "#2200531VNow that you mention it, I can feel that your muscles\x01",
-            "have become a bit more flexible.\x02\x03",
-            "#2200532V#2909FI must say, this sensation is absolutely marvelous. It\x01",
-            "really is something to behold!\x02",
+            "#2200531VNow that you mention it, I can feel that your\x01",
+            "muscles have become a bit more flexible.\x02\x03",
+            "#2200532V#2909FI must say, this sensation is absolutely marvelous.\x01",
+            "It really is something to behold!\x02",
         )
     )
 
@@ -3651,9 +3654,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#2200561V#6P#0005FTh-These... Well, these clothes make traveling easier.\x02\x03",
-            "#2200562V#0012FLike, when we're having to hike in the mountains or if\x01",
-            "we have to trek through difficult terrain...\x02",
+            "#2200561V#6P#0005FTh-These... Well, these clothes\x01",
+            "make traveling easier.\x02\x03",
+            "#2200562V#0012FLike, when we're having to hike\x01",
+            "in the mountains or if we have to\x01",
+            "trek through difficult terrain...\x02",
         )
     )
 
@@ -3910,8 +3915,9 @@ def main():
             "#2200581V#0305F#11PWho, me?\x02\x03",
             "#2200582V#0309FSorry to disappoint, but that ain't gonna happen.\x01",
             "I'm a bona fide casanova. I don't need no suits.\x02\x03",
-            "#2200583V#0302FDon't get me wrong, though. I would never try to seduce\x01",
-            "Mademois-Elie--'specially during a romantic, moonlit night.\x01",
+            "#2200583V#0302FDon't get me wrong, though. I would never try to\x01",
+            "seduce Mademois-Elie--'specially during a romantic,\x01",
+            "moonlit night.\x02\x03",
             "Y'know, like my main man Lloyd right here.\x02",
         )
     )
@@ -3959,8 +3965,8 @@ def main():
         0x103,
         (
             "#2200587V#6P#0204FI fail to see what exactly he said was misleading.\x02\x03",
-            "#2200588V#0202FBesides, your mood has improved dramatically\x01",
-            "since last night's fateful rendezvous under the stars.\x02",
+            "#2200588V#0202FBesides, your mood has improved dramatically since\x01",
+            "last night's fateful rendezvous under the stars.\x02",
         )
     )
 
@@ -4083,7 +4089,10 @@ def main():
 
     ChrTalk(
         0x102,
-        "#2200599V#6P#0100FThat would be lovely, Bell. It's not too much trouble?\x02",
+        (
+           "#2200599V#6P#0100FThat would be lovely, Bell.\x01",
+           "It's not too much trouble?\x02",
+        )
     )
 
     CloseMessageWindow()

@@ -9746,9 +9746,10 @@ def main():
     AnonymousTalk(
         0x9,
         (
-            "#2201378VAhaha, really? I hope I don't let him down.\x02\x03",
-            "#2201379VBut more importantly, do you think what\x01",
-            "Yin said will hold true?\x02",
+            "#2201378VAhaha, really?\x01",
+            "I hope I don't let him down.\x02\x03",
+            "#2201379VBut more importantly, do you think\x01",
+            "what Yin said will hold true?\x02",
         )
     )
 

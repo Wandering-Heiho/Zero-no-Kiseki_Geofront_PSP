@@ -4282,8 +4282,8 @@ def main():
         0x1C,
         (
             "#2101414VOh, thank goodness!\x02\x03",
-            "#2101415VI was just starting to wonder if I came\x01",
-            "to the wrong place.\x02",
+            "#2101415VI was just starting to wonder\x01",
+            "if I came to the wrong place.\x02",
         )
     )
 

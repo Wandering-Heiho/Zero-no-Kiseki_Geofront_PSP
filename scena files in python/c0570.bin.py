@@ -4240,7 +4240,8 @@ def main():
             "#6P#0001FI have a potentially...awkward question. Did you\x01",
             "happen to see Vice Commissioner Pierre from the\x01",
             "CPD here last night?\x02\x03",
-            "#0003FHe's a bit on the shorter side. Has a face like a fox...\x02",
+            "#0003FHe's a bit on the shorter side.\x01",
+            "Has a face like a fox...\x02",
         )
     )
 

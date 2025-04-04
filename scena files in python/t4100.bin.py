@@ -1726,8 +1726,8 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
-            "   Oh, sweet lambs born beneath the bell,\x01",
-            "                  sleep peacefully.\x02",
+            " Oh, sweet lambs born beneath the bell,\x01",
+            "          sleep peacefully.\x02",
         )
     )
 
@@ -1739,8 +1739,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             "Let the golden light shining betwixt the pure clouds\x01",
-            "                  lead ye to the great blue sky\x01",
-            "         and guide your souls back to the Goddess.\x02",
+            "          lead ye to the great blue sky\x01",
+            "     and guide your souls back to the Goddess.\x02",
         )
     )
 

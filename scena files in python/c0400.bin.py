@@ -6942,9 +6942,10 @@ def main():
             "#0106FMy experiences with the vice commissioner have\x01",
             "been less than pleasant, much like the words\x01",
             "that come out of his mouth.\x02\x03",
-            "#0100FAnyway, I can't imagine he's in a good state right now.\x01",
-            "Between being henpecked, and being prone to getting\x01",
-            "blackout drunk, he must have a lot on his plate.\x02\x03",
+            "#0100FAnyway, I can't imagine he's in a good state\x01",
+            "right now. Between being henpecked, and being\x01",
+            "prone to getting blackout drunk, he must have\x01",
+            "a lot on his plate.\x02\x03",
             "#0105FYou two aren't too tired, are you? We can\x01",
             "stop searching for now.\x02",
         )
@@ -8813,9 +8814,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#2100624V#6P#0006FNot only that, but I think it'll be a good opportunity.\x02\x03",
-            "#2100625V#0008FThey're a group of criminals that think they're\x01",
-            "above the law.\x02\x03",
+            "#2100624V#6P#0006FNot only that, but I think it'll be a\x01",
+            "good opportunity.\x02\x03",
+            "#2100625V#0008FThey're a group of criminals that think\x01",
+            "they're above the law.\x02\x03",
             "#2100626V#0013FThis is a chance to see the true nature\x01",
             "of Crossbell's underworld for ourselves.\x02",
         )

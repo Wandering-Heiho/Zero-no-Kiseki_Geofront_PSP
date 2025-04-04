@@ -879,8 +879,7 @@ def main():
         0xFE,
         (
             "Considering he's the head of the IBC,\x01",
-            "Mr. Crois is an extremely\x01",
-            "busy man.\x02",
+            "Mr. Crois is an extremely busy man.\x02",
         )
     )
 
@@ -1762,8 +1761,9 @@ def main():
         0xA,
         (
             "#2200191VFancy meeting you here.\x02\x03",
-            "#2200192VI see you're with your colleagues, so I can\x01",
-            "only assume you're here for work.\x02",
+            "#2200192VI see you're with your colleagues,\x01",
+            "so I can only assume you're\x01",
+            "here for work.\x02",
         )
     )
 
@@ -1855,8 +1855,8 @@ def main():
             "#2200210VI feel myself growing as a person with\x01",
             "each new obstacle we overcome.\x02\x03",
             "#2200211V#0109FHad I followed your advice and immediately became\x01",
-            "one of Grandfather's secretaries, I would have missed\x01",
-            "out on all of these valuable experiences.\x02",
+            "one of Grandfather's secretaries, I would have\x01",
+            "missed out on all of these valuable experiences.\x02",
         )
     )
 
@@ -2275,9 +2275,11 @@ def main():
     AnonymousTalk(
         0xB,
         (
-            "#2200252VIt feels like it's been forever since we last met.\x02\x03",
-            "#2200253VThe news about last month's incidents with\x01",
-            "those monsters left me speechless!\x02\x03",
+            "#2200252VIt feels like it's been forever\x01",
+            "since we last met.\x02\x03",
+            "#2200253VThe news about last month's\x01",
+            "incidents with those monsters\x01",
+            "left me speechless!\x02\x03",
             "#2200254VDon't you worry, my friends. I know\x01",
             "you've been busting your humps!\x02",
         )

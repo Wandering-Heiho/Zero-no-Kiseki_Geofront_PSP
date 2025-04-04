@@ -6750,9 +6750,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#2200308V#6P#0104FGood morning, Lanfei. There's\x02\x03",
-            "#2200287V#0100Fsomething I'd like to ask you.\x01",
-            "Is Mr. Crois in today?\x02",
+            "#2200308V#6P#0104FGood morning, Lanfei. There's\x01",
+            "something I'd like to ask you.\x02\x03",
+            "#2200287V#0100FIs Mr. Crois in today?\x02",
         )
     )
 

@@ -377,11 +377,12 @@ def main():
         0x8,
         (
             "#2201186V\x07\x03",
-            "It's a pleasure to make your acquaintance,\x01",
-            "Special Support Section... I am known as Yin.\x02\x03",
-            "#2201187VAllow me to thank you for agreeing to\x01",
-            "my request. I imagine getting here was\x01",
-            "no small feat.\x07\x00\x02",
+            "It's a pleasure to make your\x01",
+            "acquaintance, Special Support\x01",
+            "Section... I am known as Yin.\x02\x03",
+            "#2201187VAllow me to thank you for agreeing\x01",
+            "to my request. I imagine getting\x01",
+            "here was no small feat.\x07\x00\x02",
         )
     )
 

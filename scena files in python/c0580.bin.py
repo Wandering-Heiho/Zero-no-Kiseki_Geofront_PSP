@@ -2570,8 +2570,8 @@ def main():
             "#0200FThe virtualization and expanded accessibility of\x01",
             "bank functions are the two greatest merits of the\x01",
             "IBC's involvement in the Orbal Network Project.\x02\x03",
-            "Suffice to say, I think its realization is still some\x01",
-            "ways off.\x02",
+            "Suffice to say, I think its realization is still\x01",
+            "some ways off.\x02",
         )
     )
 
@@ -3497,8 +3497,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#0300F(Well, it sounds like they still don't have\x01",
-            "the full story.)\x02",
+            "#0300F(Well, it sounds like they still\x01",
+            "don't have the full story.)\x02",
         )
     )
 
@@ -4083,12 +4083,15 @@ def main():
     AnonymousTalk(
         0x9,
         (
-            "Teehee. Correct. I believe it's been about\x01",
-            "a month since we last saw each other.\x02\x03",
-            "And, you know, it's very impolite to have\x01",
-            "to double-check what a lady's name is.\x02\x03",
-            "As a gentleman, shouldn't you have had\x01",
-            "no trouble remembering it? Tsk, tsk.\x02",
+            "Teehee. Correct. I believe it's\x01",
+            "been about a month since we last\x01",
+            "saw each other.\x02\x03",
+            "And, you know, it's very impolite\x01",
+            "to have to double-check what a\x01",
+            "lady's name is.\x02\x03",
+            "As a gentleman, shouldn't you have\x01",
+            "had no trouble remembering it?\x01",
+            "Tsk, tsk.\x02",
         )
     )
 

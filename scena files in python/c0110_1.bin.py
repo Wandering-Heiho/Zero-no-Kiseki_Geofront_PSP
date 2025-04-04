@@ -3183,10 +3183,12 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#0200FYes. With Zeit's nose, following the vice commissioner's\x01",
-            "trail should be quick and painless. Accurate, too.\x02\x03",
-            "We should explain the situation to him and ask if he is\x01",
-            "willing to cooperate.\x02",
+            "#0200FYes. With Zeit's nose, following\x01",
+            "the vice commissioner's trail should be\x01",
+            "quick and painless. Accurate, too.\x02\x03",
+            "We should explain the situation to\x01",
+            "him and ask if he is willing to\x01",
+            "cooperate.\x02",
         )
     )
 

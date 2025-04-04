@@ -5001,9 +5001,11 @@ def main():
         0x8,
         (
             "#2100846VIt's been a while, hasn't it?\x02\x03",
-            "#2100847VYou know, I've been hearing a lot of stories\x01",
-            "about the Special Support Section. All of\x01",
-            "which are very positive, I might add.\x02",
+            "#2100847VYou know, I've been hearing a lot\x01",
+            "of stories about the Special\x01",
+            "Support Section.\x02\x03",
+            "All of which are very positive,\x01",
+            "I might add.\x02",
         )
     )
 

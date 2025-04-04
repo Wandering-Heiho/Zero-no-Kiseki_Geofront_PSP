@@ -11212,9 +11212,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#2200061V#0101F#4SAnd there most DEFINITELY wasn't any sort\x01",
-            "of romantic atmosphere, like you oh-so\x01",
-            "graciously pointed out!\x02",
+            "#2200061V#0101F#4SAnd there most DEFINITELY wasn't any\x01",
+            "sort of romantic atmosphere, like you\x01",
+            "oh-so graciously pointed out!\x02",
         )
     )
 
@@ -11681,7 +11681,8 @@ def main():
         0x103,
         (
             "#2200117V#0205FGot it.\x02\x03",
-            "#2200118V#0203FIt was sent from the International Bank of Crossbell...\x02\x03",
+            "#2200118V#0203FIt was sent from the\x01",
+            "International Bank of Crossbell...\x02\x03",
             "#2200119V#0201FOtherwise known as the IBC.\x02",
         )
     )

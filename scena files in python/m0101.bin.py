@@ -3887,16 +3887,17 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#2200849VNext up... How about I earn a little bit of\x01",
-            "pocket change? What's waiting for me...?\x02\x03",
+            "#2200849VNext up... How about I earn a\x01",
+            " little bit of pocket change?\x01",
+            "What's waiting for me...?\x02\x03",
             "#2200850VFirst, we've got specs on the new\x01",
             "Reinford Company train? Neat.\x02\x03",
             "#2200851VHmm, what's this? Specs on the\x01",
             "new Verne Company sportscar?\x02\x03",
             "#2200852VWhoa, ZCF is developing a brand new\x01",
             "model of airship liners?\x02\x03",
-            "#2200853VBetween this and the Orbal Gear, they're\x01",
-            "not missing a beat.\x02",
+            "#2200853VBetween this and the Orbal Gear,\x01",
+            "they're not missing a beat.\x02",
         )
     )
 

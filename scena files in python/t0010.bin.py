@@ -3984,9 +3984,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#0001FThere's something else, Chief Tolta. Since that property is\x01",
-            "on the road, you should put up a warning sign so people\x01",
-            "don't accidentally wander inside.\x02",
+            "#5P#0001FThere's something else, Chief Tolta.\x02\x03",
+            "Since that property is on the road, you should\x01",
+            "put up a warning sign so people don't accidentally\x01",
+            "wander inside.\x02",
         )
     )
 

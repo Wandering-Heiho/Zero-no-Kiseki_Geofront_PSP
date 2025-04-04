@@ -2387,7 +2387,8 @@ def main():
         0x11,
         (
             "#2101550V#30WJust a hunch.\x02\x03",
-            "#2101551V#30WI think I somehow knew you would come.\x02",
+            "#2101551V#30WI think I somehow knew you would\x01",
+            "come.\x02",
         )
     )
 
@@ -2845,8 +2846,9 @@ def main():
         0x11,
         (
             "#2101623V#5P#0103FThat's obvious.\x02\x03",
-            "#2101624V#0101FIf two equal representatives continually hinder things\x01",
-            "by butting heads, political reform is nigh impossible.\x02",
+            "#2101624V#0101FIf two equal representatives continually hinder\x01",
+            "things by butting heads, political reform is\x01",
+            "nigh impossible.\x02",
         )
     )
 
@@ -2871,14 +2873,14 @@ def main():
             "#2101627V#5P#0106FI'm afraid so. With two people on top, one side can\x01",
             "easily sabotage the other if they try to push some\x01",
             "sort of reform through.\x02\x03",
-            "#2101628VThe fact that this happens is an ironic inevitability,\x01",
-            "given Crossbell's founding.\x02\x03",
+            "#2101628VThe fact that this happens is an ironic\x01",
+            "inevitability, given Crossbell's founding.\x02\x03",
             "#2101629V#0108FSeventy years ago, Crossbell State was born from a\x01",
             "mutual agreement between Erebonia and Calvard...\x02\x03",
             "#2101630VIn fact, Crossbell's founders were none other than\x01",
             "Imperial and Republican lawyers.\x02\x03",
-            "#2101631V#0103FSeeing the current state of Crossbell, I can't help but\x01",
-            "think of it as a curse.\x02",
+            "#2101631V#0103FSeeing the current state of Crossbell, I can't help\x01",
+            "but think of it as a curse.\x02",
         )
     )
 
@@ -2895,8 +2897,8 @@ def main():
         0x11,
         (
             "#2101633V#5P#0108FI was at a loss.\x02\x03",
-            "#2101634VIf I were to continue into the world of politics, that\x01",
-            "same curse would grab me by the neck and drag\x01",
+            "#2101634VIf I were to continue into the world of politics,\x01",
+            "that same curse would grab me by the neck and drag\x01",
             "me under, just like my father.\x02\x03",
             "#2101635V#0103FThat's why I decided on a new approach, one my\x01",
             "family hadn't yet tried.\x02",
@@ -2948,8 +2950,8 @@ def main():
             "#2101645VWhen confronted with it...I was at a loss.\x02\x03",
             "#2101646V#0108FMaybe I'm incapable of doing anything on my\x01",
             "own, after all.\x02\x03",
-            "#2101647VMaybe I'm just a broken little girl, abandoned by her\x01",
-            "mother and father...\x02",
+            "#2101647VMaybe I'm just a broken little girl, abandoned by\x01",
+            "her mother and father...\x02",
         )
     )
 
@@ -3291,11 +3293,12 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#2101702V#12P#0004FAll of us were a bit of a mess at the start, but I think\x01",
-            "we've gotten pretty close over the past two months.\x02\x03",
+            "#2101702V#12P#0004FAll of us were a bit of a mess at the start, but\x01",
+            "I think we've gotten pretty close over the past\x01",
+            "two months.\x02\x03",
             "#2101703VEven when we're bombarded with the stress of daily\x01",
-            "life, we make time for the small things, like deciding\x01",
-            "whose turn it is to cook.\x02\x03",
+            "life, we make time for the small things, like\x01",
+            "deciding whose turn it is to cook.\x02\x03",
             "#2101704V#0000FWe've come to place trust in each of each other's\x01",
             "individual strengths.\x02\x03",
             "#2101705VShouldn't we be grateful to have partners like that?\x02",
