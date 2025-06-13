@@ -2922,7 +2922,7 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 39, 3)
     Sleep(1600)
 
     AnonymousTalk(
@@ -2930,9 +2930,9 @@ def main():
         (
             "#3400009VWell, since you hadn't come downstairs,\x01",
             "I thought I should come check on you.\x02\x03",
-            "#3400010VI take it you didn't sleep well, given what\x01",
-            "we heard yesterday. I can't blame you if\x01",
-            "it made you restless.\x02",
+            "#3400010VI take it you didn't sleep well, given\x01",
+            "what we heard yesterday. I can't blame\x01",
+            "you if it made you restless.\x02",
         )
     )
 
@@ -3797,7 +3797,7 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 36, 3)
     Sleep(500)
 
     AnonymousTalk(
@@ -5421,8 +5421,9 @@ def main():
         0x101,
         (
             "#3400697V#12P#0001FListen, Renne.\x02\x03",
-            "#3400698VIt's obvious that you're something special. Girls your\x01",
-            "age aren't supposed to be able to do what you do.\x02\x03",
+            "#3400698VIt's obvious that you're something special.\x01",
+            "Girls your age aren't supposed to be able to do\x01",
+            "what you do.\x02\x03",
             "#3400699V#0003FYour skill with that scythe...\x01",
             "Your hacking as Kitty...\x02\x03",
             "#3400700VYour logic and analytical skills were the key\x01",
@@ -5533,8 +5534,8 @@ def main():
             "#3400721V#0008F...I take that back. Maybe you actually do know\x01",
             "where you should go.\x02\x03",
             "#3400722VPerhaps you think there are too many obstacles\x01",
-            "standing in your way. You don't think that you can\x01",
-            "make it there.\x02\x03",
+            "standing in your way. You don't think that you\x01",
+            "can make it there.\x02\x03",
             "#3400723V#0001FI'm right, aren't I?\x02",
         )
     )
@@ -5554,11 +5555,12 @@ def main():
             "#3400725V#12P#0004FThat's just what my intuition is telling me, so\x01",
             "I apologize if I'm out of line or off-base.\x02\x03",
             "#3400726V#0000FBut remember: We're the Special Support Section.\x02\x03",
-            "#3400727VIf we find someone in need, we want to help them\x01",
-            "to the best of our ability. That includes you, Renne.\x02\x03",
-            "#3400728V#0002FEven if we can't walk you all the way home, we can at\x01",
-            "least give you the first boost you need to overcome those\x01",
-            "obstacles. We have some experience in it ourselves.\x02",
+            "#3400727VIf we find someone in need, we want to help them to\x01",
+            "the best of our ability. That includes you, Renne.\x02\x03",
+            "#3400728V#0002FEven if we can't walk you all the way home,\x01",
+            "we can at least give you the first boost\x01",
+            "you need to overcome those obstacles.\x02\x03",
+            "We have some experience in it ourselves.\x02",
         )
     )
 
@@ -5568,10 +5570,11 @@ def main():
         0x160,
         (
             "#3400729V#3309F#5PHeehee.\x02\x03",
-            "#3400730V#3300FI wasn't expecting your ability to conjure up delusions\x01",
-            "to be as equally impressive as your reasoning skills.\x02\x03",
-            "#3400731V#3302FHow could someone like you possibly understand\x01",
-            "someone like me?\x02",
+            "#3400730V#3300FI wasn't expecting your ability to conjure\x01",
+            "up delusions to be as equally impressive\x01",
+            "as your reasoning skills.\x02\x03",
+            "#3400731V#3302FHow could someone like you possibly\x01",
+            "understand someone like me?\x02",
         )
     )
 
@@ -5583,8 +5586,8 @@ def main():
             "#3400732V#12P#0006FI can't. And I'm not pretending to.\x02\x03",
             "#3400733VBut maybe others can. People that you want nothing\x01",
             "more than to trust and rely on.\x02\x03",
-            "#3400734V#0000FAfter all, there isn't just a single obstacle in your\x01",
-            "path, is there?\x02\x03",
+            "#3400734V#0000FAfter all, there isn't just a single obstacle\x01",
+            "in your path, is there?\x02\x03",
             "#3400735VWhere's the harm in leaning on us just a little\x01",
             "bit as you begin your climb?\x02",
         )
@@ -6069,8 +6072,8 @@ def main():
             "#3400775VFirst, I followed the Mishy car aaall over the city,\x01",
             "and I made tons of new friends!\x02\x03",
             "#3400776VWhen we were playing hide and seek, I thought\x01",
-            "I would hide in this big truck. But, then the lights\x01",
-            "went out, and it started to move!\x02\x03",
+            "I would hide in this big truck. But, then the\x01",
+            "lights went out, and it started to move!\x02\x03",
             "#3400777VWhen I finally got out, I saw this yellow butterfly\x01",
             "and started to chase it! It was sooooo pretty!\x02\x03",
             "#3400778V#3802FAnd then, and then...!\x02",
@@ -7482,8 +7485,9 @@ def main():
         0x10,
         (
             "#3400927VHey there, guys.\x02\x03",
-            "#3400928VSorry for barging in like this. We didn't\x01",
-            "even bother to call ahead of time.\x02",
+            "#3400928VSorry for barging in like this.\x01",
+            "We didn't even bother to call\x01",
+            "ahead of time.\x02",
         )
     )
 
@@ -7502,11 +7506,11 @@ def main():
     AnonymousTalk(
         0x11,
         (
-            "#3400929VI know this might be inconvenient, but\x01",
-            "we have something urgent we need to\x01",
-            "confirm with you.\x02\x03",
-            "#3400930VCould you spare us a few minutes? It shouldn't\x01",
-            "take long.\x02",
+            "#3400929VI know this might be inconvenient,\x01",
+            "but we have something urgent we\x01",
+            "need to confirm with you.\x02\x03",
+            "#3400930VCould you spare us a few minutes?\x01",
+            "It shouldn't take long.\x02",
         )
     )
 
@@ -8057,8 +8061,8 @@ def main():
             "that comprise it.\x02\x03",
             "#3400990VAs a result, Renne has been walking a cruel path\x01",
             "of self-deception.\x02\x03",
-            "#3400991V#0903FBy trying to replace her parents with Pater-Mater, she\x01",
-            "abandoned all hope of ever uncovering the truth.\x02\x03",
+            "#3400991V#0903FBy trying to replace her parents with Pater-Mater,\x01",
+            "she abandoned all hope of ever uncovering the truth.\x02\x03",
             "#3400992VBut...maybe that's understandable.\x02",
         )
     )
@@ -8095,8 +8099,8 @@ def main():
             "#3400998VThe truth may be sorrowful, but you can feel the\x01",
             "love buried deep within it--the warmth it carries.\x02\x03",
             "#3400999VBecause of that, we believed she could overcome it.\x02\x03",
-            "#3401000V#0902FBut, in the end, it looks like we don't need to tell her\x01",
-            "that ourselves.\x02",
+            "#3401000V#0902FBut, in the end, it looks like we don't need to tell\x01",
+            "her that ourselves.\x02",
         )
     )
 
@@ -8655,13 +8659,16 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#3200001VAll right, everyone. Hope you savored that\x01",
-            "free day of yours.\x02\x03",
-            "#3200002VYou've got a long four days ahead of you.\x01",
-            "You kids had better last until the closing\x01",
-            "day of the Anniversary Festival.\x02\x03",
-            "#3200003VTrust me. I intend to throw whatever work\x01",
-            "I can find at you. Better fasten your seatbelts.\x02",
+            "#3200001VAll right, everyone. Hope you\x01",
+            "savored that free day of yours.\x02\x03",
+            "#3200002VYou've got a long four days ahead\x01",
+            "of you.\x02\x03",
+            "You kids had better last until\x01",
+            "the closing day of the\x01",
+            "Anniversary Festival.\x02\x03",
+            "#3200003VTrust me. I intend to throw whatever\x01",
+            "work I can find at you.\x01",
+            "Better fasten your seatbelts.\x02",
         )
     )
 
@@ -9893,8 +9900,8 @@ def main():
         (
             "#3400147V#12P#0004FYeah, basically.\x02\x03",
             "#3400148V#0000FHe's waiting for us by the water fountain\x01",
-            "near headquarters. We should\x01",
-            "go get details about the situation.\x02",
+            "near headquarters. We should go get\x01",
+            "details about the situation.\x02",
         )
     )
 

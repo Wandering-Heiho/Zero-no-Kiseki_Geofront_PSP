@@ -1038,7 +1038,10 @@ def main():
 
     ChrTalk(
         0xFE,
-        "Oh, if only there'd be a day where I could share in his wealth.\x02",
+        (
+            "Oh, if only there'd be a day where\x01",
+            "I could share in his wealth.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -1058,8 +1061,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Maintaining such a huge mansion must cost\x01",
-            "quite a bit of mira... Oh, if only there'd be a day\x01",
+            "Maintaining such a huge mansion must cost quite\x01",
+            "a bit of mira... Oh, if only there'd be a day\x01",
             "where I could share in his wealth.\x02",
         )
     )

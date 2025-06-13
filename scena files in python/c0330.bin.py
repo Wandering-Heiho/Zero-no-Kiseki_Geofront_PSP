@@ -1173,8 +1173,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#0100FDon't hesitate to contact the Special Support Section\x01",
-            "again if you ever need it. We'll always help you.\x02",
+            "#0100FDon't hesitate to contact the Special Support\x01",
+            "Section again if you ever need it.\x01",
+            "We'll always help you.\x02",
         )
     )
 

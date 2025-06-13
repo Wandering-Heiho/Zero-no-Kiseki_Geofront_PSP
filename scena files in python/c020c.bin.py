@@ -4132,9 +4132,10 @@ def main():
         (
             "#0003FMr. Hayworth should have the Residential District\x01",
             "covered...\x02\x03",
-            "If he manages to spot him, he'll contact me immediately.\x02\x03",
-            "#0001FI'll stick to the plan for now, and continue to search for\x01",
-            "clues in the city.\x02",
+            "If he manages to spot him, he'll contact me\x01",
+            "immediately.\x02\x03",
+            "#0001FI'll stick to the plan for now, and continue to\x01",
+            "search for clues in the city.\x02",
         )
     )
 
@@ -4150,8 +4151,8 @@ def main():
         (
             "#0003FMr. Hayworth should have the Residential District\x01",
             "covered...\x02\x03",
-            "#0001FI'll stick to the plan for now, and continue to search for\x01",
-            "clues in the city.\x02",
+            "#0001FI'll stick to the plan for now, and continue to\x01",
+            "search for clues in the city.\x02",
         )
     )
 

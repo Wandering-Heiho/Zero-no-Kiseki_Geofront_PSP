@@ -1240,8 +1240,8 @@ def main():
             "#3400609V#3301FHave you heard any ear-shattering screams\x01",
             "since the boy disappeared?\x02\x03",
             "#3400610VOr maybe the sound of a moderately heavy bag\x01",
-            "of flesh falling off the cliffside and violently hitting\x01",
-            "the ground?\x02",
+            "of flesh falling off the cliffside and violently\x01",
+            "hitting the ground?\x02",
         )
     )
 
@@ -1639,8 +1639,8 @@ def main():
         0x102,
         (
             "#12P#0100FDecent...maybe? I may have taken\x01",
-            "the picture before the train was fully\x01",
-            "within frame, though.\x02",
+            "the picture before the train was\x01",
+            "fully within frame, though.\x02",
         )
     )
 
@@ -1703,8 +1703,8 @@ def main():
         0x101,
         (
             "#12P#0000FA-Anyway... I'm sure it all turned out fine.\x01",
-            "You managed to pull the camera out\x01",
-            "pretty quickly, so we owe you one.\x02\x03",
+            "You managed to pull the camera out pretty\x01",
+            "quickly, so we owe you one.\x02\x03",
             "And besides, even if it IS a little off, it's been\x01",
             "a while since you had to take a difficult shot.\x01",
             "I'm sure you're starting to get a feel for it again.\x02",

@@ -2911,8 +2911,8 @@ def main():
         (
             "#2100FCorrect. Alas, I was away from Crossbell, covering\x01",
             "a different event that needed the Grace touch.\x02\x03",
-            "#2103FTo be honest, I was hoping I could be the SSS's\x01",
-            "sole reporter. I like writing articles about you guys!\x02",
+            "#2103FTo be honest, I was hoping I could be the SSS's sole\x01",
+            "reporter. I like writing articles about you guys!\x02",
         )
     )
 
@@ -2952,9 +2952,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0003FHey, Grace. You're in the middle of your break, right?\x01",
-            "Sorry for interrupting you like that. We'll get out\x01",
-            "of your hair now.\x02",
+            "#0003FHey, Grace. You're in the middle of your break,\x01",
+            "right? Sorry for interrupting you like that.\x01",
+            "We'll get out of your hair now.\x02",
         )
     )
 
@@ -4098,7 +4098,8 @@ def main():
         0xB,
         (
             "#11P#2105FGeez! What the heck did I ever do to you guys?!\x01",
-            "Pretty rude reaction to give one of your most loyal fans.\x02\x03",
+            "Pretty rude reaction to give one of your most\x01",
+            "loyal fans.\x02\x03",
             "#2109FYou should all be rejoicing at the fact that you've\x01",
             "been graced by my presence while I'm oh-so busy!\x02",
         )
@@ -4190,7 +4191,8 @@ def main():
         0xB,
         (
             "#11P#2105FGeez! What the heck did I ever do to you guys?!\x01",
-            "Pretty rude reaction to give one of your most loyal fans.\x02\x03",
+            "Pretty rude reaction to give one of your most\x01",
+            "loyal fans.\x02\x03",
             "#2109FYou should all be rejoicing at the fact that you've\x01",
             "been graced by my presence while I'm oh-so busy!\x02",
         )
@@ -4267,9 +4269,9 @@ def main():
             "#2100FAnd besides, your grandfather's popularity with\x01",
             "the citizens is off the charts! Heck, I like\x01",
             "the old guy myself.\x02\x03",
-            "#2102FMaybe I shouldn't be saying this as a\x01",
-            "journalist, but...I really try to cut the guy\x01",
-            "some slack, you know?\x02",
+            "#2102FMaybe I shouldn't be saying this as a journalist,\x01",
+            "but...I really try to cut the guy some slack,\x01",
+            "you know?\x02",
         )
     )
 
@@ -4312,7 +4314,8 @@ def main():
         0xB,
         (
             "#11P#2105FGeez! What the heck did I ever do to you guys?!\x01",
-            "Pretty rude reaction to give one of your most loyal fans.\x02\x03",
+            "Pretty rude reaction to give one of your most\x01",
+            "loyal fans.\x02\x03",
             "#2109FYou should all be rejoicing at the fact that you've\x01",
             "been graced by my presence while I'm oh-so busy!\x02",
         )
@@ -4375,8 +4378,8 @@ def main():
             "I only need the snazziest shots you can take\x01",
             "of Crossbell's most popular sightseeing spots.\x02\x03",
             "#2106FMonsters roam the highways, so we aren't the\x01",
-            "most suited to go straight into the front lines to\x01",
-            "get some great action shots, y'know?\x02",
+            "most suited to go straight into the front lines\x01",
+            "to get some great action shots, y'know?\x02",
         )
     )
 
@@ -4400,9 +4403,10 @@ def main():
             "#11P#2106FReins is already busy enough, thanks to how\x01",
             "crazy the Anniversary Festival is. He's usually\x01",
             "my right-hand photographer, but, alas...\x02\x03",
-            "#2100FOh, well. I've prepared a nice little memo for you guys\x01",
-            "that outlines all of the best tourist spots to take photos.\x01",
-            "I'm counting on you to bring some fantastic shots!\x02\x03",
+            "#2100FOh, well. I've prepared a nice little memo for\x01",
+            "you guys that outlines all of the best tourist\x01",
+            "spots to take photos. I'm counting on you to\x01",
+            "bring some fantastic shots!\x02\x03",
             "#2106FAs long as at least one of you has the tiniest\x01",
             "bit of experience handling a camera, then I\x01",
             "think we'll manage.\x02",
@@ -4645,8 +4649,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#0000FOkay, so taking any photos of the border is a no-go...\x01",
-            "Anything else we should know?\x02",
+            "#12P#0000FOkay, so taking any photos of the border\x01",
+            "is a no-go... Anything else we should know?\x02",
         )
     )
 
@@ -4655,12 +4659,14 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#11P#2100FYep! I'm setting a minimum quota of five photos to submit.\x01",
-            "Feel free to take more than that, if you can!\x02\x03",
-            "We're going to publish it at the end of the festival,\x01",
-            "so feel free to take your time finding the best spots.\x02\x03",
-            "#2109FAfter all, the more photos you can take, the more\x01",
-            "it'll help us out in the long run!\x02\x03",
+            "#11P#2100FYep! I'm setting a minimum quota of five photos\x01",
+            "to submit. Feel free to take more than that,\x01",
+            "if you can!\x02\x03",
+            "We're going to publish it at the end of the\x01",
+            "festival, so feel free to take your time\x01",
+            "finding the best spots.\x02\x03",
+            "#2109FAfter all, the more photos you can take,\x01",
+            "the more it'll help us out in the long run!\x02\x03",
             "#2100FHmm, yeah. That's about it, for now.\x02",
         )
     )
@@ -4731,8 +4737,8 @@ def main():
         (
             "#12P#0206FWhere exactly is she able to muster up\x01",
             "her limitless vitality from?\x02\x03",
-            "#0211FWell, regardless. She managed to skillfully redirect\x01",
-            "all of her busywork onto us.\x02",
+            "#0211FWell, regardless. She managed to skillfully\x01",
+            "redirect all of her busywork onto us.\x02",
         )
     )
 
@@ -5103,7 +5109,8 @@ def main():
     AnonymousTalk(
         0xB,
         (
-            "#2100FAhh, the rustic landscape of the Old Armorica Road.\x02\x03",
+            "#2100FAhh, the rustic landscape of\x01",
+            "the Old Armorica Road.\x02\x03",
             "#2102FJust one glance fills me with tranquility!\x02",
         )
     )
@@ -5186,8 +5193,9 @@ def main():
     AnonymousTalk(
         0xB,
         (
-            "#2109FAnd here's the money shot! It wouldn't be a sightseeing\x01",
-            "tour guide without Mainz Mountain Path's waterfall!\x02\x03",
+            "#2109FAnd here's the money shot! It wouldn't be a\x01",
+            "sightseeing tour guide without Mainz Mountain\x01",
+            "Path's waterfall!\x02\x03",
             "#2100FIt truly is a sight to behold, isn't it?\x01",
             "I can't help but stare at it longingly\x01",
             "when I take the bus out to Mainz.\x02",
@@ -5209,8 +5217,9 @@ def main():
     AnonymousTalk(
         0xB,
         (
-            "#2102FOh, you even managed to snap a shot of the railway!\x01",
-            "Is this the one near West Crossbell Highway?\x02\x03",
+            "#2102FOh, you even managed to snap a shot of the\x01",
+            "railway! Is this the one near West Crossbell\x01",
+            "Highway?\x02\x03",
             "#2109FI've seen my fair share of train fanatics out in\x01",
             "the city, so I'm glad we managed to get one\x01",
             "photo of it.\x02",
@@ -5233,9 +5242,9 @@ def main():
         0xB,
         (
             "#2100FIs this...Stargazer's Tower?\x02\x03",
-            "#2102FIt's not exactly the safest place to tread through,\x01",
-            "but it's still a nice and quiet spot away from\x01",
-            "the bustle of the city.\x02",
+            "#2102FIt's not exactly the safest place to tread\x01",
+            "through, but it's still a nice and quiet spot\x01",
+            "away from the bustle of the city.\x02",
         )
     )
 
@@ -5276,10 +5285,11 @@ def main():
     AnonymousTalk(
         0xB,
         (
-            "#2105FYou're kidding me! None of our records indicate a\x01",
-            "ruin like this on the Ancient Battlefield!\x02\x03",
+            "#2105FYou're kidding me! None of our records indicate\x01",
+            "a ruin like this on the Ancient Battlefield!\x02\x03",
             "#2109FIt definitely gives me that Middle Ages fortress\x01",
-            "vibe... If we convinced bracers to guard the place,\x01",
+            "vibe...\x02\03",
+            "If we convinced bracers to guard the place,\x01",
             "it could be an outstanding tourist attraction!\x02",
         )
     )
@@ -5546,7 +5556,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#5P#0100FThis the certificate given to the journalist\x01",
+            "#5P#0100FThis is the certificate given to the journalist\x01",
             "awarded the Fulitzer Prize.\x02",
         )
     )
@@ -5560,8 +5570,8 @@ def main():
             "impactful journalist in a given year, if I remember\x01",
             "correctly.\x02\x03",
             "#0203F'Over the three-month period of the Hundred Days War,\x01",
-            "this journalist was committed to delivering war coverage\x01",
-            "rife with honesty and a sense of justice.'\x02\x03",
+            "this journalist was committed to delivering war\x01",
+            "coverage rife with honesty and a sense of justice.'\x02\x03",
             "'In commemoration of this achievement, he is hereby\x01",
             "awarded the Fulitzer Prize. November S1192'\x02",
         )
@@ -5587,7 +5597,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "A card is affixed to the back of the certificate of commendation.\x02",
+            "A card is affixed to the back of the certificate of\x01",
+            "commendation.\x02",
         )
     )
 
@@ -5713,8 +5724,8 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Over the three-month period of the Hundred Days War,\x01",
-            "this journalist was committed to delivering war coverage\x01",
-            "rife with honesty and a sense of justice.\x02\x03",
+            "this journalist was committed to delivering war\x01",
+            "coverage rife with honesty and a sense of justice.\x02\x03",
             "In commemoration of this achievement, he is hereby\x01",
             "awarded the Fulitzer Prize.\x01",
             "November S1192\x02",

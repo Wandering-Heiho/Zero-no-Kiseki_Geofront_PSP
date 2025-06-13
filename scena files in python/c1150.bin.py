@@ -10284,7 +10284,7 @@ def main():
     OP_C9(0x3, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x3, 0x3)
     OP_CA(0x0, 0x3, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 47, 3)
     Sleep(500)
     SetChrName("Red-Haired Young Man")
 
@@ -10292,14 +10292,12 @@ def main():
         0xFF,
         (
             "#0100234VYo, I'm Randy. Randy Orlando.\x02\x03",
-            "#0100235VMy hobbies include flirting with\x01",
-            "lovely ladies, gamblin',...\x02\x03",
-            "And checkin' out sexy new\x01",
-            "mags like Hot Shot. Y'know, \x01",
-            "that kinda stuff.\x02\x03",
-            "#0100236VRemind me later and I'll let ya\x01",
-            "take a peek at some of my prized\x01",
-            "collections when this is all done.\x02",
+            "#0100235VMy hobbies include flirting with lovely ladies,\x01",
+            "gamblin', and checkin' out sexy new mags\x01",
+            "like Hot Shot. Y'know, that kinda stuff.\x02\x03",
+            "#0100236VRemind me later and I'll let ya take a peek at\x01",
+            "some of my prized collections when this is all\x01",
+            "said and done, yeah?\x02",
         )
     )
 

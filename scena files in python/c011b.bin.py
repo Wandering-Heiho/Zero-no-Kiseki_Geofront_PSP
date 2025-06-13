@@ -5861,10 +5861,11 @@ def main():
         0x11,
         (
             "#3300720VColor me surprised.\x01",
-            "You all found out the truth on your own.\x02\x03",
+            "You all found out the\x01",
+            "truth on your own.\x02\x03",
             "#3300721VHmm, this place is a bit stuffy.\x02\x03",
-            "#3300722VC'mon. I'll give you the full rundown\x01",
-            "in my office.\x02",
+            "#3300722VC'mon. I'll give you the full\x01",
+            "rundown in my office.\x02",
         )
     )
 

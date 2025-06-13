@@ -3279,9 +3279,11 @@ def main():
     AnonymousTalk(
         0xE,
         (
-            "It's nice to meet you all. I'm Doctor Joachim Guenter.\x02\x03",
-            "I'm just a simple associate professor over at\x01",
-            "St. Ursula Hospital.\x02",
+            "It's nice to meet you all.\x01",
+            "I'm Doctor Joachim Guenter.\x02\x03",
+            "I'm just a simple associate\x01",
+            "professor over at St. Ursula\x01",
+            "Hospital.\x02",
         )
     )
 

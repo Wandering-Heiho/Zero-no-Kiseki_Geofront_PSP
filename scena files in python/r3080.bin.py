@@ -2129,7 +2129,7 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 36, 3)
     Sleep(300)
 
     AnonymousTalk(
@@ -2140,8 +2140,8 @@ def main():
             "Scott took it upon himself to handle\x01",
             "the request on his own.\x02\x03",
             "I'm aware of how dangerous the area\x01",
-            "can be, so I thought I would offer my\x01",
-            "assistance.\x02",
+            "can be, so I thought I would offer\x01",
+            "my assistance.\x02",
         )
     )
 

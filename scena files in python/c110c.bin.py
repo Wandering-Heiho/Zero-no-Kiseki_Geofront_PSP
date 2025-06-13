@@ -4407,8 +4407,9 @@ def main():
         0x101,
         (
             "#3400151V#12P#0001FGood afternoon, Mr. and Mrs. Hayworth.\x02\x03",
-            "#3400152VIf I heard correctly, you guys were watching the parade\x01",
-            "when you noticed your son went missing, right?\x02",
+            "#3400152VIf I heard correctly, you guys were\x01",
+            "watching the parade when you noticed\x01",
+            "your son went missing, right?\x02",
         )
     )
 
@@ -4696,7 +4697,10 @@ def main():
 
     ChrTalk(
         0x24,
-        "#3400184V#11P#3707FHarold! But, what if...? What if it's happened again?!\x02",
+        (
+            "#3400184V#11P#3707FHarold! But, what if...?\x01",
+            "What if it's happened again?!\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -5163,8 +5167,9 @@ def main():
         (
             "#3400223V#0003F#5PUs three will split up and search the\x01",
             "different districts.\x02\x03",
-            "#3400224V#0000FI'll take care of the Entertainment District, Back Alley,\x01",
-            "Central Square, Station Street, and West Street.\x02\x03",
+            "#3400224V#0000FI'll take care of the Entertainment District,\x01",
+            "Back Alley, Central Square, Station Street,\x01",
+            "and West Street.\x02\x03",
             "#3400225V#0004FRandy, you're in charge of East Street and the\x01",
             "Downtown District.\x02\x03",
             "#3400226VAnd, Elie, you can check out the Administrative\x01",
@@ -5189,10 +5194,10 @@ def main():
         0x101,
         (
             "#3400229V#0002F#5PWell, think about it. The Administrative and Harbor\x01",
-            "Districts are both large and have a lot of traffic right\x01",
-            "now. The Downtown District, too, to an extent.\x02\x03",
-            "#3400230VMy areas will be pretty easy to make my way\x01",
-            "through. I think it's a fair distribution of work.\x02",
+            "Districts are both large and have a lot of traffic\x01",
+            "right now. The Downtown District, too, to an extent.\x02\x03",
+            "#3400230VMy areas will be pretty easy to make my way through.\x01",
+            "I think it's a fair distribution of work.\x02",
         )
     )
 

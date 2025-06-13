@@ -1781,8 +1781,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#0200F(I do seem to recall him mentioning scattering bait...\x01",
-            "This may be said bait.)\x02",
+            "#0200F(I do seem to recall him mentioning scattering\x01",
+            "bait... This may be said bait.)\x02",
         )
     )
 
@@ -1922,9 +1922,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "All right. I'll trace their location and figure out who they are!\x01",
-            "After all, the first step in a war against hackers is to\x01",
-            "collect their data!\x02",
+            "All right. I'll trace their location and figure\x01",
+            "out who they are! After all, the first step in\x01",
+            "a war against hackers is to collect their data!\x02",
         )
     )
 

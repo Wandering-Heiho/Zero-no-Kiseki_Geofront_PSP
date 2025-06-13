@@ -1388,8 +1388,8 @@ def main():
         0xF,
         (
             "#3404FJust now, when the auction was about\x01",
-            "to start, you got up from your seats. In\x01",
-            "quite the rush, I might add.\x02\x03",
+            "to start, you got up from your seats.\x01",
+            "In quite the rush, I might add.\x02\x03",
             "#3402FIsn't it only natural to assume that\x01",
             "something has happened?\x02",
         )

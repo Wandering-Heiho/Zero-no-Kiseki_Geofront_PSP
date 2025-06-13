@@ -5097,7 +5097,7 @@ def main():
 
     ChrTalk(
         0x1E,
-        "#5P#10A*pant* *pant*\x02",
+        "#5P#04A*pant* *pant*\x02",
     )
 
     OP_5A()
@@ -5105,7 +5105,7 @@ def main():
     ChrTalk(
         0x1E,
         (
-            "#5P#10ADon't underestimate me,\x01",
+            "#5P#04ADon't underestimate me,\x01",
             "you friggin' brats...\x02",
         )
     )
@@ -5122,7 +5122,7 @@ def main():
     )
 
     OP_5A()
-    Sleep(1200)
+    Sleep(250)
 
     def lambda_7442():
         OP_93(0xFE, 0xE1, 0x1F4)
@@ -5620,9 +5620,9 @@ def main():
     ChrTalk(
         0x1E,
         (
-            "#6P#5SSure, not everything went as planned,\x01",
-            "but I'll run to the ends of the continent\x01",
-            "before I get caught!\x02",
+            "#6P#5SSure, not everything went as\x01",
+            "planned, but I'll run to the ends of\x01",
+            "the continent before I get caught!\x02",
         )
     )
 
@@ -5630,7 +5630,10 @@ def main():
 
     ChrTalk(
         0x1E,
-        "#6P#5SIf you think you can catch me so easily...\x02",
+        (
+            "#6P#5SIf you think you can\x01",
+            "catch me so easily...\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -5664,7 +5667,10 @@ def main():
 
     AnonymousTalk(
         0x1E,
-        "#5S...then why don't you go ahead and try me?!\x02",
+        (
+            "#5S...then why don't you\x01",
+            "go ahead and try me?!\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -5770,7 +5776,7 @@ def main():
     ChrTalk(
         0x1E,
         (
-            "#5P#10ADon't underestimate me,\x01",
+            "#5P#03ADon't underestimate me,\x01",
             "you friggin' brats...\x02",
         )
     )
@@ -5780,7 +5786,7 @@ def main():
     ChrTalk(
         0x1E,
         (
-            "#5P#10AI forged these legs of mine through the struggle\x01",
+            "#5P#05AI forged these legs of mine through the struggle\x01",
             "of climbing mountains back in my youth. Like\x01",
             "hell you'll catch me!\x02",
         )

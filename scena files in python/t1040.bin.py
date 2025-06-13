@@ -2759,8 +2759,8 @@ def main():
     AnonymousTalk(
         0x103,
         (
-            "#3500636VI still think this is a bit too frilly\x01",
-            "for my taste...\x02",
+            "#3500636VI still think this is a bit too\x01",
+            "frilly for my taste...\x02",
         )
     )
 
@@ -3104,12 +3104,15 @@ def main():
     OP_C9(0x1, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x1, 0x3)
     OP_CA(0x0, 0x1, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 30, 3)
     Sleep(500)
 
     AnonymousTalk(
         0x104,
-        "#3500654VI think we did good, for what it's worth.\x02",
+        (
+            "#3500654VI think we did good, for what\x01",
+            "it's worth.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -3196,8 +3199,8 @@ def main():
         0x104,
         (
             "#3500664V#5609F#12PLemme teach you a few of my tricks before we\x01",
-            "hit the scene, Lloyd. Can't have you lettin' down\x01",
-            "any ladies at the auction.\x02",
+            "hit the scene, Lloyd. Can't have you lettin'\x01",
+            "down any ladies at the auction.\x02",
         )
     )
 

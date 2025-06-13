@@ -3019,7 +3019,7 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 51, 3)
     Sleep(500)
 
     AnonymousTalk(
@@ -3053,11 +3053,14 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#3500946V#3004F#11PThere is still one other thing that must be addressed.\x02\x03",
-            "#3500947VEvery year without fail, one man graciously hosts\x01",
-            "us and our auction at this breathtaking mansion.\x02\x03",
-            "#3500948V#3002FI present to you a representative of Crossbell State,\x01",
-            "a powerful politician within our diet...\x02\x03",
+            "#3500946V#3004F#11PThere is still one other thing that\x01",
+            "must be addressed.\x02\x03",
+            "#3500947VEvery year without fail, one man\x01",
+            "graciously hosts us and our auction\x01",
+            "at this breathtaking mansion.\x02\x03",
+            "#3500948V#3002FI present to you a representative of,\x01",
+            "Crossbell State a powerful politician\x01",
+            "within our diet...\x02\x03",
             "#3500949VSpeaker Hartmann!\x02",
         )
     )
@@ -3079,7 +3082,7 @@ def main():
     OP_C9(0x1, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x1, 0x3)
     OP_CA(0x0, 0x1, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 46, 3)
     Sleep(500)
 
     AnonymousTalk(

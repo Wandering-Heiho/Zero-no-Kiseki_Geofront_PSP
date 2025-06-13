@@ -1433,7 +1433,7 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 45, 3)
     Sleep(500)
 
     AnonymousTalk(
@@ -1443,8 +1443,8 @@ def main():
             "#3501823VHeh. I was wondering why you in your fancy\x01",
             "getups looked so familiar.\x02\x03",
             "#3501824VHard to believe you actually got your grubby\x01",
-            "hands on an invitation to the auction. What's\x01",
-            "more, you had the balls to sneak in.\x02",
+            "hands on an invitation to the auction.\x01",
+            "What's more, you had the balls to sneak in.\x02",
         )
     )
 
@@ -1549,8 +1549,9 @@ def main():
         0x104,
         (
             "#3501836V#0306F#6PMan, you seriously think we're connected to Yin?\x02\x03",
-            "#3501837V#0301FI doubt you'll take my word for it, so try askin' your\x01",
-            "grunts about it when they wake up from their nap.\x02",
+            "#3501837V#0301FI doubt you'll take my word for it, so try\x01",
+            "askin' your grunts about it when they wake\x01",
+            "up from their nap.\x02",
         )
     )
 

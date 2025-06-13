@@ -1576,8 +1576,8 @@ def main():
         0x1A,
         (
             "#3501099VHmph. I wasn't expecting this.\x02\x03",
-            "#3501100VI was sure they'd try to pull something\x01",
-            "stupid by now...\x02",
+            "#3501100VI was sure they'd try to pull\x01",
+            "something stupid by now...\x02",
         )
     )
 
@@ -1623,7 +1623,7 @@ def main():
 
     ChrTalk(
         0x15,
-        "#3501106V#6PS-Sorry, Boss.\x02",
+        "#3501106V#6PS-Sorry, boss.\x02",
     )
 
     CloseMessageWindow()
@@ -2339,8 +2339,8 @@ def main():
         0x1A,
         (
             "#3501099VHmph. I wasn't expecting this.\x02\x03",
-            "#3501100VI was sure they'd try to pull something\x01",
-            "stupid by now...\x02",
+            "#3501100VI was sure they'd try to pull\x01",
+            "something stupid by now...\x02",
         )
     )
 
@@ -3391,7 +3391,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "#3501586V#4SUnderstood, Boss!\x02",
+        "#3501586V#4SUnderstood, boss!\x02",
     )
 
     CloseMessageWindow()

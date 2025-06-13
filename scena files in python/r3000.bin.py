@@ -918,8 +918,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#0005FWow, so this is what the Ancient Battlefield is like?\x01",
-            "There are just as many ruins as I had heard.\x02",
+            "#6P#0005FWow, so this is what the Ancient Battlefield is\x01",
+            "like? There are just as many ruins as I had heard.\x02",
         )
     )
 

@@ -1526,16 +1526,17 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 34, 3)
     Sleep(700)
 
     AnonymousTalk(
         0xD,
         (
-            "#3500454VSaid dilemma seems to be about getting\x01",
-            "a room here, but...\x02\x03",
-            "#3500455VAll you're looking for is a place to have a\x01",
-            "nice, relaxing chat, right?\x02",
+            "#3500454VSaid dilemma seems to be about\x01",
+            "getting a room here, but...\x02\x03",
+            "#3500455VAll you're looking for is a place\x01",
+            "to have a nice, relaxing chat,\x01",
+            "right?\x02",
         )
     )
 

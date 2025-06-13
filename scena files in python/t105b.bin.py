@@ -597,8 +597,8 @@ def main():
         (
             "#3500692V#5704F#6PBeing surrounded by people in the nighttime parade,\x01",
             "taking moonlit rides on the towering ferris wheel...\x02\x03",
-            "#3500693VHaha! It's as if Mishelam's nightlife was built for the\x01",
-            "art of seduction.\x02\x03",
+            "#3500693VHaha! It's as if Mishelam's nightlife was built for\x01",
+            "the art of seduction.\x02\x03",
             "#3500694V#5700FI'm afraid we'll have to part for now, much to my\x01",
             "dismay.\x02",
         )

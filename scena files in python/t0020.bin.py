@@ -8759,9 +8759,9 @@ def main():
         0x104,
         (
             "#6P#0306FHaha... It's not like we can refuse.\x02\x03",
-            "#0300FY'know, it'd be a lot easier if tourists would listen\x01",
-            "when given advice. Especially from locals. Nothin'\x01",
-            "to do but track 'em down and bring 'em back.\x02",
+            "#0300FY'know, it'd be a lot easier if tourists would\x01",
+            "listen when given advice. Especially from locals.\x01",
+            "Nothin' to do but track 'em down and bring 'em back.\x02",
         )
     )
 
@@ -9947,11 +9947,11 @@ def main():
         (
             "#6P#1400FDo you remember when we first met in the Geofront?\x02\x03",
             "Back then, you decided to recklessly throw away your\x01",
-            "life fighting against an unbeatable foe, as if you were\x01",
-            "some kind of martyr...\x02\x03",
-            "#1404FBut, this time, you refrained from doing that. Despite\x01",
-            "your odds being slim, you kept searching for a way\x01",
-            "to break through the situation.\x02",
+            "life fighting against an unbeatable foe, as if you\x01",
+            "were some kind of martyr...\x02\x03",
+            "#1404FBut, this time, you refrained from doing that.\x01",
+            "Despite your odds being slim, you kept searching\x01",
+            "for a way to break through the situation.\x02",
         )
     )
 

@@ -429,7 +429,10 @@ def main():
 
     ChrTalk(
         0x101,
-        "#3501609V#0010F#5P(The front door isn't an option with those two there.)\x02",
+        (
+            "#3501609V#0010F#5P(The front door isn't an option\x01",
+            "with those two there.)\x02",
+        )
     )
 
     CloseMessageWindow()

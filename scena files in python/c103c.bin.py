@@ -2421,10 +2421,12 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#3404FI've heard tales of your exploits, but one quick glance\x01",
-            "is all I need to know that you've grown into a fine bracer.\x02\x03",
-            "#3400FI've also taken notice of the fact that your enthusiastic\x01",
-            "mannerisms have not changed one bit since we last met.\x02",
+            "#3404FI've heard tales of your exploits, but one quick\x01",
+            "glance is all I need to know that you've grown\x01",
+            "into a fine bracer.\x02\x03",
+            "#3400FI've also taken notice of the fact that your\x01",
+            "enthusiastic mannerisms have not changed one\x01",
+            "bit since we last met.\x02",
         )
     )
 

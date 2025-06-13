@@ -4147,9 +4147,9 @@ def main():
             "#2100FAnd besides, your grandfather's popularity with\x01",
             "the citizens is off the charts! Heck, I like the\x01",
             "old guy myself.\x02\x03",
-            "I might be disqualified from saying this, considering\x01",
-            "I'm a reporter, but...I really try to cut the guy some\x01",
-            "slack, you know?\x02",
+            "I might be disqualified from saying this,\x01",
+            "considering I'm a reporter, but...I really\x01",
+            "try to cut the guy some slack, you know?\x02",
         )
     )
 
@@ -4707,7 +4707,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#3400236V#0003F#11P(Let's see... So I'm responsible for investigating the\x01",
+            "#3400236V#0003F#11P(Let's see... I'm responsible for investigating the\x01",
             "Entertainment District, Back Alley, Central Square,\x01",
             "Station Street, and West Street, huh?)\x02\x03",
             "#3400237V#0000F(I have no idea where this kid could be,\x01",
@@ -5131,12 +5131,12 @@ def main():
     ChrTalk(
         0x1C,
         (
-            "#3100021V#5902F#5POh, that's right. Your team was responsible for solving\x01",
-            "that case, right?\x02\x03",
-            "#3100022VLast time I spoke with Ilya, she couldn't stop praising\x01",
-            "the efforts of the SSS.\x02\x03",
-            "#3100023V#5909FAt this rate, she's planning to create a play based on\x01",
-            "the incident. She even mentioned something about\x01",
+            "#3100021V#5902F#5POh, that's right. Your team was responsible\x01",
+            "for solving that case, right?\x02\x03",
+            "#3100022VLast time I spoke with Ilya, she couldn't stop\x01",
+            "praising the efforts of the SSS.\x02\x03",
+            "#3100023V#5909FAt this rate, she's planning to create a play based\x01",
+            "on the incident. She even mentioned something about\x01",
             "giving you a special role in it, too...\x02",
         )
     )
@@ -7050,9 +7050,10 @@ def main():
         (
             "#0001FMr. Hayworth should have the Residential District\x01",
             "covered...\x02\x03",
-            "If he manages to spot him, he'll contact me immediately.\x02\x03",
-            "I'll stick to the plan for now, and continue to search for\x01",
-            "clues in the city.\x02",
+            "If he manages to spot him, he'll contact me\x01",
+            "immediately.\x02\x03",
+            "I'll stick to the plan for now, and continue to\x01",
+            "search for clues in the city.\x02",
         )
     )
 
@@ -7068,8 +7069,8 @@ def main():
         (
             "#0001FMr. Hayworth should have the Residential District\x01",
             "covered...\x02\x03",
-            "I'll stick to the plan for now, and continue to search for\x01",
-            "clues in the city.\x02",
+            "I'll stick to the plan for now, and continue to\x01",
+            "search for clues in the city.\x02",
         )
     )
 
