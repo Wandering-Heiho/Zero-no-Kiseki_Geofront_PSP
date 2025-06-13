@@ -2488,7 +2488,8 @@ def main():
         0x101,
         (
             "#3200070V\x07\x00",
-            "#0000FOf course. You said the Harbor District, didn't you?\x02\x03",
+            "#0000FOf course. You said the Harbor District,\x01",
+            "didn't you?\x02\x03",
             "#3200071VWe'll head there right away.\x02",
         )
     )

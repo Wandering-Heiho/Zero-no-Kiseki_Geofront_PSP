@@ -8703,7 +8703,10 @@ def main():
 
     ChrTalk(
         0x103,
-        "#6P#0211FA statement that is both incriminating and controversial.\x02",
+        (
+            "#6P#0211FA statement that is both\x01",
+            "incriminating and controversial.\x02",
+        )
     )
 
     CloseMessageWindow()

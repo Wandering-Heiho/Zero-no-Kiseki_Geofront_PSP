@@ -2268,7 +2268,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#5SY-Y-You...! How dare you waltz in here like\x01",
+            "#4SY-Y-You...! How dare you waltz in here like\x01",
             "you own the place! The gall! The nerve! I'm\x01",
             "going to make you pay, I swear it!\x02",
         )
@@ -2279,7 +2279,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#5SOh, yes. Come next year, you won't know\x01",
+            "#4SOh, yes. Come next year, you won't know\x01",
             "what hit you! Remember that, you punks!\x02",
         )
     )
@@ -2306,7 +2306,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#5SNext year, I'll be back and better than\x01",
+            "#4SNext year, I'll be back and better than\x01",
             "ever! You'll rue the day you decided to\x01",
             "cross me!\x02",
         )
@@ -4630,7 +4630,7 @@ def main():
     ChrTalk(
         0x15,
         (
-            "#11P#5SY-Y-You insolent, disrespectful hooligan!\x01",
+            "#11P#4SY-Y-You insolent, disrespectful hooligan!\x01",
             "Did your parents teach you no etiquette?\x02",
         )
     )
@@ -4641,7 +4641,7 @@ def main():
     ChrTalk(
         0x15,
         (
-            "#11P#5SWhen talking to a lady, you must at least\x01",
+            "#11P#4SWhen talking to a lady, you must at least\x01",
             "offer her a cup of tea! Common courtesy!\x02",
         )
     )
@@ -4779,8 +4779,10 @@ def main():
         0xFF,
         (
             "#12PKilika Rouran, at your service.\x02\x03",
-            "I'm a Calvardian entertainment producer.\x02\x03",
-            "I came to Crossbell...well, let's say it was by chance.\x02",
+            "I'm a Calvardian entertainment\x01",
+            "producer.\x02\x03",
+            "I came to Crossbell...well, let's\x01",
+            "say it was by chance.\x02",
         )
     )
 
@@ -5395,8 +5397,8 @@ def main():
         (
             "#12P#3404FYou're an interesting bunch. Unrefined, yet true\x01",
             "to yourselves.\x02\x03",
-            "#3400FAnd, despite investigating, you chose me as the\x01",
-            "culprit at the end of the day. We can just chalk\x01",
+            "#3400FAnd, despite investigating, you chose the wrong\x01",
+            "person at the end of the day. We can just chalk\x01",
             "that up to inexperience.\x02\x03",
             "Let's both do our best from here on out, okay?\x02",
         )

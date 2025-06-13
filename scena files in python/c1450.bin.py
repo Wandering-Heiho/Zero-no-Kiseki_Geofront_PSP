@@ -1775,7 +1775,10 @@ def main():
 
     ChrTalk(
         0x9,
-        "I was feeding off of their energy, and now I feel rejuvenated.\x02",
+        (
+            "I was feeding off of their energy,\x01",
+            "and now I feel rejuvenated.\x02",
+        )
     )
 
     CloseMessageWindow()

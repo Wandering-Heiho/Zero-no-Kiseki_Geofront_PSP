@@ -2100,8 +2100,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "I'll be transporting some septium deposits over to the city\x01",
-            "today, so I thought I might as well check out the festival, too.\x02",
+            "I'll be transporting some septium deposits over\x01",
+            "to the city today, so I thought I might as well\x01",
+            "check out the festival, too.\x02",
         )
     )
 

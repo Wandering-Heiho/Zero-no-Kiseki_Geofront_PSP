@@ -5609,8 +5609,8 @@ def main():
         0x1E,
         (
             "#6P#5SThink you've got me cornered, do you?!\x01",
-            "A bunch of two-bit cops like yourselves\x01",
-            "won't catch me!\x02",
+            "A bunch of two-bit cops like your-\x01",
+            "selves won't catch me!\x02",
         )
     )
 

@@ -3393,8 +3393,9 @@ def main():
         0xC,
         "Counterfeit Dealer",
         (
-            "#5P#5SI'm sure the Goddess will smite you all\x01",
-            "if you don't correct your nasty behavior!\x02",
+            "#5P#5SI'm sure the Goddess will smite\x01",
+            "you all if you don't correct\x01",
+            "your nasty behavior!\x02",
         )
     )
 
@@ -3433,8 +3434,9 @@ def main():
         0xC,
         "Counterfeit Dealer",
         (
-            "#5P#5SI hate you! I hate you all! This is exactly\x01",
-            "why the police and bracers are trash!\x02",
+            "#5P#5SI hate you! I hate you all!\x01",
+            "This is exactly why the\x01",
+            "police and bracers are trash!\x02",
         )
     )
 
@@ -3531,7 +3533,10 @@ def main():
 
     AnonymousTalk(
         0xC,
-        "#5P#5S...then why don't you go ahead and try me?!\x02",
+        (
+            "#5P#5S...then why don't you\x01",
+            "go ahead and try me?!\x02",
+        )
     )
 
     CloseMessageWindow()

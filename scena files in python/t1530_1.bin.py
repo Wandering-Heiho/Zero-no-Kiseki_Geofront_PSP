@@ -6676,13 +6676,13 @@ def main():
         0x102,
         (
             "#0102FI'd be surprised if that was the case.\x02\x03",
-            "Even though he has to worry about his responsibilities\x01",
+            "Even though he has his responsibilities\x01",
             "as the IBC's CEO, he also runs quite a few philanthropic\x01",
             "projects throughout Crossbell State.\x02\x03",
-            "One of those being an annual tradition where he gives\x01",
-            "presents to those hospitalized at St. Ursula.\x02\x03",
-            "#0102F'If they can't enjoy the Anniversary Festival, I'll bring\x01",
-            "some joy to them instead,' he always says.\x02",
+            "One of those being an annual tradition where he\x01",
+            "gives presents to those hospitalized at St. Ursula.\x02\x03",
+            "#0102F'If they can't enjoy the Anniversary Festival, I'll\x01",
+            "bring some joy to them instead,' he always says.\x02",
         )
     )
 

@@ -4905,8 +4905,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0003F(I can't imagine what fate is in store for us if we scratch\x01",
-            "it, so let's keep our hands to ourselves.)\x02",
+            "#0003F(I can't imagine what fate is in store for us if we\x01",
+            "scratch it, so let's keep our hands to ourselves.)\x02",
         )
     )
 
@@ -4997,7 +4997,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0003FI've heard they cost a fortune, but I have to admit...\x01",
+            "#0003FI've heard they cost a fortune,\x01",
+            "but I have to admit...\x01",
             "The quality speaks for itself.\x02",
         )
     )
@@ -5012,8 +5013,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0003F(I can't imagine what fate is in store for us if we scratch\x01",
-            "it, so let's keep our hands to ourselves.)\x02",
+            "#0003F(I can't imagine what fate is in store for us if we\x01",
+            "scratch it, so let's keep our hands to ourselves.)\x02",
         )
     )
 

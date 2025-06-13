@@ -693,7 +693,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Did you hear about the woman who had a craving for goldia sepith?\x01",
+            "Did you hear about the woman who had a craving for goldia\x01",
+            "sepith?\x01",
             "She just wanted some space, man.\x07\x00\x02",
         )
     )
