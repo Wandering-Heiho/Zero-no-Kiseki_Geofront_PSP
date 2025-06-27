@@ -2940,7 +2940,10 @@ def main():
 
     ChrTalk(
         0x102,
-        "#0109F#5P(W-Well, it seems like KeA's taken a liking to him...)\x02",
+        (
+            "#0109F#5P(W-Well, it seems like KeA's\x01",
+            "taken a liking to him...)\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -6230,7 +6233,10 @@ def main():
 
     ChrTalk(
         0x101,
-        "#0000F#11PSounds plausible, but I wonder if it's actually true...\x02",
+        (
+            "#0000F#11PSounds plausible, but I wonder\x01",
+            "if it's actually true...\x02",
+        )
     )
 
     CloseMessageWindow()

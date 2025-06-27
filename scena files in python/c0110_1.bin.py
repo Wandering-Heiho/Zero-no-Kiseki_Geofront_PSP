@@ -819,8 +819,8 @@ def main():
             "#1004FLloyd, I have to leave KeA to you for\x01",
             "a while.\x02\x03",
             "#1000FBut if you find something, call me as\x01",
-            "soon as you can. The entire CPD\x01",
-            "is involved now, you understand?\x02",
+            "soon as you can. The entire CPD is\x01",
+            "involved now, you understand?\x02",
         )
     )
 

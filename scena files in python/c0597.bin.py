@@ -1388,9 +1388,8 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#3601171V#5P#3004FThe answer is simple: Crush Heiyue\x01",
-            "like the bugs they are before the guild\x01",
-            "even finds out.\x02\x03",
+            "#3601171V#5P#3004FThe answer is simple: Crush Heiyue like the\x01",
+            "bugs they are before the guild even finds out.\x02\x03",
             "#3601172VThis seems like the perfect time to conduct\x01",
             "a test run of our distribution network.\x02",
         )

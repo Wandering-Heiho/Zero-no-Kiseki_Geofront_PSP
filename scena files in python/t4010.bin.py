@@ -853,7 +853,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Few things in life can best seeing\x01",
+            "Few things in life can beat seeing\x01",
             "children so full of life.\x02",
         )
     )
@@ -7104,7 +7104,10 @@ def main():
 
     ChrTalk(
         0x102,
-        "#3600493V#0102F#6PForgive us for intruding at such an inconvenient time.\x02",
+        (
+            "#3600493V#0102F#6PForgive us for intruding at\x01",
+            "such an inconvenient time.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -7763,8 +7766,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#3600557V#0000F#6PAll right, then. We'll leave you to it, Sister Marble.\x02\x03",
-            "#3600558V#0005FEr, do we need to go somewhere else for this?\x02",
+            "#3600557V#0000F#6PAll right, then. We'll leave\x01",
+            "you to it, Sister Marble.\x02\x03",
+            "#3600558V#0005FEr, do we need to go\x01",
+            "somewhere else for this?\x02",
         )
     )
 
@@ -10752,8 +10757,8 @@ def main():
     ChrTalk(
         0x21,
         (
-            "#6PHaha! Did you bring he\x01",
-            " along as a cheerleader?!\x02",
+            "#6PHaha! Did you bring her\x01",
+            "along as a cheerleader?!\x02",
         )
     )
 
@@ -11086,9 +11091,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0000FFor kidnappings, murders, and other major cases\x01",
-            "it's obvious that police officers first need the ability\x01",
-            "to solve smaller cases, right?\x02\x03",
+            "#0000FFor kidnappings, murders, and other major cases,\x01",
+            "it's obvious that police officers first need the\x01",
+            "ability to solve smaller cases, right?\x02\x03",
             "That's why the Second Division primarily takes on\x01",
             "thefts and other petty crimes, but also investigates\x01",
             "major cases when they're more clear-cut.\x02\x03",
@@ -11118,8 +11123,8 @@ def main():
             "as kidnappings and murders the right way, one has\x01",
             "to possess a wide range of investigative skills.\x02\x03",
             "Because of that, the Special Support Section, with\x01",
-            "its flexibility and agility, is the perfect team to tackle\x01",
-            "the major cases. You know, the really big ones.\x02\x03",
+            "its flexibility and agility, is the perfect team to\x01",
+            "tackle the major cases. You know, the really big ones.\x02\x03",
             "#0006F(Uh, I think I made us sound WAY too cool there...)\x02",
         )
     )
@@ -11143,8 +11148,8 @@ def main():
         (
             "#0000FEvery detective in the CPD is given an extremely\x01",
             "handy book, simply called the Detective Notebook.\x02\x03",
-            "In addition to doubling as our identification, it also\x01",
-            "has an even more important use for detectives.\x02\x03",
+            "In addition to doubling as our identification, it\x01",
+            "also has an even more important use for detectives.\x02\x03",
             "#0003FThat would be...\x02",
         )
     )
@@ -11252,9 +11257,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0012FU-Uh, yeah, I didn't believe it at first, either. These\x01",
-            "particular notebooks are able to transmit our location\x01",
-            "back to the CPD's database.\x02\x03",
+            "#0012FU-Uh, yeah, I didn't believe it at first, either.\x01",
+            "These particular notebooks are able to transmit our\x01",
+            "location back to the CPD's database.\x02\x03",
             "#0000FThrough that system, we're able to check our exact\x01",
             "location and even find out where other officers are.\x01",
             "Cool, right?\x02\x03",
@@ -11279,12 +11284,12 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0000FSimilar to the Bracer Guild, the police force is equipped\x01",
-            "with the latest generation orbments to use in combat\x01",
-            "scenarios.\x02\x03",
-            "#0003FDespite most officers not being combat experts, there\x01",
-            "are times when a fight is unavoidable, especially when\x01",
-            "in hot pursuit of an active criminal.\x02\x03",
+            "#0000FSimilar to the Bracer Guild, the police force is\x01",
+            "equipped with the latest generation orbments to use\x01",
+            "in combat scenarios.\x02\x03",
+            "#0003FDespite most officers not being combat experts,\x01",
+            "there are times when a fight is unavoidable,\x01",
+            "especially when in hot pursuit of an active criminal.\x02\x03",
             "#0000FFun fact: There's already been many iterations of\x01",
             "orbments created through the years. With each\x01",
             "generation, brand new features are added.\x02\x03",
@@ -11341,8 +11346,8 @@ def main():
         (
             "#0000F...fifth generation orbments, otherwise known as the\x01",
             "Enigma combat orbments.\x02\x03",
-            "The special part of this generation is its portable comms\x01",
-            "feature. Since it lets us contact fellow officers in\x01",
+            "The special part of this generation is its portable\x01",
+            "comms feature. It lets us contact fellow officers in\x01",
             "emergencies, it's perfect for police work.\x02\x03",
             "#0004F(That sounded right to me.)\x02",
         )
@@ -11385,8 +11390,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0000F...seventh generation orbments, otherwise known as the\x01",
-            "Enigma combat orbments.\x02",
+            "#0000F...seventh generation orbments, otherwise known as\x01",
+            "the Enigma combat orbments.\x02",
         )
     )
 
@@ -11420,11 +11425,12 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0000FThere are quite a lot of different positions at the CPD,\x01",
-            "ranging from your standard police officer to detectives\x01",
-            "like me. That being said, we all work for Crossbell's sake.\x02\x03",
-            "#0003FAt first glance, you might not think those two roles are\x01",
-            "related, but you'd be surprised.\x02\x03",
+            "#0000FThere are quite a lot of different positions at the\x01",
+            "CPD, ranging from your standard police officer to\x01",
+            "detectives like me. That being said, we all work for\x01",
+            "Crossbell's sake.\x02\x03",
+            "#0003FAt first glance, you might not think those two roles\x01",
+            "are related, but you'd be surprised.\x02\x03",
             "#0000FAll police work is rooted in one basic principle.\x02\x03",
             "#0003FAnd that's...\x02",
         )
@@ -11452,7 +11458,7 @@ def main():
         0,
         (
             "[① Protecting Crossbell's citizenry]\x01",                            # 0
-            "[② Maintaining public order and compliance with state law]\x01",      # 1
+            "[② Public order and state law compliancelaw]\x01",      # 1
             "[③ Guarding against foreign nations & preserving peace]\x01",         # 2
         )
     )
@@ -11485,12 +11491,13 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0000FThe CPD's mission statement is to protect the people of\x01",
-            "Crossbell no, matter what hardships stand in our way.\x02\x03",
-            "We strive to create a society free from worry and stress,\x01",
-            "where everyone can cooperate in peace.\x02\x03",
-            "#0006F(That might be a part of it, but probably not the best\x01",
-            "answer for that one.)\x02",
+            "#0000FThe CPD's mission statement is to protect the people\x01",
+            "of Crossbell, no matter what hardships stand in our\x01",
+            "way.\x02\x03",
+            "We strive to create a society free from worry and\x01",
+            "stress, where everyone can cooperate in peace.\x02\x03",
+            "#0006F(That might be a part of it, but probably not the\x01",
+            "best answer for that one.)\x02",
         )
     )
 
@@ -11503,14 +11510,16 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0000F...maintaining public order and compliance with state law.\x02\x03",
-            "It's our mission to crack down on criminals in order to\x01",
-            "ensure that the rest of the public can live in harmony,\x01",
-            "without having to worry about crime.\x02\x03",
-            "We strive to be model citizens ourselves by upholding the\x01",
-            "law, in hopes that we can serve as an example to others.\x01",
-            "Also, we work to control crime outbreaks as a whole.\x02\x03",
-            "By doing so, we're able to maintain the peace and set\x01",
+            "#0000F...maintaining public order and compliance with\x01",
+            "state law.\x02\x03",
+            "It's our mission to crack down on criminals in order\x01",
+            "to ensure that the rest of the public can live in\x01",
+            "harmony, without having to worry about crime.\x02\x03",
+            "We strive to be model citizens ourselves by upholding\x01",
+            "the law, in hopes that we can serve as an example\x01",
+            "to others. Also, we work to control crime outbreaks\x01",
+            "as a whole.\x02\x03",
+            "By doing so, we're able to maintain peace and set\x01",
             "our sights on someday living in a world without crime.\x01",
             "That, I'd say, is the CPD's mission statement.\x02\x03",
             "#0004F(Hey, that came together nicely!)\x02",
@@ -11526,7 +11535,10 @@ def main():
 
     ChrTalk(
         0x101,
-        "#0000F...guarding against foreign nations and preserving peace.\x02",
+        (
+            "#0000F...guarding against foreign nations\x01",
+            "and preserving peace.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -11537,11 +11549,12 @@ def main():
         (
             "#0000FIf you didn't know, Crossbell is sandwiched between\x01",
             "the Erebonian Empire and the Calvard Republic.\x01",
-            "Unfortunately, that makes us more susceptible to crime.\x02\x03",
-            "By limiting foreign infiltration into Crossbell State,\x01",
+            "Unfortunately, that has led to higher crime rates.\x02\x03",
+            "By limiting foreign infiltration into Crossbell,\x01",
             "we can create a safer environment for the public.\x01",
             "That, I'd say, is what the CPD works towards.\x02\x03",
-            "#0006F(I think I accidentally described the Guardian Force...)\x02",
+            "#0006F(I think I accidentally described the Guardian\x01",
+            "Force...)\x02",
         )
     )
 
@@ -11738,8 +11751,8 @@ def main():
         0x104,
         (
             "#6P#0300F(That's halftime, eh?)\x02\x03",
-            "#0306F(C'mon, dude. Don't embarrass us in front of all these\x01",
-            "kids.)\x02\x03",
+            "#0306F(C'mon, dude. Don't embarrass us in front of all\x01",
+            "these kids.)\x02\x03",
             "(What happened to that suave, smart, glasses-wearing\x01",
             "guy at Mishelam? Sheesh, I wasn't expecting to be\x01",
             "disappointed, but here we are.)\x02",
@@ -11796,7 +11809,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "       Q&A Start!\x01",
+            "     Q&A Start!\x01",
             "~General Questions~\x02",
         )
     )
@@ -12137,11 +12150,11 @@ def main():
         0x101,
         (
             "#5P#0006FBut, actually, it was Zeit who swooped in at the\x01",
-            "end and saved us from the mafia. We were\x01",
-            "really in a pinch, then.\x02\x03",
+            "end and saved us from the mafia. We were really\x01",
+            "in a pinch, then.\x02\x03",
             "If he wasn't there, I'm not sure if the truth behind\x01",
-            "the case would have gotten out, much less how\x01",
-            "we would have handled their war hounds...\x02\x03",
+            "the case would have gotten out, much less how we\x01",
+            "would have handled their war hounds...\x02\x03",
             "#0000FThat being the case, I'd say that Zeit and his\x01",
             "pack of white wolves were the deciding factor in\x01",
             "that case, Anri.\x02\x03",
@@ -12627,7 +12640,7 @@ def main():
         0x101,
         (
             "#11P#0011F(What am I saying?! Of course there is!)\x02\x03",
-            "#0003FWell, one of the main tenets is one of non-intervention.\x01",
+            "#0003FWell, one of their main tenets is non-intervention.\x01",
             "That means that they aren't allowed to arrest\x01",
             "individuals of military or political standing.\x02\x03",
             "Granted, if they suddenly started attacking innocent\x01",

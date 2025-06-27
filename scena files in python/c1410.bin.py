@@ -8179,9 +8179,9 @@ def main():
             "#0402FHahaha! You've got a wretched personality.\x01",
             "It's been one thing after another for the last week.\x01",
             "I'm surprised you kept it up for that long.\x02\x03",
-            "#0404FI must admit, I was starting to get a little worried there.\x01",
-            "I wasn't sure how much longer I'd be able to hold out\x01",
-            "against you.\x02",
+            "#0404FI must admit, I was starting to get a little worried\x01",
+            "there. I wasn't sure how much longer I'd be able to\x01",
+            "hold out against you.\x02",
         )
     )
 

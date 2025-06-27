@@ -2162,8 +2162,9 @@ def main():
         0x101,
         (
             "#0000FHahaha...\x01",
-            "(It looks like the coverage restrictions have prevented\x01",
-            "most of the details from getting out...for now.)\x02",
+            "(It looks like the coverage restrictions\x01",
+            "have prevented most of the details from\x01",
+            "getting out...for now.)\x02",
         )
     )
 

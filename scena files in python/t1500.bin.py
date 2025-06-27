@@ -7321,16 +7321,16 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 36, 3)
     Sleep(500)
 
     AnonymousTalk(
         0x1E,
         (
             "#3600722VIt looks like you two are doing well.\x02\x03",
-            "#3600723VI'm sure you worked hard during\x01",
-            "the festival. Has the department\x01",
-            "been keeping you busy?\x02",
+            "#3600723VI'm sure you worked hard during the\x01",
+            "festival. Has the department been\x01",
+            "keeping you busy?\x02",
         )
     )
 

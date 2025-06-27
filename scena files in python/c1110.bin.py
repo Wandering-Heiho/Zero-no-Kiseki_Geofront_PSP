@@ -5131,7 +5131,7 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 38, 3)
 
     AnonymousTalk(
         0x15,

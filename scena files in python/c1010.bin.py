@@ -11960,8 +11960,8 @@ def main():
             "#3600323V#12P#0003FYeah. And, as representatives of the CPD, policy\x01",
             "dictates we accept the reason Revache came up\x01",
             "with, real or not.\x02\x03",
-            "#3600324V#0000FIf possible, I'd like for us to keep that in mind as we\x01",
-            "continue our conversation...\x02",
+            "#3600324V#0000FIf possible, I'd like for us to keep that in mind\x01",
+            "as we continue our conversation...\x02",
         )
     )
 
@@ -12716,9 +12716,9 @@ def main():
         0xB,
         (
             "#3600417V#11P#0809FNo, no, you're right. I was being insensitive.\x02\x03",
-            "#3600418V#0802FThe Special Support Section is...well, special. And if\x01",
-            "she loves you guys this much, what kind of monster\x01",
-            "would I be to tear you all apart?\x02",
+            "#3600418V#0802FThe Special Support Section is...well, special.\x01",
+            "And if she loves you guys this much, what kind\x01",
+            "of monster would I be to tear you all apart?\x02",
         )
     )
 
@@ -12917,8 +12917,8 @@ def main():
             "#3600441V#0904FIt's true. They've...definitely helped me through\x01",
             "some rough spots in the past.\x02\x03",
             "#3600442V#0900FOf course, I have no clue whether someone of\x01",
-            "that level works at the cathedral, but it still may\x01",
-            "be worth the shot.\x02\x03",
+            "that level works at the cathedral, but it still\x01",
+            "may be worth the shot.\x02\x03",
             "#3600443VWhy don't you ask over there, too?\x02",
         )
     )
