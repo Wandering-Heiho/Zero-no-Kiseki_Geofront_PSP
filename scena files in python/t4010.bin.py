@@ -11124,7 +11124,7 @@ def main():
             "to possess a wide range of investigative skills.\x02\x03",
             "Because of that, the Special Support Section, with\x01",
             "its flexibility and agility, is the perfect team to\x01",
-            "tackle the major cases. You know, the really big ones.\x02\x03",
+            "tackle major cases. You know, the really big ones.\x02\x03",
             "#0006F(Uh, I think I made us sound WAY too cool there...)\x02",
         )
     )
@@ -11289,7 +11289,7 @@ def main():
             "in combat scenarios.\x02\x03",
             "#0003FDespite most officers not being combat experts,\x01",
             "there are times when a fight is unavoidable,\x01",
-            "especially when in hot pursuit of an active criminal.\x02\x03",
+            "notably when in hot pursuit of an active criminal.\x02\x03",
             "#0000FFun fact: There's already been many iterations of\x01",
             "orbments created through the years. With each\x01",
             "generation, brand new features are added.\x02\x03",
@@ -11458,7 +11458,7 @@ def main():
         0,
         (
             "[① Protecting Crossbell's citizenry]\x01",                            # 0
-            "[② Public order and state law compliancelaw]\x01",      # 1
+            "[② Public order and state law compliance]\x01",      # 1
             "[③ Guarding against foreign nations & preserving peace]\x01",         # 2
         )
     )
@@ -11519,8 +11519,8 @@ def main():
             "the law, in hopes that we can serve as an example\x01",
             "to others. Also, we work to control crime outbreaks\x01",
             "as a whole.\x02\x03",
-            "By doing so, we're able to maintain peace and set\x01",
-            "our sights on someday living in a world without crime.\x01",
+            "By doing so, we're able to maintain peace and set our\x01",
+            "sights on someday living in a world without crime.\x01",
             "That, I'd say, is the CPD's mission statement.\x02\x03",
             "#0004F(Hey, that came together nicely!)\x02",
         )
