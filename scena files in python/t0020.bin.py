@@ -1503,8 +1503,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Why don't you order as much as\x01",
-            "you can and help fill my family's pockets?\x02",
+            "Why don't you order as much as you can\x01",
+            "and help fill my family's pockets?\x02",
         )
     )
 
@@ -8197,9 +8197,10 @@ def main():
     ChrTalk(
         0x1C,
         (
-            "#0806F#6PYep, that's right. Though, we weren't planning on staying.\x01",
-            "The truth is, we ran into a snag while working on a\x01",
-            "monster extermination yesterday, and we missed the bus...\x02",
+            "#0806F#6PYep, that's right. Though, we weren't planning on\x01",
+            "staying. The truth is, we ran into a snag while\x01",
+            "working on a monster extermination yesterday, and\x01",
+            "we missed the bus...\x02",
         )
     )
 

@@ -3795,8 +3795,8 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#5PAnd even though he throws\x01",
-            "a fit when I forget to do so...\x02",
+            "#5PAnd even though he throws a fit\x01",
+            "when I forget to do so...\x02",
         )
     )
 

@@ -4455,8 +4455,8 @@ def main():
             "#2903FFortunately enough, I don't think their little\x01",
             "'raid' will affect our stock prices negatively.\x02\x03",
             "#2901FGrr! I almost want to kick down their door and\x01",
-            "demand compensation for all the hassle\x01",
-            "they've put me through!\x02",
+            "demand compensation for all the hassle they've\x01",
+            "put me through!\x02",
         )
     )
 
@@ -4533,11 +4533,12 @@ def main():
         0x9,
         (
             "#5P#2903FIt has to do with the amount she withdrew.\x02\x03",
-            "#2900FUnder normal circumstances, you would need to fill out\x01",
-            "the appropriate paperwork. Today was an exception.\x02\x03",
-            "As you might be able to surmise, I am unable to disclose\x01",
-            "the exact amount she withdrew. That said...it was in the\x01",
-            "hundreds of thousands of mira.\x02",
+            "#2900FUnder normal circumstances, you would need to fill\x01",
+            "out the appropriate paperwork.\x01",
+            "Today was an exception.\x02\x03",
+            "As you might be able to surmise, I am unable to\x01",
+            "disclose the exact amount she withdrew. That said...\x01",
+            "It was in the hundreds of thousands of mira.\x02",
         )
     )
 

@@ -2454,8 +2454,8 @@ def main():
         0x101,
         (
             "#0000FI don't think you have anything to worry about.\x01",
-            "(His circumstances are anything but\x01",
-            "normal, that's for sure...)\x02",
+            "(His circumstances are anything but normal,\x01",
+            "that's for sure...)\x02",
         )
     )
 
@@ -2498,8 +2498,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "He's usually only gone for about\x01",
-            "three days, but no one's been able to find him.\x02",
+            "He's usually only gone for about three days,\x01",
+            "but no one's been able to find him.\x02",
         )
     )
 
@@ -3811,8 +3811,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Even while Gantz is gone we\x01",
-            "still have our jobs to do, so we're trying\x01",
+            "Even while Gantz is gone we still\x01",
+            "have our jobs to do, so we're trying\x01",
             "our best to make up for his part, too.\x02",
         )
     )

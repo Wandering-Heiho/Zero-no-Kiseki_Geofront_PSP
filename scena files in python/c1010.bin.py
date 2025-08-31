@@ -679,8 +679,8 @@ def main():
         0x8,
         (
             "Think we finally got a good idea of the\x01",
-            "situation, but I don't think it's about to\x01",
-            "break out into a conflict.\x02",
+            "situation, but I don't think it's about\x01",
+            "to break out into a conflict.\x02",
         )
     )
 

@@ -11145,8 +11145,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#4300076V#0206FThere is too little information to come to a conclusion.\x01",
-            "All we can do is hypothesize at the moment.\x02",
+            "#4300076V#0206FThere is too little information to\x01",
+            "come to a conclusion. All we can do\x01",
+            "is hypothesize at the moment.\x02",
         )
     )
 

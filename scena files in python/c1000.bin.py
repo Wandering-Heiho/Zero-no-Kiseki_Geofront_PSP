@@ -12228,8 +12228,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#0205FThis statue has quite the...enormous face, does it not?\x01",
-            "I have never encountered anything quite like this.\x02",
+            "#0205FThis statue has quite the...enormous face,\x01",
+            "does it not? I have never encountered\x01",
+            "anything quite like this.\x02",
         )
     )
 

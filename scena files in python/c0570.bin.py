@@ -5110,11 +5110,11 @@ def main():
         0x11,
         (
             "#4200357V#5P#2106FWell, you can choose to believe it or not.\x02\x03",
-            "#4200358V#2101FI'm just saying, maybe it's possible that the incident\x01",
+            "#4200358V#2101FI'm just saying, maybe it's possible the incident\x01",
             "in the Downtown District and the gunning for Mainz's\x01",
             "rights might not have been on Garcia's orders.\x02\x03",
-            "#4200359VIt seemed like some of the mafiosos on\x01",
-            "the lower rungs were looking to climb up.\x02\x03",
+            "#4200359VIt seemed like some of the mafiosos on the\x01",
+            "lower rungs were looking to climb up.\x02\x03",
             "#4200360VIf clout inside Revache is what those rookies\x01",
             "were after, then that would explain them stepping\x01",
             "out of line and getting busted.\x02",
@@ -5531,12 +5531,12 @@ def main():
         0xFF,
         (
             "#4200416V\x07\x05",
-            "He's been engaged in a poker match\x01",
-            "with another customer for quite some time...\x02\x03",
-            "#4200417VThe atmosphere has gotten kind of\x01",
-            "severe... It might actually get violent.\x02\x03",
-            "#4200418VAnyway, could you come over\x01",
-            "quickly and help sort this out?!\x02",
+            "He's been engaged in a poker match with\x01",
+            "another customer for quite some time...\x02\x03",
+            "#4200417VThe atmosphere has gotten kind of severe...\x01",
+            "It might actually get violent.\x02\x03",
+            "#4200418VAnyway, could you come over quickly and help\x01",
+            "sort this out?!\x02",
         )
     )
 

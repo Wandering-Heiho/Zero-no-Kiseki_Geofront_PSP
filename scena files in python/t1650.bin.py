@@ -3124,8 +3124,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#4200953V#2400F#5PHaha, I definitely thought it was absurd when I first\x01",
-            "heard it, too.\x02\x03",
+            "#4200953V#2400F#5PHaha, I definitely thought it was absurd when\x01",
+            "I first heard it, too.\x02\x03",
             "#4200954V#2410FHowever, I can't help but worry about the effects of\x01",
             "that medicine they created...\x02\x03",
             "#4200955V#2401FI've heard that, by borrowing the power of devils,\x01",

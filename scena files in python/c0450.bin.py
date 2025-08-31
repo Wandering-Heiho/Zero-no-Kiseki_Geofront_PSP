@@ -4329,9 +4329,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd carefully examined Gantz's pockets,\x01",
-            "making sure not to wake him up in the\x01",
-            "process.\x07\x00\x02",
+            "Lloyd carefully examined Gantz's pockets, making sure not\x01",
+            "to wake him up in the process.\x07\x00\x02",
         )
     )
 

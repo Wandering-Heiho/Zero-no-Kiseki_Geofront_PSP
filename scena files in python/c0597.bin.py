@@ -636,8 +636,9 @@ def main():
     ChrTalk(
         0x14,
         (
-            "#4300428V#0208FI found a list of Crossbell's most influential political\x01",
-            "and business figures engaged in acts of bribery.\x02\x03",
+            "#4300428V#0208FI found a list of Crossbell's most influential\x01",
+            "political and business figures engaged in acts\x01",
+            "of bribery.\x02\x03",
             "#4300429V#0203FIt includes not only the speaker, but also several\x01",
             "Imperial Faction diet members, the CGF commander,\x01",
             "and other directors of various organizations.\x02\x03",

@@ -14920,8 +14920,8 @@ def main():
         0xA,
         (
             "#4100060V#5PYep!\x02\x03",
-            "#4100008VI've been watching over the SSS building\x01",
-            "with Zeit aaaaall day long.\x02\x03",
+            "#4100008VI've been watching over the SSS\x01",
+            "building with Zeit aaaaall day long.\x02\x03",
             "#4100009VI even read three books from the\x01",
             "library, too.\x02",
         )
@@ -18410,7 +18410,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_COLOR, 0x2),
+            scpstr(SCPSTR_CODE_COLOR, 0x1),
             "[Related Elements]\x01",
             "① Assailants' physical abilities\x01",
             "② Haphazard chain of command\x01",
@@ -18884,10 +18884,11 @@ def main():
     AnonymousTalk(
         0x16,
         (
-            "#4200686VApologies, Sergei. Investigation meeting ran\x01",
-            "a bit long.\x02\x03",
-            "#4200687VIf this is about the same thing we discussed\x01",
-            "earlier, do you mind if we go ahead and begin?\x02",
+            "#4200686VApologies, Sergei. Investigation\x01",
+            "meeting ran a bit long.\x02\x03",
+            "#4200687VIf this is about the same thing we\x01",
+            "discussed earlier, do you mind if\x01",
+            "we go ahead and begin?\x02",
         )
     )
 
@@ -19115,8 +19116,8 @@ def main():
     ChrTalk(
         0x16,
         (
-            "#4200711V#0603F#11PWell, it's not quite as simple\x01",
-            "as that, Bannings...\x02\x03",
+            "#4200711V#0603F#11PWell, it's not quite as simple as that,\x01",
+            "Bannings...\x02\x03",
             "#4200712V#0601FAfter the raid on Heiyue, we received orders to\x01",
             "devote all our resources to quell any disputes\x01",
             "between them and the mafia.\x02\x03",
@@ -19566,8 +19567,8 @@ def main():
         0x16,
         (
             "#4200762V#0605FSergei?!\x02\x03",
-            "#4200763VRegardless of the circumstances, we can't\x01",
-            "just go handing out top secret intelligence...\x02",
+            "#4200763VRegardless of the circumstances, we can't just\x01",
+            "go handing out top secret intelligence...\x02",
         )
     )
 
@@ -19674,8 +19675,8 @@ def main():
         (
             "#4200780V#0600F#11PNot a bad start. Do you have any idea how\x01",
             "to determine that? Who to go to?\x02\x03",
-            "#4200781VBased on what we know, we can assume\x01",
-            "that this is a new, never-before-seen drug.\x02\x03",
+            "#4200781VBased on what we know, we can assume that\x01",
+            "this is a new, never-before-seen drug.\x02\x03",
             "#4200782VUsing the forensic tools back at HQ is out\x01",
             "of the question, as I have no experience\x01",
             "with them and would be easily caught.\x02",
@@ -19797,11 +19798,11 @@ def main():
         0x9,
         (
             "#4200792V#5P#1003FAnd it might just be our best option.\x02\x03",
-            "#4200793V#1000FIf you can, could you put together a report\x01",
-            "of the First Division's intel and send it to us\x01",
+            "#4200793V#1000FIf you can, could you put together a report of\x01",
+            "the First Division's intel and send it to us\x01",
             "by the end of the day?\x02\x03",
-            "#4200794VI want them to decide how to approach\x01",
-            "the investigation for themselves.\x02",
+            "#4200794VI want them to decide how to approach the\x01",
+            "investigation for themselves.\x02",
         )
     )
 
@@ -20144,10 +20145,12 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#4200823V#12P#0000FYes, sir. Doctor Joachim Guenter, an associate professor\x01",
-            "of pharmacology and neurology at St. Ursula.\x02\x03",
-            "#4200824VWhen we last spoke, it was clear that he knew\x01",
-            "his stuff when it came to pharmacology.\x02",
+            "#4200823V#12P#0000FYes, sir. Doctor Joachim Guenter, an\x01",
+            "associate professor of pharmacology\x01",
+            "and neurology at St. Ursula.\x02\x03",
+            "#4200824VWhen we last spoke, it was clear\x01",
+            "that he knew his stuff when it\x01",
+            "came to pharmacology.\x02",
         )
     )
 

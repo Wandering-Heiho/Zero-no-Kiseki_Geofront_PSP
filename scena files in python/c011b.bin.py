@@ -7095,7 +7095,7 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 40, 3)
     Sleep(500)
 
     AnonymousTalk(
@@ -8363,11 +8363,11 @@ def main():
     )
 
     CloseMessageWindow()
-    OP_C9(0x1, 0x3, 0xFFFFFFFF, 0x3E8, 0x0)
+    OP_C9(0x1, 0x3, 0xFF7F7F7F, 0x3E8, 0x0)
     OP_CA(0x0, 0x1, 0x3)
     Sleep(500)
     OP_C7(0x0, 0x800)
-    SetMessageWindowPos(-1, -1, -1, -1)
+    SetMessageWindowPos(-1, 272, -1, -1)
     SetChrName("")
 
     AnonymousTalk(

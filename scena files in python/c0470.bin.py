@@ -739,9 +739,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0003FYeah, no kidding. Someone could have\x01",
-            "been hurt had they tried to fight him while\x01",
-            "he had that unnatural strength.\x02\x03",
+            "#0003FYeah, no kidding. Someone could have been\x01",
+            "hurt had they tried to fight him while he\x01",
+            "had that unnatural strength.\x02\x03",
             "#0001FExcuse me, sir. I know this may be uncouth,\x01",
             "but would you mind keeping quiet about this\x01",
             "for now?\x02\x03",
@@ -8210,9 +8210,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "After further protest and shouting, Gantz\x01",
-            "became overwhelmingly exhausted and\x01",
-            "passed out.\x02\x03",
+            "After further protest and shouting, Gantz became\x01",
+            "overwhelmingly exhausted and passed out.\x02\x03",
             "Due to his condition, the Special Support Section\x01",
             "decided to carry him to his hotel room.\x07\x00\x02",
         )

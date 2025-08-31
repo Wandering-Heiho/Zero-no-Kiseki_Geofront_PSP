@@ -1560,8 +1560,8 @@ def main():
         0x101,
         (
             "#4200091V#6P#0003FPardon our interruption, Cao.\x02\x03",
-            "#4200092V#0000FI know you're busy with the aftermath of\x01",
-            "the raid, but could I borrow a minute of your time?\x02",
+            "#4200092V#0000FI know you're busy with the aftermath of the raid,\x01",
+            "but could I borrow a minute of your time?\x02",
         )
     )
 
@@ -1778,16 +1778,16 @@ def main():
     OP_C9(0x2, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x2, 0x3)
     OP_CA(0x0, 0x2, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 40, 3)
     Sleep(500)
 
     AnonymousTalk(
         0x8,
         (
             "#4200099VIt has been quite some time, my friends.\x02\x03",
-            "#4200100VI hear you all had quite the adventure on\x01",
-            "the final day of the Anniversary Festival,\x01",
-            "correct?\x02",
+            "#4200100VI hear you all had quite the adventure\x01",
+            "on the final day of the Anniversary\x01",
+            "Festival, correct?\x02",
         )
     )
 
@@ -1804,8 +1804,8 @@ def main():
         0x101,
         (
             "#4200101V#6P#0003FI'm assuming Yin has already informed you.\x02\x03",
-            "#4200102V#0001FAs you know, the Special Support Section\x01",
-            "doesn't follow conventional investigative protocol.\x02\x03",
+            "#4200102V#0001FAs you know, the Special Support Section doesn't\x01",
+            "follow conventional investigative protocol.\x02\x03",
             "#4200103VAnd with that in mind, how about you go ahead\x01",
             "and tell us your true intentions?\x02",
         )
@@ -2207,8 +2207,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#4200142V#3200F#11PIt wasn't only limited to their power and speed, either.\x01",
-            "They had inhuman endurance, as well.\x02\x03",
+            "#4200142V#3200F#11PIt wasn't only limited to their power and speed,\x01",
+            "either. They had inhuman endurance, as well.\x02\x03",
             "#4200143V#3204FAnd thanks to that, I had to put into practice\x01",
             "a few dangerous techniques.\x02",
         )
@@ -2473,10 +2473,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#4200178V#6P#0003FThis isn't directly related to the case in question...\x01",
-            "But, I figured I'd ask while I'm already here.\x02\x03",
-            "#4200179V#0001FDo you really not know anything\x01",
-            "about KeA?\x02",
+            "#4200178V#6P#0003FThis isn't directly related to the case\x01",
+            "in question...But, I figured I'd ask while I'm already here.\x02\x03",
+            "#4200179V#0001FDo you really not know anything about KeA?\x02",
         )
     )
 
@@ -2734,12 +2733,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#4200214V#3200F#11PI'll be honest with you. This raid was far beyond what I\x01",
-            "thought Revache was capable of.\x02\x03",
+            "#4200214V#3200F#11PI'll be honest with you. This raid was far beyond\x01",
+            "what I thought Revache was capable of.\x02\x03",
             "#4200215VI was under the impression that I was fully cognizant\x01",
             "of their strength, connections, and patterns.\x02\x03",
-            "#4200216V#3204FYet, they were able to pull off such a brazen\x01",
-            "attack on us in their weakened state.\x02\x03",
+            "#4200216V#3204FYet, they were able to pull off such a brazen attack\x01",
+            "on us in their weakened state.\x02\x03",
             "#4200217V#3210FThey've splendidly surpassed all my expectations.\x02",
         )
     )
@@ -2756,8 +2755,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#4200219V#3209F#11PI must say, I am unbelievably\x01",
-            "excited for what's to come.\x02\x03",
+            "#4200219V#3209F#11PI must say, I am unbelievably excited for\x01",
+            "what's to come.\x02\x03",
             "#4200220VI cannot recall a moment in the last few years\x01",
             "where a situation didn't proceed in the way\x01",
             "I had planned.\x02\x03",

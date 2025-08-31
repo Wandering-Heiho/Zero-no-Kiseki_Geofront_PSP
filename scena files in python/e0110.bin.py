@@ -128,8 +128,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#0500F#3P(Huh? That's the IBC CEO, but...who's that tourist\x01",
-            "in the weird getup?)\x02\x03",
+            "#0500F#3P(Huh? That's the IBC CEO, but...who's\x01",
+            "that tourist in the weird getup?)\x02\x03",
             "(They make a strange duo...)\x02",
         )
     )

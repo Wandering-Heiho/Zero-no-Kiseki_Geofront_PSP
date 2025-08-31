@@ -2402,8 +2402,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "In the end, the guardsmen weren't able\x01",
-            "to finish the investigation, and you four plus\x01",
+            "In the end, the guardsmen weren't able to\x01",
+            "finish the investigation, and you four plus\x01",
             "the sergeant major had to take over...\x02",
         )
     )

@@ -1283,7 +1283,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#1104FHmmmm hmmm hmm. ♪ Putting away\x01",
+            "#1104FHmmmm hmmm hmm. ♪ Putting away \x01",
             "dishes! Hmmmm hmmm hmm. ♪\x02",
         )
     )
@@ -1839,7 +1839,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#0202F'As long as I am here, this place is nigh untouchable.'\x01",
+            "#0202F'As long as I am here, this\x01",
+            "place is nigh untouchable.'\x01",
             "He would seem to be boasting.\x02",
         )
     )

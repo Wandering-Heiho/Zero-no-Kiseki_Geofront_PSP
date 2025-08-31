@@ -2577,7 +2577,8 @@ def main():
         0x109,
         (
             "#0506FYou don't have to keep repeating it, Mom.\x01",
-            "I already understood you the first time. Sheesh...\x02",
+            "I already understood you the first time.\x01",
+            "Sheesh...\x02",
         )
     )
 
@@ -3725,8 +3726,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#0200F(I am a little curious as to what kind of relationship\x01",
-            "the two of them are engaged in.)\x02",
+            "#0200F(I am a little curious as to what kind of\x01",
+            "relationship the two of them are engaged in.)\x02",
         )
     )
 
@@ -3844,11 +3845,11 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#0900FThey left us on standby at the guild to be prepared for\x01",
-            "an immediate response if the situation escalated,\x01",
+            "#0900FThey left us on standby at the guild to be prepared\x01",
+            "for an immediate response if the situation escalated,\x01",
             "but they've dismissed us for the time being.\x02\x03",
-            "#0903FWe're under the impression that they won't\x01",
-            "retaliate for a while.\x02\x03",
+            "#0903FWe're under the impression that they won't retaliate\x01",
+            "for a while.\x02\x03",
             "#0901FFor now, we've been put on standby within the city,\x01",
             "given the unpredictable nature of the situation.\x02",
         )
@@ -3867,8 +3868,10 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#0903FThis is one heck of a dispute between the two mafias...\x02\x03",
-            "#0901FI hope we'll be able to prevent disaster from striking.\x02",
+            "#0903FThis is one heck of a dispute\x01",
+            "between the two mafias...\x02\x03",
+            "#0901FI hope we'll be able to prevent\x01",
+            "disaster from striking.\x02",
         )
     )
 
@@ -3958,8 +3961,8 @@ def main():
             "#0901FBy the way, I heard you guys had to\x01",
             "deal with the mafia's war hounds.\x01",
             "That must have been rough.\x02\x03",
-            "#0902FI'm sure we'll all run into our fair share of troubles,\x01",
-            "but let's keep doing our best, all right?\x02",
+            "#0902FI'm sure we'll all run into our fair share of\x01",
+            "troubles, but let's keep doing our best, all right?\x02",
         )
     )
 

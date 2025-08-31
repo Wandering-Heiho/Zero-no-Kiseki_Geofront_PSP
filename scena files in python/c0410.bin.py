@@ -2992,7 +2992,8 @@ def main():
         (
             "#6102FI'm going to focus on getting my steps down\x01",
             "a little more cleanly for that scene.\x02\x03",
-            "#6109FAll right, let's do this! It's time to kick some butt!\x02",
+            "#6109FAll right, let's do this!\x01",
+            "It's time to kick some butt!\x02",
         )
     )
 
@@ -3030,7 +3031,8 @@ def main():
             "bound to arrive soon.\x02\x03",
             "#6102FI think I'll focus on getting my steps down\x01",
             "a little more cleanly for this scene.\x02\x03",
-            "#6109FAll right, let's do this! It's time to kick some butt!\x02",
+            "#6109FAll right, let's do this!\x01",
+            "It's time to kick some butt!\x02",
         )
     )
 

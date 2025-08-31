@@ -713,7 +713,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#0500FThat's right. This is the Special Support Section.\x02\x03",
+            "#0500FThat's right. This is the\x01",
+            "Special Support Section.\x02\x03",
             "They'll be assisting the CGF with the\x01",
             "investigation of the temple.\x02",
         )

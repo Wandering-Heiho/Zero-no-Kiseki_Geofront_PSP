@@ -3628,8 +3628,8 @@ def main():
         0xA,
         (
             "Time to make a new menu. Maybe it'd be\x01",
-            "better to stick with the classics, but sprinkle\x01",
-            "in a few original dishes, too.\x02",
+            "better to stick with the classics, but\x01",
+            "sprinkle in a few original dishes, too.\x02",
         )
     )
 
@@ -10673,9 +10673,10 @@ def main():
         0x101,
         (
             "#11P#0000FWe're always here to help.\x01",
-            "(I get the feeling I'm becoming some sort of errand boy.)\x02\x03",
-            "So, your request. It involves searching\x01",
-            "for something, right?\x02",
+            "(I get the feeling I'm becoming\x01",
+            "some sort of errand boy.)\x02\x03",
+            "So, your request. It involves\x01",
+            "searching for something, right?\x02",
         )
     )
 
@@ -11118,8 +11119,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#11P#0211FRegardless of how it tastes, it looks\x01",
-            "absolutely horrid.\x02",
+            "#11P#0211FRegardless of how it tastes,\x01",
+            "it looks absolutely horrid.\x02",
         )
     )
 

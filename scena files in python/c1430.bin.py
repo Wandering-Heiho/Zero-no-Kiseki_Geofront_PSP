@@ -1560,8 +1560,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Well, if it isn't Crossbell's esteemed heroes! The gallant folks\x01",
-            "that stopped the mayor from takin' a dirt nap!\x02",
+            "Well, if it isn't Crossbell's esteemed heroes! The gallant\x01",
+            "folks that stopped the mayor from takin' a dirt nap!\x02",
         )
     )
 
@@ -3258,9 +3258,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#0003FW-Wow. I don't really get it, but it sounds incredible.\x02\x03",
-            "#0005FSo, will Tio be able to use this new function if\x01",
-            "upgrades are made to the staff?\x02",
+            "#12P#0003FW-Wow. I don't really get it, but it\x01",
+            "sounds incredible.\x02\x03",
+            "#0005FSo, will Tio be able to use this new\x01",
+            "function if upgrades are made to the staff?\x02",
         )
     )
 
@@ -3492,7 +3493,8 @@ def main():
         0x104,
         (
             "#12P#0309FHaha. We're just gatherin' some materials.\x01",
-            "It's no biggie, Tio Tot. I could do that in my sleep.\x02",
+            "It's no biggie, Tio Tot. I could do that\x01",
+            "in my sleep.\x02",
         )
     )
 

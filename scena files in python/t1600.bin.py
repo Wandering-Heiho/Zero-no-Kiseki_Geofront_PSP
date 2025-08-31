@@ -1170,8 +1170,8 @@ def main():
             "#2401FAbout KeA's condition... I've looked into\x01",
             "everything I could find, but I have bad news.\x02\x03",
             "#2406FNothing is a perfect fit for her particular symptoms.\x01",
-            "There's also a possibility that she's developed a new,\x01",
-            "never-before-seen form of amnesia...\x02",
+            "There's also a possibility that she's developed a\x01",
+            "new, never-before-seen form of amnesia...\x02",
         )
     )
 

@@ -2783,8 +2783,8 @@ def main():
         0xFE,
         (
             "Crossbell City, a place where mafiosos\x01",
-            "run free throughout the streets... It sure\x01",
-            "sounds exciting.\x02",
+            "run free throughout the streets...\x01",
+            "It sure sounds exciting.\x02",
         )
     )
 

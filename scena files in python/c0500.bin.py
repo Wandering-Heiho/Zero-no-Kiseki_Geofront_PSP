@@ -4905,9 +4905,9 @@ def main():
         0xD,
         (
             "#4200274VHmph. It's you guys.\x02\x03",
-            "#4200275VYou have the audacity to show your faces\x01",
-            "around here after all the shit you've\x01",
-            "put us through?\x02",
+            "#4200275VYou have the audacity to show your\x01",
+            "faces around here after all the shit\x01",
+            "you've put us through?\x02",
         )
     )
 
@@ -5297,7 +5297,7 @@ def main():
     OP_C9(0x1, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x1, 0x3)
     OP_CA(0x0, 0x1, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 36, 3)
 
     AnonymousTalk(
         0xE,
@@ -5306,8 +5306,8 @@ def main():
             "guides me to the juiciest of scoops!\x02\x03",
             "#4200311VAnyway. Let's proceed with the usual\x01",
             "give-and-take session, shall we? ♪\x02\x03",
-            "#4200312VI'll be anxiously awaiting your arrival\x01",
-            "at the jazz bar! ㈱\x02",
+            "#4200312VI'll be anxiously awaiting your\x01",
+            "arrival at the jazz bar! ㈱\x02",
         )
     )
 

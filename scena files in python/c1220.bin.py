@@ -2775,7 +2775,7 @@ def main():
         0x102,
         (
             "#0100FWe think he's from the Empire, if that helps.\x01",
-            "Perhaps you've heard about him while reporting there...\x02",
+            "Perhaps you've heard about him while reporting there.\x02",
         )
     )
 
@@ -3211,8 +3211,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "She left it to me to cover the rest of\x01",
-            "the diet session...\x01",
+            "She left it to me to cover the rest of the diet session...\x01",
             "*sigh* Guess I'll try my hardest to do a good job.\x02",
         )
     )

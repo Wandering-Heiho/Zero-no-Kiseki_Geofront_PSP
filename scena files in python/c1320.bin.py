@@ -2515,8 +2515,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#0000F(They brought the chief out from the Epstein Foundation?\x01",
-            "Their work today must be terribly difficult.)\x02",
+            "#0000F(They brought the chief out from\x01",
+            "the Epstein Foundation? Their work\x01",
+            "today must be terribly difficult.)\x02",
         )
     )
 
@@ -2525,10 +2526,12 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#0203F(Chief Roberts can actually be quite proficient when\x01",
-            "he keeps his mouth shut and himself busy.)\x02\x03",
-            "#0200F(As of now, he is classified as one of the continent's\x01",
-            "leading minds in the field of orbal technology.)\x02",
+            "#0203F(Chief Roberts can actually be quite\x01",
+            "proficient when he keeps his mouth\x01",
+            "shut and himself busy.)\x02\x03",
+            "#0200F(As of now, he is classified as one of\x01",
+            "the continent's leading minds in the\x01",
+            "field of orbal technology.)\x02",
         )
     )
 

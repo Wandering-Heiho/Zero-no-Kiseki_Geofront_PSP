@@ -9029,9 +9029,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#0003FN-No. We're in the middle of an important request.\x02\x03",
-            "#0000FYou see, there's a tourist claiming that you helped\x01",
-            "him during the last day of the Anniversary Festival...\x02\x03",
+            "#12P#0003FN-No. We're in the middle of an important\x01",
+            "request.\x02\x03",
+            "#0000FYou see, there's a tourist claiming that\x01",
+            "you helped him during the last day of\x01",
+            "the Anniversary Festival...\x02\x03",
             "You apparently helped him find his wallet.\x01",
             "Does that ring any bells?\x02",
         )

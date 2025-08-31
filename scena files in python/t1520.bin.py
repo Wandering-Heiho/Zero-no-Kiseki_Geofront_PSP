@@ -2858,8 +2858,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "A framed photograph of Cecile, Lloyd, and a muscular man with\x01",
-            "a determined look on his face sits on the shelf.\x07\x00\x02",
+            "A framed photograph of Cecile, Lloyd, and a muscular man\x01",
+            "with a determined look on his face sits on the shelf.\x07\x00\x02",
         )
     )
 

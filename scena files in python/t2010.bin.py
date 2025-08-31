@@ -4314,8 +4314,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Do you need something? And\x01",
-            "didn't I tell you to stop staring at\x01",
+            "Do you need something? And didn't\x01",
+            "I tell you to stop staring at\x01",
             "people while they eat?\x02",
         )
     )

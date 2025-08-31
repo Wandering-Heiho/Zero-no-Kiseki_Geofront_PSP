@@ -2599,9 +2599,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "I've been running all over the place, since I've been focusing\x01",
-            "on taking landscape photos. I managed to find a place\x01",
-            "that really stood out to me, though.\x02",
+            "I've been running all over the place, since I've been\x01",
+            "focusing on taking landscape photos. I managed to find\x01",
+            "a place that really stood out to me, though.\x02",
         )
     )
 

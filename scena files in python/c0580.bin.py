@@ -5634,9 +5634,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PI do. One from Rosenberg Studio, which\x01",
-            "you'll find on the outskirts of the northern\x01",
-            "mountain path.\x02",
+            "#11PI do. One from Rosenberg Studio,\x01",
+            "which you'll find on the outskirts\x01",
+            "of the northern mountain path.\x02",
         )
     )
 

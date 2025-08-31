@@ -696,8 +696,8 @@ def main():
         (
             "#4201025V#40WPlease...there was no need to be.\x02\x03",
             "#4201026VAs someone involved in the ongoing\x01",
-            "drug investigation, I'm sure you have\x01",
-            "to ask.\x02\x03",
+            "drug investigation, I'm sure you\x01",
+            "have to ask.\x02\x03",
             "#4201027VAbout everything I know, I mean.\x02",
         )
     )
@@ -1917,8 +1917,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "A framed photograph of Cecile, Lloyd, and a muscular man with\x01",
-            "a determined look on his face sits on the shelf.\x07\x00\x02",
+            "A framed photograph of Cecile, Lloyd, and a muscular man\x01",
+            "with a determined look on his face sits on the shelf.\x07\x00\x02",
         )
     )
 

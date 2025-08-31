@@ -1997,7 +1997,7 @@ def main():
             "'I've had enough of you and your\x01",
             "insistence on only doing as you please.'\x02\x03",
             "'So, now I shall do as I please. Goodbye!\x01",
-            "                                                 - Carla'\x02\x03",
+            "                                 - Carla'\x02\x03",
             "'P.S. I've brought the maid with me.\x01",
             "If you're bothered that your meals will\x01",
             "no longer be made for you, then I'm glad!'\x02",
@@ -2615,7 +2615,7 @@ def main():
             "I've had enough of you and your\x01",
             "insistence on only doing as you please.\x01",
             "So, now I shall do as I please. Goodbye!\x01",
-            "                                                 - Carla\x02",
+            "                                 - Carla\x02",
         )
     )
 
@@ -2690,7 +2690,7 @@ def main():
             "I've had enough of you and your\x01",
             "insistence on only doing as you please.\x01",
             "So, now I shall do as I please. Goodbye!\x01",
-            "                                                 - Carla\x02",
+            "                                 - Carla\x02",
         )
     )
 

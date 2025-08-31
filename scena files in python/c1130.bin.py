@@ -5793,8 +5793,8 @@ def main():
         0xF,
         (
             "I remember back when Guy used to work\x01",
-            "for the police. I don't think there was a day\x01",
-            "where he didn't love his job.\x02",
+            "for the police. I don't think there was\x01",
+            "a day where he didn't love his job.\x02",
         )
     )
 
