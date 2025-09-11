@@ -22,6 +22,7 @@ For those wanting to edit this project, or maybe don't want to use a patch.
 - While most of the original dialogue from the Geofront script works fine, some of the dialogue currently goes outside of the text boxes. This is currently being worked on by changing the line breaks, or from splitting a piece of dialogue into two text boxes. This issue was also present in the original PSP English translation patch, which usually gets fixed by using the Geofront text. [Examples of the problem](https://imgur.com/a/438Ogyc)
 - Some Craft names go outside of the box in the menu, but not in the battles. This is most noticeable with the Crafts "Electromagnetic Net β" and "Supreme Cloak & Dagger". At this current moment, I have no plans to edit these.
 - Textures have not been replaced in the ISO itself, so things like the Art/Quartz list are all in Japanese. Attempts to replace these have all failed, so the current plan is to provide a set of textures to replace them with PPSSPP's texture replacement feature.
+- Some enemy names are long enough that part of them is covered up by the text "Sepith:". I can fix this somewhat, but not fully. While information in battle will look fine, the end diamond for the Combat Notebook will be offset, and enemy name on the tab will be squeezed from the length.
 
 ## Tools/Resources Used in this Project
 Fork of the [EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler) by ZhenjianYang for decrypting and repacking the bins files located in the scena folder, which contain the majority of the dialogue in the game.
