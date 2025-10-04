@@ -13123,8 +13123,10 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5100057V#11P...it seems like we were too late\x01",
-        "on figuring it out this time.\x02",
+        (
+            "#5100057V#11P...it seems like we were too late\x01",
+            "on figuring it out this time.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -14295,3 +14297,4 @@ def main():
     SaveToFile()
 
 Try(main)
+
