@@ -5813,10 +5813,11 @@ def main():
         (
             "#5100270V\x07\x00",
             "#0005FOh, we haven't told you yet?\x02\x03",
-            "#5100271V#0000FDoctor Joachim Guenter. He's an associate professor\x01",
-            "of neurology and pharmacology at St. Ursula.\x02\x03",
-            "#5100272VHe's only in his mid-thirties, but he's managed to\x01",
-            "build a name for himself.\x02",
+            "#5100271V#0000FDoctor Joachim Guenter. He's\x01",
+            "an associate professor of neurology\x01",
+            "and pharmacology at St. Ursula.\x02\x03",
+            "#5100272VHe's only in his mid-thirties, but he's\x01",
+            "managed to build a name for himself.\x02",
         )
     )
 
@@ -6092,8 +6093,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd explained everything Dudley\x01",
-            "told him to the others.\x07\x00\x02",
+            "Lloyd explained everything Dudley told him to the others.\x07\x00\x02",
         )
     )
 

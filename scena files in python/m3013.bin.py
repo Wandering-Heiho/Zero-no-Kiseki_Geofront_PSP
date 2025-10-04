@@ -507,8 +507,8 @@ def main():
 
     label("loc_DA2")
 
-    FadeToDark(300, 0, 100)
-    SetMessageWindowPos(-1, -1, 34, -1)
+    FadeToDark(300, 0, 150)
+    SetMessageWindowPos(-1, -1, 43, -1)
     SetChrName("")
 
     AnonymousTalk(

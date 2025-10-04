@@ -1818,8 +1818,8 @@ def main():
         0x101,
         (
             "#6P#0003F(I finally found your badge, Guy.)\x02\x03",
-            "(With this in hand, I can finally take the first steps\x01",
-            "toward avenging your death.)\x02\x03",
+            "(With this in hand, I can finally take the first\x01",
+            "steps toward avenging your death.)\x02\x03",
             "#0008F(But, I'm sorry. That has to wait. For now, I have\x01",
             "to focus on the case in front of me.)\x02\x03",
             "(Citizens getting wrapped up with some mysterious\x01",

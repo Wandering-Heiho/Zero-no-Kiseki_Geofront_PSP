@@ -913,10 +913,10 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#5100806V#30WHello, Elie. It's been about two months now,\x01",
-            "hasn't it?\x02\x03",
-            "#5100807VThe night is young, yet the moon looks\x01",
-            "positively gorgeous.\x02",
+            "#5100806V#30WHello, Elie. It's been about two\x01",
+            "months now, hasn't it?\x02\x03",
+            "#5100807VThe night is young, yet the moon\x01",
+            "looks positively gorgeous.\x02",
         )
     )
 
@@ -1993,7 +1993,10 @@ def main():
 
     AnonymousTalk(
         0x102,
-        "#5100885V#0101FIt's extremely similar to the one we found in the temple.\x02",
+        (
+            "#5100885V#0101FIt's extremely similar to the one we found in\01",
+            "the temple.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -2136,8 +2139,8 @@ def main():
         (
             "#5100891V\x07\x03",
             "#0702FThere truly is no decency left in this world.\x02\x03",
-            "#5100892VThough, it's a surprise that Speaker Hartmann himself\x01",
-            "was subject to blackmail.\x02",
+            "#5100892VThough, it's a surprise that Speaker Hartmann\x01",
+            "himself was subject to blackmail.\x02",
         )
     )
 
@@ -2175,10 +2178,11 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#5100897V#0003FRegardless of what it was, he was able to find one\x01",
-            "of the speaker's vulnerabilities and then exploited it.\x02\x03",
+            "#5100897V#0003FRegardless of what it was, he was able to find\x01",
+            "one of the speaker's vulnerabilities and then\x01",
+            "exploited it.\x02\x03",
             "#5100898V#0013FWhat's more, he lent Revache a helping hand in\x01",
-            "order to guarantee the cult refuge in Crossbell...\x02",
+            "order to guarantee the cult refuge in Crossbell.\x02",
         )
     )
 
@@ -2357,8 +2361,8 @@ def main():
     AnonymousTalk(
         0x104,
         (
-            "#5100922V#0311FThose sick bastards... How could they do something\x01",
-            "like this?\x02",
+            "#5100922V#0311FThose sick bastards... How could they do\x01",
+            "something like this?\x02",
         )
     )
 
@@ -2464,7 +2468,9 @@ def main():
 
     AnonymousTalk(
         0x104,
-        "#5100933V#0304FHaha... You're so cute now, I can hardly recognize ya.\x02",
+        (
+            "#5100933V#0304FHaha... You're so cute now, I can hardly\x01",
+            "recognize ya.\x02",
     )
 
     CloseMessageWindow()
@@ -2570,9 +2576,10 @@ def main():
         0x106,
         (
             "#5100941V\x07\x03",
-            "#0700FThat girl is an acquaintance of yours, is that right?\x02\x03",
-            "#5100942VAround that time, I had heard rumors of kidnappings\x01",
-            "taking place in the Eastern Quarter...\x02\x03",
+            "#0700FThat girl is an acquaintance of yours,\x01",
+            "is that right?\x02\x03",
+            "#5100942VAround that time, I had heard rumors of\x01",
+            "kidnappings taking place in the Eastern Quarter.\x02\x03",
             "#5100943VThese cultists must be guilty of those crimes.\x01",
             "I'm certain.\x07\x00\x02",
         )
@@ -2692,7 +2699,8 @@ def main():
         (
             "#5100951V\x07\x00",
             "#0006FYeah, probably so.\x02\x03",
-            "#5100952V#0010FDamn it! He knew everything from the very beginning!\x02",
+            "#5100952V#0010FDamn it!\x01",
+            "He knew everything from the very beginning!\x02",
         )
     )
 
@@ -2705,8 +2713,8 @@ def main():
         0x102,
         (
             "#5100953V#0108FWhen we brought KeA here...\x02\x03",
-            "#5100954V#0101F...he innocently suggested we have her stay at the\x01",
-            "hospital for tests.\x02",
+            "#5100954V#0101F...he innocently suggested we have her stay at\x01",
+            "the hospital for tests.\x02",
         )
     )
 
@@ -2741,8 +2749,8 @@ def main():
         0x104,
         (
             "#5100957V#0303FWe brought KeDo here to ask about her memories.\x02\x03",
-            "#5100958V#0310FThat slimy bastard wanted her to stay at the hospital\x01",
-            "so he could run a bunch of tests on her...\x02",
+            "#5100958V#0310FThat slimy bastard wanted her to stay at the\x01",
+            "hospital so he could run a bunch of tests on her.\x02",
         )
     )
 
@@ -2998,7 +3006,7 @@ def main():
     OP_C9(0x3, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x3, 0x3)
     OP_CA(0x0, 0x3, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 39, 3)
     Sleep(500)
 
     AnonymousTalk(
@@ -3147,8 +3155,8 @@ def main():
             "#5100990V...associate professor of St. Ursula Medical\x01",
             "College and high priest of the D∴G cult.\x02\x03",
             "#5100991V#3303FIt seems he collected all the results of their\x01",
-            "ceremonies and put the finishing touches\x01",
-            "on his Gnosis, all while hiding in plain sight.\x02\x03",
+            "ceremonies and put the finishing touches on his\x01",
+            "Gnosis, all while hiding in plain sight.\x02\x03",
             "#5100992V#3300FAnd with this, I finally have every piece of\x01",
             "information I wanted to know.\x02",
         )

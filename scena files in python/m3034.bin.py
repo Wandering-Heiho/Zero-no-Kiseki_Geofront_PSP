@@ -538,8 +538,8 @@ def main():
         0x104,
         (
             "#5300454V#0311F#6P#NYo, Killing Bear...\x02\x03",
-            "#5300455V#0303FYou might not be able to understand\x01",
-            "me, but I'll grant you your damn wish...\x01",
+            "#5300455V#0303FYou might not be able to understand me,\x01",
+            "but I'll grant you your damn wish...\x01",
             "No holding back anymore.\x02\x03",
             "#5300456V#0312FPrepare to witness the power of the\x01",
             "Red Reaper... Son of the War God!\x02",

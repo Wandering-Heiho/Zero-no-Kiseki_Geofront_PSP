@@ -2747,7 +2747,7 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 43, 3)
     Sleep(500)
 
     AnonymousTalk(
@@ -2830,8 +2830,8 @@ def main():
             "#5300404V#12P#0008FHow you met Guenter, your motive\x01",
             "behind all of this madness...\x02\x03",
             "#5300405V#0003FWe'll find those answers when we\x01",
-            "question you, after all of this is said\x01",
-            "and done.\x02",
+            "question you, after all of this\x01",
+            "is said and done.\x02",
         )
     )
 

@@ -455,9 +455,9 @@ def main():
         0x8,
         (
             "#3600FMy wife has gone to visit Miss Creil.\x02\x03",
-            "#3603FYou see, Miss Creil and my\x01",
-            "wife are close friends.\x01",
-            "I'm sure Sophia is worried about her...\x02\x03",
+            "#3603FYou see, Miss Creil and my wife are\x01",
+            "close friends. I'm sure Sophia is\x01",
+            "worried about her...\x02\x03",
             "#3600FIt's wonderful that she has a friend she\x01",
             "can lean on in times like these. I intend\x01",
             "on supporting both of them, of course.\x02",

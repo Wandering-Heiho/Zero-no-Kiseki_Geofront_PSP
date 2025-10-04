@@ -649,17 +649,19 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 29, 4)
     Sleep(500)
 
     AnonymousTalk(
         0x8,
         (
             "#5300532V\x07\x00",
-            "#50A#30WWelcome...to the holy ground of our origin.\x02\x03",
-            "#5300533V#65ALadies and gentlemen from the Special Support\x01",
-            "Section, as well as the esteemed guests from the\x01",
-            "Bracer Guild.\x02\x03",
+            "#20A#20WWelcome...to the holy ground\x01",
+            "of our origin.\x02\x03",
+            "#5300533V#25ALadies and gentlemen from the\x01",
+            "Special Support Section, as\x01",
+            "well as the esteemed guests\x01",
+            "from the Bracer Guild.\x02\x03",
             "#5300534V#20AI'm glad you could join me.\x02",
         )
     )
@@ -916,8 +918,8 @@ def main():
     ChrTalk(
         0x107,
         (
-            "#5300550V#0808F(This guy has the same messed-up personality\x01",
-            "as the professor... I didn't think that was possible.)\x02",
+            "#5300550V#0808F(This guy has the same messed-up personality as\x01",
+            "the professor... I didn't think that was possible.)\x02",
         )
     )
 
@@ -1237,8 +1239,8 @@ def main():
             "#5300593VAidios, the Goddess of the Sky?!\x01",
             "There is no such thing!\x02\x03",
             "#5300594VWhy can't you understand that her\x01",
-            "very existence is a fabrication created\x01",
-            "by the Septian Church?!\x02",
+            "very existence is a fabrication\x01",
+            "created by the Septian Church?!\x02",
         )
     )
 
@@ -1275,8 +1277,8 @@ def main():
             "You see, we don't worship the devils\x01",
             "at all. Quite the contrary, actually.\x02\x03",
             "#5300599VWe simply use them because they're\x01",
-            "convenient in our fight in denying the\x01",
-            "very concept of this 'goddess.'\x02\x03",
+            "convenient in our fight in denying\x01",
+            "the very concept of this 'goddess.'\x02\x03",
             "#5300600V#6700FFighting fire with fire, so to speak.\x02",
         )
     )
@@ -1976,9 +1978,10 @@ def main():
         0x101,
         (
             "#5300673V#0003F#5PHigh Priest Joachim Guenter of the D∴G cult...\x02\x03",
-            "#5300674V#0007FAccording to Crossbell State law, you're hereby under arrest\x01",
-            "on the charges of assault, incitement of a riot, unlawful\x01",
-            "occupation of property, misuse of drugs, and child abuse!\x02",
+            "#5300674V#0007FAccording to Crossbell State law, you're hereby\x01",
+            "under arrest on the charges of assault, incitement\x01",
+            "of a riot, unlawful occupation of property,\x01",
+            "misuse of drugs, and child abuse!\x02",
         )
     )
 
@@ -2209,17 +2212,20 @@ def main():
     OP_C9(0x2, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x2, 0x3)
     OP_CA(0x0, 0x2, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 30, 3)
 
     AnonymousTalk(
         0x8,
         (
             "#5300683V\x07\x02",
-            "This is my true hair color, if you were curious...\x02\x03",
-            "#5300684VAs a result of repeated Gnosis consumption,\x01",
-            "my body has grown somewhat...unordinary.\x02\x03",
-            "#5300685VAs a result, I haven't been able to get a wink\x01",
-            "of sleep for the past several years.\x07\x00\x02",
+            "This is my true hair color,\x01",
+            "if you were curious...\x02\x03",
+            "#5300684VAs a result of repeated Gnosis\x01",
+            "consumption, my body has grown\x01",
+            "somewhat...unordinary.\x02\x03",
+            "#5300685VAs a result, I haven't been\x01",
+            "able to get a wink of sleep\x01",
+            "for the past several years.\x07\x00\x02",
         )
     )
 
@@ -3422,8 +3428,8 @@ def main():
         0x101,
         (
             "#5300788V\x07\x00",
-            "#0002F#6P#NThen what about Gnosis? Come on,\x01",
-            "your jokes have to end somewhere.\x02\x03",
+            "#0002F#6P#NThen what about Gnosis? Come on, your jokes\x01",
+            "have to end somewhere.\x02\x03",
             "#5300789V#0003FRight now, all you're doing is peering\x01",
             "into people, stealing their memories,\x01",
             "and mimicking what you see.\x02\x03",
@@ -6860,7 +6866,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#5300988V#11P#3310F#25A#40W#NS-Stop, please...!\x02",
+        "#5300988V#11P#3310F#10A#40W#NS-Stop, please...!\x02",
     )
 
     CloseMessageWindow()

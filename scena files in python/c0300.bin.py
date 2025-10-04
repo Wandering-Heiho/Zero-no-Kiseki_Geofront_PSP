@@ -1432,8 +1432,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Public projects should get more funding\x01",
-            "now, which will likely help the diet's approval\x01",
+            "Public projects should get more funding now,\x01",
+            "which will likely help the diet's approval\x01",
             "ratings with the citizens.\x02",
         )
     )

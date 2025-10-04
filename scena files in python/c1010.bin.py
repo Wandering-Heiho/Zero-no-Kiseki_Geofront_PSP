@@ -13123,7 +13123,8 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5100057V#11P...it seems like we were too late on figuring it out this time.\x02",
+        "#5100057V#11P...it seems like we were too late\x01",
+        "on figuring it out this time.\x02",
     )
 
     CloseMessageWindow()
@@ -13226,8 +13227,8 @@ def main():
         0x101,
         (
             "#5100071V#12P#0008FI think I get it...\x02\x03",
-            "#5100072V#0001FYou're saying that there are parts to the puzzle that\x01",
-            "we haven't pieced together yet.\x02",
+            "#5100072V#0001FYou're saying that there are parts to the puzzle\x01",
+            "that we haven't pieced together yet.\x02",
         )
     )
 
@@ -13299,8 +13300,8 @@ def main():
         0x9,
         (
             "#5100082V#5P#1404FYes, likewise.\x02\x03",
-            "#5100083V#1402FNow that we're settled, we should decide on how we\x01",
-            "want to partition our duties.\x02",
+            "#5100083V#1402FNow that we're settled, we should decide\x01",
+            "on how we want to partition our duties.\x02",
         )
     )
 
@@ -13342,8 +13343,8 @@ def main():
         0x9,
         (
             "#5100087V#1P#1403FOkay, please call everyone here.\x02\x03",
-            "#5100088V#1401FLet's try and cover any important locations before\x01",
-            "the day is over.\x02",
+            "#5100088V#1401FLet's try and cover any important\x01",
+            "locations before the day is over.\x02",
         )
     )
 
@@ -13467,9 +13468,10 @@ def main():
         (
             "#5100100V#5P#1402FI was.\x02\x03",
             "#5100101V#1404FIt was Sergei, Guy, and myself.\x02\x03",
-            "#5100102VThe three of us were considered the most successful\x01",
-            "team in the history of the force. We accomplished\x01",
-            "more than any other group, including the First Division.\x02\x03",
+            "#5100102VThe three of us were considered the most\x01",
+            "successful team in the history of the force.\x02\x03",
+            "We accomplished more than any other group,\x01",
+            "including the First Division.\x02\x03",
             "#5100103V#1400FHowever, I quit the force five years ago\x01",
             "due to personal reasons. And with that,\x01",
             "we were no more.\x02\x03",
@@ -13545,8 +13547,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5100116V#5P#1403FThe police have their own duties to\x01",
-            "perform, just as the guild has theirs.\x02\x03",
+            "#5100116V#5P#1403FThe police have their own duties to perform,\x01",
+            "just as the guild has theirs.\x02\x03",
             "#5100117V#1400FIf it's the guild's role to pursue justice\x01",
             "outside the scope of political authority...\x02\x03",
             "#5100118VThen it's the police's job to seek that\x01",
@@ -13740,7 +13742,8 @@ def main():
         0x14,
         (
             "#5100134VTeehee, thank you!\x02\x03",
-            "#5100135VHi, everyone. I'm pleased to be with you.\x02",
+            "#5100135VHi, everyone.\x01",
+            "I'm pleased to be with you.\x02",
         )
     )
 

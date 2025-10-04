@@ -9226,8 +9226,8 @@ def main():
         0x103,
         (
             "#5200011V#12P#0206FI agree.\x02\x03",
-            "#5200012V#0208FJudging by these files, and how obviously he\x01",
-            "craved our attention, I felt as if this whole series of\x01",
+            "#5200012V#0208FJudging by these files, and how obviously he craved\x01",
+            "our attention, I felt as if this whole series of\x01",
             "events was nothing but a fanatic's provocation.\x02\x03",
             "#5200013V#0201FAnd then there is KeA to consider, too...\x02",
         )
@@ -9274,10 +9274,11 @@ def main():
         0x101,
         (
             "#5200021V#12P#0003FYes, sir.\x02\x03",
-            "#5200022V#0008FWe know about all of those horrific rituals conducted\x01",
-            "throughout Zemuria six years ago...\x02\x03",
-            "#5200023V#0001FWhat if--and I hate to say this...but what if Guenter is\x01",
-            "telling us that he plans on using KeA in the final ritual?\x02",
+            "#5200022V#0008FWe know about all of those horrific rituals\x01",
+            "conducted throughout Zemuria six years ago...\x02\x03",
+            "#5200023V#0001FWhat if--and I hate to say this...but what if\x01",
+            "Guenter is telling us that he plans on using\x01",
+            "KeA in the final ritual?\x02",
         )
     )
 
@@ -9414,7 +9415,8 @@ def main():
         (
             "#5200037V#1003F#5PLiberl, eh? Agreed. That would be the most secure\x01",
             "place for her right now.\x02\x03",
-            "#5200038V#1000FI'll ask it again, though. Are you really okay with it?\x02\x03",
+            "#5200038V#1000FI'll ask it again, though. Are you really\x01",
+            "okay with it?\x02\x03",
             "#5200039VYou'd be throwing away your ability to watch over\x01",
             "the kid yourself. Is it worth it?\x02",
         )
@@ -10048,8 +10050,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd briefly informed Noel about\x01",
-            "the Bracer Guild being assaulted.\x07\x00\x02",
+            "Lloyd briefly informed Noel about the Bracer Guild being\x01",
+            "assaulted.\x07\x00\x02",
         )
     )
 

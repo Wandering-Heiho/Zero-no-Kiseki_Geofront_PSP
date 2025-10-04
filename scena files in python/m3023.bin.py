@@ -2209,8 +2209,8 @@ def main():
         0x101,
         (
             "#5300344V#12P#0003FI know your plan.\x02\x03",
-            "#5300345VYou used Crossbell's citizens as lab\x01",
-            "rats to evaluate the safety of Gnosis.\x02\x03",
+            "#5300345VYou used Crossbell's citizens as lab rats\x01",
+            "to evaluate the safety of Gnosis.\x02\x03",
             "#5300346V#0013FIf things went smoothly, you would have begun\x01",
             "to market the drug to potential buyers, expanding\x01",
             "its reach all over Zemuria...\x02",

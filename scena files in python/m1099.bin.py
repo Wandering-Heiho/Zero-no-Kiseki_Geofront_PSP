@@ -1366,9 +1366,8 @@ def main():
             "#2201270VIlya Platiere is a genius.\x02\x03",
             "#2201271VShe most likely realized that the true\x01",
             "target behind the threat letter wasn't her.\x02\x03",
-            "#2201272V#0700FThat being the case, why was\x01",
-            "such a thing sent to Arc en Ciel\x01",
-            "in the first place?\x07\x00\x02",
+            "#2201272V#0700FThat being the case, why was such a thing\x01",
+            "sent to Arc en Ciel in the first place?\x07\x00\x02",
         )
     )
 

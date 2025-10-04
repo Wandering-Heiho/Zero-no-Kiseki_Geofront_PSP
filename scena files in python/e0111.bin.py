@@ -545,8 +545,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#5200356V#11P#0300FCan't forget that we dragged\x01",
-            "the poor kiddos all over the city, too.\x02",
+            "#5200356V#11P#0300FCan't forget that we dragged the\x01",
+            "poor kiddos all over the city, too.\x02",
         )
     )
 

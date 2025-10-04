@@ -541,9 +541,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Taking the time of day into account, the\x01",
-            "possibility of the outpatients getting involved\x01",
-            "in this is...quite high, I'm afraid.\x02",
+            "Taking the time of day into account, the possibility\x01",
+            "of the outpatients getting involved in this is...\x01",
+            "quite high, I'm afraid.\x02",
         )
     )
 

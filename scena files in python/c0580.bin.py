@@ -4755,7 +4755,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "Quest \x07\x02",
-            "[Abandoned Apartment Monster Cleanup]\x07\x00",
+            "[Abandoned Apartment Cleanup]\x07\x00",
             " started!\x02",
         )
     )
@@ -5027,7 +5027,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "Quest \x07\x02",
-            "[Abandoned Apartment Monster Cleanup]\x07\x00",
+            "[Abandoned Apartment Cleanup]\x07\x00",
             " completed!\x02",
         )
     )

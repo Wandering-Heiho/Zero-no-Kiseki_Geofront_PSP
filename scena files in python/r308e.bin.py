@@ -480,7 +480,8 @@ def main():
         0x8,
         (
             "#5301030VThank goodness!\x02\x03",
-            "#5301031VLloyd, Elie, Tio, Randy... You're all okay!\x02",
+            "#5301031VLloyd, Elie, Tio, Randy...\x01",
+            "You're all okay!\x02",
         )
     )
 

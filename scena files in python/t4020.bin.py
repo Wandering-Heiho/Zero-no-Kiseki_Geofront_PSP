@@ -1251,7 +1251,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "Quest \x07\x02",
-            "[Collecting Flowers for Resting Places]\x07\x00",
+            "[Collecting Flowers for Graves]\x07\x00",
             " started!\x02",
         )
     )
@@ -1579,7 +1579,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "Quest \x07\x02",
-            "[Collecting Flowers for Resting Places]\x07\x00",
+            "[Collecting Flowers for Graves]\x07\x00",
             " completed!\x02",
         )
     )

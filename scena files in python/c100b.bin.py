@@ -310,8 +310,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd gave a brief explanation of the\x01",
-            "current situation to Michel.\x07\x00\x02",
+            "Lloyd gave a brief explanation of the current situation\x01",
+            "to Michel.\x07\x00\x02",
         )
     )
 

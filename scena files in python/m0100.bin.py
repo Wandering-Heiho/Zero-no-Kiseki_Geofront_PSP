@@ -1266,8 +1266,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#11P#0003FThat must be connected to the\x01",
-            "abnormality we're investigating.\x02\x03",
+            "#11P#0003FThat must be connected to the abnormality\x01",
+            "we're investigating.\x02\x03",
             "#0001FIn that case, let's use this elevator to\x01",
             "reach the lower stratum.\x02\x03",
             "Also, if we need to take care of our equipment,\x01",
@@ -1796,10 +1796,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#0003FI still can't shake the feeling\x01",
-            "that was no average monster.\x02\x03",
-            "#0001FIt wouldn't be a bad idea to consult\x01",
-            "with the guild about this in the future, but...\x02",
+            "#12P#0003FI still can't shake the feeling that was\x01",
+            "no average monster.\x02\x03",
+            "#0001FIt wouldn't be a bad idea to consult with\x01",
+            "the guild about this in the future, but...\x02",
         )
     )
 

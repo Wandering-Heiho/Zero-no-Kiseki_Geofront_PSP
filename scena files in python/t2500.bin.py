@@ -3795,7 +3795,7 @@ def main():
         0x19,
         (
             "#11P#2005FWasn't the support request called 'Guardian\x01",
-            "Force Drill Participation'?\x02\x03",
+            "Force Drill Assistance'?\x02\x03",
             "#2002FIsn't it only natural for you to continue with\x01",
             "their training like a proper mentor, Orlando?\x02",
         )

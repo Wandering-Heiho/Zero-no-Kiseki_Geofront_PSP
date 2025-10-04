@@ -2816,8 +2816,9 @@ def main():
             "#0204FLikely.\x02\x03",
             "#0202FJona has placed back doors in various terminals\x01",
             "across the city to simplify the hacking process.\x02\x03",
-            "As long as we have access to the terminals, we should be\x01",
-            "able to reach him, and he can inform us of the situation.\x02",
+            "As long as we have access to the terminals, we\x01",
+            "should be able to reach him, and he can inform\x01",
+            "us of the situation.\x02",
         )
     )
 
@@ -2853,8 +2854,8 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#0204FAs for providing me with assistance, I alone should suffice.\x01",
-            "There is no need for concern.\x02\x03",
+            "#0204FAs for providing me with assistance, I alone\x01",
+            "should suffice. There is no need for concern.\x02\x03",
             "#0202FPlease consider resting after you have completed\x01",
             "resupplying, Lloyd.\x02",
         )
@@ -2913,8 +2914,9 @@ def main():
             "#0202FI am currently trying to contact Jona.\x02\x03",
             "He has placed back doors in various terminals\x01",
             "across the city to simplify the hacking process.\x02\x03",
-            "#0204FAs long as we have access to the terminals, we should be\x01",
-            "able to reach him. Then he can inform us of the situation.\x02",
+            "#0204FAs long as we have access to the terminals, we\x01",
+            "should be able to reach him. Then he can inform\x01",
+            "us of the situation.\x02",
         )
     )
 
@@ -5424,8 +5426,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd and the others spent the next thirty\x01",
-            "minutes observing the process.\x02",
+            "Lloyd and the others spent the next thirty minutes observing\x01",
+            "the process.\x02",
         )
     )
 
@@ -5571,8 +5573,7 @@ def main():
         0xD,
         (
             "Still, I can work a heckuva lot faster usin'\x01",
-            "the main machine. A man could get used\x01",
-            "to this.\x02",
+            "the main machine. A man could get used to this.\x02",
         )
     )
 

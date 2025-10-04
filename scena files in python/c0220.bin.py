@@ -3652,8 +3652,9 @@ def main():
             "#2201FVery well. In the meantime, I'll keep\x01",
             "conducting my own investigation into\x01",
             "Revache & Co.\x02\x03",
-            "If there's anything I can do to keep the situation\x01",
-            "from spiraling out of control, I'll do it.\x02",
+            "If there's anything I can do to keep\x01",
+            "the situation from spiraling out of\x01",
+            "control, I'll do it.\x02",
         )
     )
 

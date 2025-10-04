@@ -602,8 +602,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "If you grind your teeth in an RPG,\x01",
-            "do they get stronger?\x07\x00\x02",
+            "If you grind your teeth in an RPG, do they get stronger?\x07\x00\x02",
         )
     )
 

@@ -239,7 +239,7 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 37, 3)
     Sleep(500)
 
     AnonymousTalk(
@@ -279,9 +279,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5100017V#3903F#11PCrossbell is a buffer state between\x01",
-            "Ouroboros and the Septian Church,\x01",
-            "after all.\x02\x03",
+            "#5100017V#3903F#11PCrossbell is a buffer state between Ouroboros and\x01",
+            "the Septian Church, after all.\x02\x03",
             "#5100018VThe pope prohibits the knights from taking\x01",
             "action, and the Grandmaster doesn't dispatch\x01",
             "the Enforcers.\x02\x03",

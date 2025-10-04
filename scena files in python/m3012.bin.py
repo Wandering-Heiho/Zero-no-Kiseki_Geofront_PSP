@@ -1895,8 +1895,8 @@ def main():
 
     label("loc_2D63")
 
-    FadeToDark(300, 0, 100)
-    SetMessageWindowPos(-1, -1, 34, -1)
+    FadeToDark(300, 0, 150)
+    SetMessageWindowPos(-1, -1, 43, -1)
     SetChrName("")
 
     AnonymousTalk(
@@ -2304,8 +2304,8 @@ def main():
 
     label("loc_3DD5")
 
-    FadeToDark(300, 0, 100)
-    SetMessageWindowPos(-1, -1, 34, -1)
+    FadeToDark(300, 0, 150)
+    SetMessageWindowPos(-1, -1, 45, -1)
     SetChrName("")
 
     AnonymousTalk(

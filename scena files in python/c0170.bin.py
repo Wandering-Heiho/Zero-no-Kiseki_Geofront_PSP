@@ -7352,8 +7352,8 @@ def main():
         0xFE,
         (
             "Whoops, that was close!\x01",
-            "I almost read this book in its entirety while\x01",
-            "I was standing here.\x02",
+            "I almost read this book in its entirety\x01",
+            "while I was standing here.\x02",
         )
     )
 

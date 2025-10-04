@@ -3353,7 +3353,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "Quest \x07\x02",
-            "[Guardian Force Drill Participation]\x07\x00",
+            "[Guardian Force Drill Assistance]\x07\x00",
             " started!\x02",
         )
     )
@@ -3552,7 +3552,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "Quest \x07\x02",
-            "[Guardian Force Drill Participation]\x07\x00",
+            "[Guardian Force Drill Assistance]\x07\x00",
             " completed!\x02",
         )
     )

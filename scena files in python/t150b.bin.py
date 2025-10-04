@@ -1754,15 +1754,15 @@ def main():
     OP_C9(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
     OP_CA(0x0, 0x0, 0x0)
-    SetMessageWindowPos(14, 280, 35, 3)
+    SetMessageWindowPos(14, 280, 41, 3)
     Sleep(500)
 
     AnonymousTalk(
         0x106,
         (
             "#5100394V\x07\x03",
-            "No. I simply used a form of acupuncture to\x01",
-            "cut off the flow of their chi.\x02\x03",
+            "No. I simply used a form of acupuncture\x01",
+            "to cut off the flow of their chi.\x02\x03",
             "#5100395VNo matter how much strength they possess,\x01",
             "they will be asleep for quite a while.\x02",
         )
