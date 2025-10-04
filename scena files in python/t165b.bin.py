@@ -2471,6 +2471,7 @@ def main():
         (
             "#5100933V#0304FHaha... You're so cute now, I can hardly\x01",
             "recognize ya.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -3856,3 +3857,4 @@ def main():
     SaveToFile()
 
 Try(main)
+
