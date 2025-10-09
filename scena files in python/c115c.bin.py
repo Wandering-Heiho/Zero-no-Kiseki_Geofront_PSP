@@ -469,8 +469,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#0100FI can't disagree. I'm glad to see that we're thinking\x01",
-            "things out before accidents happen.\x02",
+            "#0100FI can't disagree. I'm glad to see that we're\x01",
+            "thinking things out before accidents happen.\x02",
         )
     )
 

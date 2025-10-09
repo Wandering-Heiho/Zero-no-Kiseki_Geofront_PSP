@@ -2550,8 +2550,8 @@ def main():
         0x101,
         (
             "#0006FYou're the one who gave us a support request.\x02\x03",
-            "#0000FBut funny of you to say that, since you're always here\x01",
-            "bright and early. That's a baker for you.\x02",
+            "#0000FBut funny of you to say that, since you're always\x01",
+            "here bright and early. That's a baker for you.\x02",
         )
     )
 
