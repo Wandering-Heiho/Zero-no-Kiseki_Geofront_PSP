@@ -4702,7 +4702,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "At various spots on the handrail, there are signs of paint chipping.\x02\x03",
+            "At various spots on the handrail, there are signs of paint\x01",
+            "chipping.\x02\x03",
             "From the looks of it, the damage must have happened recently.\x07\x00\x02",
         )
     )
