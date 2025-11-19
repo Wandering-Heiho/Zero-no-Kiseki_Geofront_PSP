@@ -2474,7 +2474,8 @@ def main():
         0x101,
         (
             "#4200178V#6P#0003FThis isn't directly related to the case\x01",
-            "in question...But, I figured I'd ask while I'm already here.\x02\x03",
+            "in question...But, I figured I'd ask\x01",
+            "while I'm already here.\x02\x03",
             "#4200179V#0001FDo you really not know anything about KeA?\x02",
         )
     )
